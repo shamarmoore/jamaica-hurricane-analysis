@@ -1,0 +1,49 @@
+/// Compass sector a storm approached from, 24 h before closest approach.
+table 'Dim Direction'
+	lineageTag: 28741a0a-9423-5744-8ced-8e51c96ce3a4
+
+	column direction
+		dataType: string
+		lineageTag: bb9658c3-b799-59a2-b132-2995d9bf6e9a
+		summarizeBy: none
+		sourceColumn: direction
+		sortByColumn: sort_order
+
+		annotation SummarizationSetBy = User
+
+	column sort_order
+		dataType: int64
+		formatString: 0
+		isHidden
+		lineageTag: 5b2f81b3-366b-599c-aa11-0adfc3372092
+		summarizeBy: none
+		sourceColumn: sort_order
+
+		annotation SummarizationSetBy = User
+
+	column bearing_deg
+		dataType: int64
+		formatString: 0
+		lineageTag: 729e999e-167e-5b71-bb3f-0ed28f97cd76
+		summarizeBy: none
+		sourceColumn: bearing_deg
+
+		annotation SummarizationSetBy = User
+
+	column description
+		dataType: string
+		lineageTag: 2d570e7a-36ea-5200-a576-b741716dfdc5
+		summarizeBy: none
+		sourceColumn: description
+
+		annotation SummarizationSetBy = User
+
+	partition 'Dim Direction' = m
+		mode: import
+		source =
+				let
+				    Source = #table(type table [direction = text, sort_order = Int64.Type, bearing_deg = Int64.Type, description = text], {{"E", 1, 90, "From the east"}, {"SE", 2, 135, "From the south-east"}, {"S", 3, 180, "From the south"}, {"SW", 4, 225, "From the south-west"}, {"W", 5, 270, "From the west"}, {"NW", 6, 315, "From the north-west"}, {"N", 7, 0, "From the north"}, {"NE", 8, 45, "From the north-east"}})
+				in
+				    Source
+
+	annotation PBI_ResultType = Table

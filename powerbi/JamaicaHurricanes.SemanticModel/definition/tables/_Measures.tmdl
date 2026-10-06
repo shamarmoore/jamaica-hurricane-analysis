@@ -1,0 +1,185 @@
+/// All report measures, grouped in display folders.
+table _Measures
+	lineageTag: cb283f77-6675-55d5-9f2c-736067a72b5e
+
+	/// Storms at tropical-storm strength or above within 100 nm of the coast
+	measure 'Storms Near Jamaica' = CALCULATE(COUNTROWS('Fact Storm Approach'), 'Fact Storm Approach'[is_near] = TRUE())
+		formatString: #,0
+		displayFolder: Counts
+		lineageTag: 38b61be5-cf3c-57ec-bc1b-cad9bb6347ec
+
+	measure 'Hurricanes Near Jamaica' = CALCULATE(COUNTROWS('Fact Storm Approach'), 'Fact Storm Approach'[is_hurricane_near] = TRUE())
+		formatString: #,0
+		displayFolder: Counts
+		lineageTag: f59ba103-e12b-507a-9232-428de33d53e6
+
+	measure 'Major Hurricanes Near Jamaica' = CALCULATE(COUNTROWS('Fact Storm Approach'), 'Fact Storm Approach'[is_major_near] = TRUE())
+		formatString: #,0
+		displayFolder: Counts
+		lineageTag: 4c990793-b789-5474-80df-d364007f592e
+
+	measure Landfalls = CALCULATE(COUNTROWS('Fact Storm Approach'), 'Fact Storm Approach'[jamaica_landfall] = TRUE(), 'Fact Storm Approach'[is_near] = TRUE())
+		formatString: #,0
+		displayFolder: Counts
+		lineageTag: 11ca2a79-1753-515f-97f2-d7d54297f40b
+
+	measure 'Rapid Intensifiers Near' = CALCULATE(COUNTROWS('Fact Storm Approach'), 'Fact Storm Approach'[is_near] = TRUE(), 'Fact Storm Approach'[rapid_intensification] = TRUE())
+		formatString: #,0
+		displayFolder: Counts
+		lineageTag: ac9f2b05-17ce-5bb3-8c47-cdfe75e5c785
+
+	/// All storms within the 600 nm study area
+	measure 'Storms Tracked (600 nm)' = COUNTROWS('Fact Storm Approach')
+		formatString: #,0
+		displayFolder: Counts
+		lineageTag: 4a39bf5e-fbed-58a6-98a9-944ea75edc1a
+
+	measure 'Peak Wind Near (kt)' = CALCULATE(MAX('Fact Storm Approach'[max_wind_within_100nm_kt]), 'Fact Storm Approach'[is_near] = TRUE())
+		formatString: 0
+		displayFolder: Intensity
+		lineageTag: 11a08bdc-2b4a-5388-87b7-e648db31ba8a
+
+	measure 'Lowest Pressure Near (mb)' = CALCULATE(MIN('Fact Storm Approach'[min_pressure_within_100nm_mb]), 'Fact Storm Approach'[is_near] = TRUE())
+		formatString: 0
+		displayFolder: Intensity
+		lineageTag: cd064553-56bd-599c-b9c9-056a7b6a8041
+
+	measure 'Closest Approach (nm)' = MIN('Fact Storm Approach'[closest_distance_nm])
+		formatString: #,0.0
+		displayFolder: Intensity
+		lineageTag: acde8ee6-ebb5-529c-8c01-9b6b1161f54d
+
+	measure 'Hours Within 100 nm' = SUM('Fact Storm Approach'[hours_within_100nm])
+		formatString: #,0
+		displayFolder: Intensity
+		lineageTag: c87cff11-4b19-58ea-b9a2-3cd13f245d66
+
+	measure '% Hurricanes Rapidly Intensifying' = DIVIDE(CALCULATE(COUNTROWS('Fact Storm Approach'), 'Fact Storm Approach'[is_hurricane_near] = TRUE(), 'Fact Storm Approach'[rapid_intensification] = TRUE()), [Hurricanes Near Jamaica])
+		formatString: 0%
+		displayFolder: Intensity
+		lineageTag: 2c37b491-b6d9-58c4-ae21-4c9a23866497
+
+	/// Hurricane seasons in the current filter context
+	measure Seasons = COUNTROWS('Dim Season')
+		formatString: #,0
+		displayFolder: Rates
+		lineageTag: 8686a805-367a-50a1-bba8-4747337e668a
+
+	measure 'Storms per Season' = DIVIDE([Storms Near Jamaica], [Seasons])
+		formatString: 0.00
+		displayFolder: Rates
+		lineageTag: 5784955c-02a7-5373-acf6-6975a06bc261
+
+	measure 'Hurricanes per Season' = DIVIDE([Hurricanes Near Jamaica], [Seasons])
+		formatString: 0.00
+		displayFolder: Rates
+		lineageTag: 141086ff-869b-5d62-95e5-87a607e7dd3d
+
+	/// Average years between hurricanes within 100 nm (1 / annual Poisson rate)
+	measure 'Hurricane Return Period (yrs)' = DIVIDE([Seasons], [Hurricanes Near Jamaica])
+		formatString: 0.0
+		displayFolder: Rates
+		lineageTag: 9f2d57be-af3a-5e7b-8b32-023594c42068
+
+	measure 'Major Hurricane Return Period (yrs)' = DIVIDE([Seasons], [Major Hurricanes Near Jamaica])
+		formatString: 0.0
+		displayFolder: Rates
+		lineageTag: bd833439-0943-5eff-86cf-4b4872d783f5
+
+	/// Chance of at least one hurricane within 100 nm in a season, assuming Poisson arrivals
+	measure 'P(Hurricane in a Season)' = 1 - EXP(-DIVIDE([Hurricanes Near Jamaica], [Seasons]))
+		formatString: 0%
+		displayFolder: Rates
+		lineageTag: d4882232-41bd-5da9-bc11-ca2f6bdb988b
+
+	measure 'P(Major Hurricane in a Decade)' = 1 - EXP(-10 * DIVIDE([Major Hurricanes Near Jamaica], [Seasons]))
+		formatString: 0%
+		displayFolder: Rates
+		lineageTag: 92a7ced6-e850-5ab3-92c6-db5a0fe16bcb
+
+	/// Trailing 10-season average of storms near Jamaica
+	measure 'Storms Near (10-yr avg)' = 
+			VAR _year = MAX('Dim Season'[year])
+			RETURN
+				CALCULATE(
+					DIVIDE([Storms Near Jamaica], COUNTROWS('Dim Season')),
+					REMOVEFILTERS('Dim Season'),
+					'Dim Season'[year] > _year - 10,
+					'Dim Season'[year] <= _year
+				)
+		formatString: 0.00
+		displayFolder: Rates
+		lineageTag: 56231ec5-cf07-54d8-a586-6dda175f1a58
+
+	measure 'Damage & Loss (US$ m)' = SUM('Fact Impact'[damage_loss_usd_m])
+		formatString: #,0
+		displayFolder: Impact
+		lineageTag: eb7e2116-11a2-542c-ab89-b0bfd2aa4f0f
+
+	measure 'Damage & Loss (% GDP)' = MAX('Fact Impact'[damage_loss_pct_gdp]) / 100
+		formatString: 0.0%
+		displayFolder: Impact
+		lineageTag: b27c0f21-3353-5103-98aa-f68854d5af5e
+
+	measure Deaths = SUM('Fact Impact'[deaths_jamaica])
+		formatString: #,0
+		displayFolder: Impact
+		lineageTag: 7a2d801e-462b-54e6-9725-336e9f6c2e6f
+
+	measure 'Track Latitude' = AVERAGE('Fact Track Point'[lat])
+		formatString: 0.00
+		displayFolder: Track
+		lineageTag: 4fb5bd67-c8e8-5bd5-af04-c7ce505ff377
+
+	measure 'Track Longitude' = AVERAGE('Fact Track Point'[lon])
+		formatString: 0.00
+		displayFolder: Track
+		lineageTag: 078c7a61-aa73-5d6b-b87e-ef93606c5cef
+
+	measure 'Track Wind (kt)' = MAX('Fact Track Point'[wind_kt])
+		formatString: 0
+		displayFolder: Track
+		lineageTag: deb1f59d-8354-587a-9834-4afcfb87efb9
+
+	measure 'Selected Storm' = SELECTEDVALUE('Dim Storm'[storm_label], "All storms")
+		displayFolder: Labels
+		lineageTag: c31198f0-0fa7-5c65-a7aa-23e859aedb2f
+
+	measure 'Category Near' = SELECTEDVALUE('Fact Storm Approach'[category_near_jamaica])
+		displayFolder: Labels
+		lineageTag: 14b10533-bbe7-5c4e-9a41-23f7d2528fab
+
+	measure 'Approach From' = SELECTEDVALUE('Fact Storm Approach'[approach_from])
+		displayFolder: Labels
+		lineageTag: ee110d50-7da7-540b-86b4-284661e8f08d
+
+	measure 'Landfall Flag' = IF(ISEMPTY('Fact Storm Approach'), BLANK(), IF(CALCULATE(COUNTROWS('Fact Storm Approach'), 'Fact Storm Approach'[jamaica_landfall] = TRUE()) > 0, "Yes", "No"))
+		displayFolder: Labels
+		lineageTag: 133529f7-a4d5-5c2c-a4c7-e91899c60b2e
+
+	measure 'Rapid Intensification Flag' = IF(ISEMPTY('Fact Storm Approach'), BLANK(), IF(CALCULATE(COUNTROWS('Fact Storm Approach'), 'Fact Storm Approach'[rapid_intensification] = TRUE()) > 0, "Yes", "No"))
+		displayFolder: Labels
+		lineageTag: e8b1dfc7-3fa7-5821-9400-502b169a1c68
+
+	measure 'Last Refreshed' = "Data refreshed " & FORMAT(MAX('Refresh Info'[refreshed_at]), "dd mmm yyyy hh:nn")
+		displayFolder: Labels
+		lineageTag: d08f7653-dbd9-5dab-b289-89b610889f9a
+
+	column Placeholder
+		dataType: string
+		isHidden
+		lineageTag: 0e69f894-caef-5a33-a024-51a65531688c
+		summarizeBy: none
+		sourceColumn: Placeholder
+
+		annotation SummarizationSetBy = User
+
+	partition _Measures = m
+		mode: import
+		source =
+				let
+				    Source = #table(type table [Placeholder = text], {})
+				in
+				    Source
+
+	annotation PBI_ResultType = Table

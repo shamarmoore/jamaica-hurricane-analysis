@@ -1,0 +1,147 @@
+/// Six-hourly best-track fixes for every storm in Dim Storm.
+table 'Fact Track Point'
+	lineageTag: 98bdd18f-bb60-5adb-bca5-e92d9ba62364
+
+	column storm_id
+		dataType: string
+		isHidden
+		lineageTag: 4857d4d2-8b65-5697-9427-d7ee434b965e
+		summarizeBy: none
+		sourceColumn: storm_id
+
+		annotation SummarizationSetBy = User
+
+	column point_seq
+		dataType: int64
+		formatString: 0
+		isHidden
+		lineageTag: 49985639-656d-5b62-a20d-a54d5dedeb6d
+		summarizeBy: none
+		sourceColumn: point_seq
+
+		annotation SummarizationSetBy = User
+
+	column datetime
+		dataType: dateTime
+		formatString: dd mmm yyyy hh:nn
+		lineageTag: 4d379b72-1883-584d-b4c7-7e70c8336206
+		summarizeBy: none
+		sourceColumn: datetime
+
+		annotation SummarizationSetBy = User
+
+	column date
+		dataType: dateTime
+		formatString: dd mmm yyyy
+		isHidden
+		lineageTag: c24c27a6-00bd-58b6-8b83-13abef071cf4
+		summarizeBy: none
+		sourceColumn: date
+
+		annotation SummarizationSetBy = User
+
+	/// HURDAT2 status: TD, TS, HU, EX, SD, SS, LO, WV, DB
+	column status
+		dataType: string
+		lineageTag: 88905a34-db9f-5563-b3cc-b6999b169dab
+		summarizeBy: none
+		sourceColumn: status
+
+		annotation SummarizationSetBy = User
+
+	/// L = landfall fix
+	column record_id
+		dataType: string
+		lineageTag: e5e8eddc-04b6-575b-a964-f2ce9a9f2e67
+		summarizeBy: none
+		sourceColumn: record_id
+
+		annotation SummarizationSetBy = User
+
+	column lat
+		dataType: double
+		formatString: 0.00
+		dataCategory: Latitude
+		lineageTag: 5bac17af-8aaa-54f2-b8a8-5e3cf3c86ada
+		summarizeBy: average
+		sourceColumn: lat
+
+		annotation SummarizationSetBy = User
+
+	column lon
+		dataType: double
+		formatString: 0.00
+		dataCategory: Longitude
+		lineageTag: d4e851f7-1d85-517a-8ea2-ffeca8fdad40
+		summarizeBy: average
+		sourceColumn: lon
+
+		annotation SummarizationSetBy = User
+
+	column wind_kt
+		dataType: double
+		formatString: 0
+		lineageTag: ddb879c3-5eb3-55ad-b9bd-946333902bd8
+		summarizeBy: max
+		sourceColumn: wind_kt
+
+		annotation SummarizationSetBy = User
+
+	column pressure_mb
+		dataType: double
+		formatString: 0
+		lineageTag: b946bc1f-14f2-5dbc-9fdf-50a260fb7096
+		summarizeBy: min
+		sourceColumn: pressure_mb
+
+		annotation SummarizationSetBy = User
+
+	column category
+		dataType: string
+		isHidden
+		lineageTag: 5958e489-b88a-5d67-ab08-66d392667ac8
+		summarizeBy: none
+		sourceColumn: category
+
+		annotation SummarizationSetBy = User
+
+	column dist_nm
+		dataType: double
+		formatString: #,0.0
+		lineageTag: 24f139d0-6813-50cb-8385-3809f0a06bc2
+		summarizeBy: min
+		sourceColumn: dist_nm
+
+		annotation SummarizationSetBy = User
+
+	column within_100nm
+		dataType: boolean
+		lineageTag: 1af41b47-b85b-5537-8228-111ef9236db0
+		summarizeBy: none
+		sourceColumn: within_100nm
+
+		annotation SummarizationSetBy = User
+
+	column point_key
+		dataType: string
+		isHidden
+		lineageTag: 66bc8241-995f-51b8-b9e0-da35287e9c19
+		summarizeBy: none
+		sourceColumn: point_key
+
+		annotation SummarizationSetBy = User
+
+	partition 'Fact Track Point' = m
+		mode: import
+		source =
+				let
+				    Source = fnGetCsv("track_points.csv"),
+				    Selected = Table.SelectColumns(Source, {"storm_id", "point_seq", "datetime", "status", "record_id", "lat", "lon", "wind_kt", "pressure_mb", "category", "dist_nm", "within_100nm"}),
+				    Blanks = Table.ReplaceValue(Selected, "", null, Replacer.ReplaceValue, Table.ColumnNames(Selected)),
+				    Typed = Table.TransformColumnTypes(Blanks, {{"storm_id", type text}, {"point_seq", Int64.Type}, {"datetime", type datetime}, {"status", type text}, {"record_id", type text}, {"lat", type number}, {"lon", type number}, {"wind_kt", type number}, {"pressure_mb", type number}, {"category", type text}, {"dist_nm", type number}, {"within_100nm", type logical}}, "en-US"),
+				    Step0 = Table.AddColumn(Typed, "date", each Date.From([datetime]), type date),
+				    Step1 = Table.AddColumn(Step0, "point_key", each [storm_id] & "-" & Text.From([point_seq]), type text)
+				in
+				    Step1
+
+	annotation PBI_ResultType = Table

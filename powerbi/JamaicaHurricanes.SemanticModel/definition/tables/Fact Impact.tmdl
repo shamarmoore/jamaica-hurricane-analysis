@@ -1,0 +1,70 @@
+/// Assessed economic impact (PIOJ, ECLAC, World Bank) for 11 storms.
+table 'Fact Impact'
+	lineageTag: bb0186ff-e7f6-542b-9c00-fc5b0c091699
+
+	column storm_id
+		dataType: string
+		isHidden
+		lineageTag: 731b2688-198f-575f-9b00-a5d34f8b2b9d
+		summarizeBy: none
+		sourceColumn: storm_id
+
+		annotation SummarizationSetBy = User
+
+	/// Assessed damage and loss, US$ millions (nominal)
+	column damage_loss_usd_m
+		dataType: double
+		formatString: #,0.0
+		lineageTag: 2245095b-66c4-5a6c-8945-40a131652985
+		summarizeBy: sum
+		sourceColumn: damage_loss_usd_m
+
+		annotation SummarizationSetBy = User
+
+	/// Damage and loss as % of GDP in the event year
+	column damage_loss_pct_gdp
+		dataType: double
+		formatString: 0.0
+		lineageTag: a336a717-df3f-5c77-b04f-6f61093a303f
+		summarizeBy: max
+		sourceColumn: damage_loss_pct_gdp
+
+		annotation SummarizationSetBy = User
+
+	column deaths_jamaica
+		dataType: int64
+		formatString: 0
+		lineageTag: 088ea25a-e9d8-57cb-aab8-977a2614b335
+		summarizeBy: sum
+		sourceColumn: deaths_jamaica
+
+		annotation SummarizationSetBy = User
+
+	column source
+		dataType: string
+		lineageTag: bae86b74-6d1f-572c-85fa-2472e683e3c1
+		summarizeBy: none
+		sourceColumn: source
+
+		annotation SummarizationSetBy = User
+
+	column notes
+		dataType: string
+		lineageTag: fdc0d271-9f5f-5d86-afde-c567166425f1
+		summarizeBy: none
+		sourceColumn: notes
+
+		annotation SummarizationSetBy = User
+
+	partition 'Fact Impact' = m
+		mode: import
+		source =
+				let
+				    Source = fnGetCsv("impacts.csv"),
+				    Selected = Table.SelectColumns(Source, {"storm_id", "damage_loss_usd_m", "damage_loss_pct_gdp", "deaths_jamaica", "source", "notes"}),
+				    Blanks = Table.ReplaceValue(Selected, "", null, Replacer.ReplaceValue, Table.ColumnNames(Selected)),
+				    Typed = Table.TransformColumnTypes(Blanks, {{"storm_id", type text}, {"damage_loss_usd_m", type number}, {"damage_loss_pct_gdp", type number}, {"deaths_jamaica", Int64.Type}, {"source", type text}, {"notes", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

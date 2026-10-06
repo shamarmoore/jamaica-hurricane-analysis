@@ -1,0 +1,19 @@
+/// Where the processed CSVs live. Either a local folder ending in a backslash, or the repo's raw GitHub URL
+/// ending in a forward slash, e.g. https://raw.githubusercontent.com/<user>/jamaica-hurricane-analysis/main/data/processed/
+expression DataSource = "D:\Projects\jamaica-hurricane-analysis\data\processed\" meta [IsParameterQuery = true, Type = "Text", IsParameterQueryRequired = true]
+	lineageTag: 7dd10035-1747-568e-82f5-e6277ad0e7eb
+
+	annotation PBI_ResultType = Text
+
+/// Reads one CSV from DataSource (local folder or web) and promotes headers.
+expression fnGetCsv =
+		(fileName as text) as table =>
+		let
+		    Raw = if Text.StartsWith(DataSource, "http") then Web.Contents(DataSource, [RelativePath = fileName]) else File.Contents(DataSource & fileName),
+		    Csv = Csv.Document(Raw, [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+		    Promoted = Table.PromoteHeaders(Csv, [PromoteAllScalars = true])
+		in
+		    Promoted
+	lineageTag: 67d8f8ac-be54-523f-be57-18b786b7fbd4
+
+	annotation PBI_ResultType = Function

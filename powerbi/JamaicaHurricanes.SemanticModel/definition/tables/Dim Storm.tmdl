@@ -1,0 +1,80 @@
+/// Every storm that came within 600 nm of Jamaica (HURDAT2, 1851-2025).
+table 'Dim Storm'
+	lineageTag: d0e41732-1581-5d53-9252-b98190df22b3
+
+	/// NHC ATCF identifier, e.g. AL132025
+	column storm_id
+		dataType: string
+		isKey
+		lineageTag: eb9db80f-3814-55f5-846f-50a689de90b3
+		summarizeBy: none
+		sourceColumn: storm_id
+
+		annotation SummarizationSetBy = User
+
+	column storm_name
+		dataType: string
+		lineageTag: 41556309-404d-50c2-9988-e318f7437ef0
+		summarizeBy: none
+		sourceColumn: storm_name
+
+		annotation SummarizationSetBy = User
+
+	/// Unique display label, e.g. Melissa (2025)
+	column storm_label
+		dataType: string
+		lineageTag: fd166698-97ab-52f6-b70b-b6fe7978d8b1
+		summarizeBy: none
+		sourceColumn: storm_label
+
+		annotation SummarizationSetBy = User
+
+	column year
+		dataType: int64
+		formatString: 0
+		isHidden
+		lineageTag: f0ad615f-57c1-5edd-b72c-46833c51b746
+		summarizeBy: none
+		sourceColumn: year
+
+		annotation SummarizationSetBy = User
+
+	/// Passed within 100 nm of the coast at tropical-storm strength or above
+	column is_near
+		dataType: boolean
+		lineageTag: 8d19157c-5273-5997-a483-95be13d983d7
+		summarizeBy: none
+		sourceColumn: is_near
+
+		annotation SummarizationSetBy = User
+
+	column lifetime_peak_wind_kt
+		dataType: double
+		formatString: 0
+		lineageTag: 233adc8d-b6a9-56be-b5b6-73505ff05d80
+		summarizeBy: max
+		sourceColumn: lifetime_peak_wind_kt
+
+		annotation SummarizationSetBy = User
+
+	column lifetime_min_pressure_mb
+		dataType: double
+		formatString: 0
+		lineageTag: 866ab635-18cd-55ee-be05-c9b284bb1ad5
+		summarizeBy: min
+		sourceColumn: lifetime_min_pressure_mb
+
+		annotation SummarizationSetBy = User
+
+	partition 'Dim Storm' = m
+		mode: import
+		source =
+				let
+				    Source = fnGetCsv("storms.csv"),
+				    Selected = Table.SelectColumns(Source, {"storm_id", "storm_name", "storm_label", "year", "is_near", "lifetime_peak_wind_kt", "lifetime_min_pressure_mb"}),
+				    Blanks = Table.ReplaceValue(Selected, "", null, Replacer.ReplaceValue, Table.ColumnNames(Selected)),
+				    Typed = Table.TransformColumnTypes(Blanks, {{"storm_id", type text}, {"storm_name", type text}, {"storm_label", type text}, {"year", Int64.Type}, {"is_near", type logical}, {"lifetime_peak_wind_kt", type number}, {"lifetime_min_pressure_mb", type number}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

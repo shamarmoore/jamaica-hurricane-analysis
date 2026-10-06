@@ -1,0 +1,218 @@
+/// One row per storm passage: closest approach, intensity near Jamaica, motion and landfall.
+table 'Fact Storm Approach'
+	lineageTag: 25ee08ae-71a1-567d-8a8b-163eeeac330f
+
+	column storm_id
+		dataType: string
+		isHidden
+		lineageTag: 58b8e8b5-2c26-5f5c-9913-e304a321fdd1
+		summarizeBy: none
+		sourceColumn: storm_id
+
+		annotation SummarizationSetBy = User
+
+	column closest_datetime
+		dataType: dateTime
+		formatString: dd mmm yyyy hh:nn
+		lineageTag: 188a23d3-0f20-5172-8d6e-30e4812fe24d
+		summarizeBy: none
+		sourceColumn: closest_datetime
+
+		annotation SummarizationSetBy = User
+
+	column closest_date
+		dataType: dateTime
+		formatString: dd mmm yyyy
+		isHidden
+		lineageTag: 89c05d22-c919-56c1-9f54-934441324475
+		summarizeBy: none
+		sourceColumn: closest_date
+
+		annotation SummarizationSetBy = User
+
+	/// Closest approach to the coastline, nautical miles (0 = landfall)
+	column closest_distance_nm
+		dataType: double
+		formatString: #,0.0
+		lineageTag: 7f06269e-b1b5-5831-a4dc-454a822dbef2
+		summarizeBy: min
+		sourceColumn: closest_distance_nm
+
+		annotation SummarizationSetBy = User
+
+	column closest_lat
+		dataType: double
+		formatString: 0.00
+		dataCategory: Latitude
+		lineageTag: 66581d3c-d9b9-5349-a4f3-b5a34319e2fc
+		summarizeBy: none
+		sourceColumn: closest_lat
+
+		annotation SummarizationSetBy = User
+
+	column closest_lon
+		dataType: double
+		formatString: 0.00
+		dataCategory: Longitude
+		lineageTag: ddd0a0e5-d81b-5e5f-9ffa-83f5c9dfbc62
+		summarizeBy: none
+		sourceColumn: closest_lon
+
+		annotation SummarizationSetBy = User
+
+	column wind_at_closest_kt
+		dataType: double
+		formatString: 0
+		lineageTag: eab28db6-fbb5-5d2b-86d3-5f3fae212639
+		summarizeBy: max
+		sourceColumn: wind_at_closest_kt
+
+		annotation SummarizationSetBy = User
+
+	column pressure_at_closest_mb
+		dataType: double
+		formatString: 0
+		lineageTag: a430f537-8448-5091-b7e3-e693ebc45106
+		summarizeBy: min
+		sourceColumn: pressure_at_closest_mb
+
+		annotation SummarizationSetBy = User
+
+	column max_wind_within_100nm_kt
+		dataType: double
+		formatString: 0
+		lineageTag: 3da3d7cb-3719-506e-9f7c-db020c17daec
+		summarizeBy: max
+		sourceColumn: max_wind_within_100nm_kt
+
+		annotation SummarizationSetBy = User
+
+	column min_pressure_within_100nm_mb
+		dataType: double
+		formatString: 0
+		lineageTag: 5aab0121-a9cb-5ae4-8b85-2d5975f2d63e
+		summarizeBy: min
+		sourceColumn: min_pressure_within_100nm_mb
+
+		annotation SummarizationSetBy = User
+
+	column hours_within_100nm
+		dataType: int64
+		formatString: 0
+		lineageTag: c33f42f6-f6b2-5535-9443-0e1be6b95091
+		summarizeBy: sum
+		sourceColumn: hours_within_100nm
+
+		annotation SummarizationSetBy = User
+
+	column approach_from
+		dataType: string
+		isHidden
+		lineageTag: df11aafc-3e73-5cde-87d4-0c79efb2e1ac
+		summarizeBy: none
+		sourceColumn: approach_from
+
+		annotation SummarizationSetBy = User
+
+	column heading_deg
+		dataType: int64
+		formatString: 0
+		lineageTag: b179bbd2-6487-5a03-84d5-7e36e89b9349
+		summarizeBy: none
+		sourceColumn: heading_deg
+
+		annotation SummarizationSetBy = User
+
+	column forward_speed_kt
+		dataType: double
+		formatString: 0.0
+		lineageTag: 5128ddef-8662-51b0-9778-f3013cd6fa6f
+		summarizeBy: average
+		sourceColumn: forward_speed_kt
+
+		annotation SummarizationSetBy = User
+
+	column max_24h_intensification_kt
+		dataType: double
+		formatString: 0
+		lineageTag: 7c3a3919-22ed-50d2-a299-598861849941
+		summarizeBy: max
+		sourceColumn: max_24h_intensification_kt
+
+		annotation SummarizationSetBy = User
+
+	/// Gained >= 30 kt in 24 h during the 72 h before closest approach
+	column rapid_intensification
+		dataType: boolean
+		lineageTag: 5ee538e2-46e0-52e1-a41b-77f753e39150
+		summarizeBy: none
+		sourceColumn: rapid_intensification
+
+		annotation SummarizationSetBy = User
+
+	column jamaica_landfall
+		dataType: boolean
+		lineageTag: dcb6e34f-1e2a-5e25-be10-574a121f1592
+		summarizeBy: none
+		sourceColumn: jamaica_landfall
+
+		annotation SummarizationSetBy = User
+
+	column category_near_jamaica
+		dataType: string
+		isHidden
+		lineageTag: 6e5bdfbd-6e7a-5f88-9506-4f2632a0020b
+		summarizeBy: none
+		sourceColumn: category_near_jamaica
+
+		annotation SummarizationSetBy = User
+
+	column is_near
+		dataType: boolean
+		isHidden
+		lineageTag: 353f6a3d-48ba-5d1d-99a2-2970f566780a
+		summarizeBy: none
+		sourceColumn: is_near
+
+		annotation SummarizationSetBy = User
+
+	column is_hurricane_near
+		dataType: boolean
+		isHidden
+		lineageTag: 61a6c9b8-3b32-5584-8d3d-7d0714cb9b53
+		summarizeBy: none
+		sourceColumn: is_hurricane_near
+
+		annotation SummarizationSetBy = User
+
+	column is_major_near
+		dataType: boolean
+		isHidden
+		lineageTag: 2b1398a0-8f45-5fb3-9298-50bd7621c624
+		summarizeBy: none
+		sourceColumn: is_major_near
+
+		annotation SummarizationSetBy = User
+
+	column distance_band
+		dataType: string
+		isHidden
+		lineageTag: 8b1b6c57-9274-5b63-ad9b-a7e228f6af53
+		summarizeBy: none
+		sourceColumn: distance_band
+
+		annotation SummarizationSetBy = User
+
+	partition 'Fact Storm Approach' = m
+		mode: import
+		source =
+				let
+				    Source = fnGetCsv("storms.csv"),
+				    Selected = Table.SelectColumns(Source, {"storm_id", "closest_datetime", "closest_distance_nm", "closest_lat", "closest_lon", "wind_at_closest_kt", "pressure_at_closest_mb", "max_wind_within_100nm_kt", "min_pressure_within_100nm_mb", "hours_within_100nm", "approach_from", "heading_deg", "forward_speed_kt", "max_24h_intensification_kt", "rapid_intensification", "jamaica_landfall", "category_near_jamaica", "is_near", "is_hurricane_near", "is_major_near", "distance_band"}),
+				    Blanks = Table.ReplaceValue(Selected, "", null, Replacer.ReplaceValue, Table.ColumnNames(Selected)),
+				    Typed = Table.TransformColumnTypes(Blanks, {{"storm_id", type text}, {"closest_datetime", type datetime}, {"closest_distance_nm", type number}, {"closest_lat", type number}, {"closest_lon", type number}, {"wind_at_closest_kt", type number}, {"pressure_at_closest_mb", type number}, {"max_wind_within_100nm_kt", type number}, {"min_pressure_within_100nm_mb", type number}, {"hours_within_100nm", Int64.Type}, {"approach_from", type text}, {"heading_deg", Int64.Type}, {"forward_speed_kt", type number}, {"max_24h_intensification_kt", type number}, {"rapid_intensification", type logical}, {"jamaica_landfall", type logical}, {"category_near_jamaica", type text}, {"is_near", type logical}, {"is_hurricane_near", type logical}, {"is_major_near", type logical}, {"distance_band", type text}}, "en-US"),
+				    Step0 = Table.AddColumn(Typed, "closest_date", each Date.From([closest_datetime]), type date)
+				in
+				    Step0
+
+	annotation PBI_ResultType = Table

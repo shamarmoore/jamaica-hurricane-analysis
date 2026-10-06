@@ -1,0 +1,43 @@
+relationship 0ef2bba1-efa4-5dc9-be6f-4cbc47278a41
+	fromColumn: 'Dim Storm'.year
+	toColumn: 'Dim Season'.year
+
+relationship 3aabbb4a-29e5-5db4-b3ed-32eb07611232
+	fromColumn: 'Dim Season'.enso_phase
+	toColumn: 'Dim ENSO Phase'.enso_phase
+
+relationship bd331689-8f56-5fbe-9ed4-d8f54e1351d4
+	fromColumn: 'Fact Storm Approach'.storm_id
+	toColumn: 'Dim Storm'.storm_id
+
+relationship a4383c3b-eaed-56ea-9a8c-5b093920cd0e
+	fromColumn: 'Fact Storm Approach'.closest_date
+	toColumn: 'Dim Date'.Date
+
+relationship 01ff8b5b-ac6e-5720-b923-a48b22de75ad
+	fromColumn: 'Fact Storm Approach'.category_near_jamaica
+	toColumn: 'Dim Category'.category
+
+relationship 220bf9be-f7f5-514e-8c2b-c3d813a1a6ac
+	fromColumn: 'Fact Storm Approach'.approach_from
+	toColumn: 'Dim Direction'.direction
+
+relationship fc080796-2817-5361-8e6f-c7cb616307f6
+	fromColumn: 'Fact Storm Approach'.distance_band
+	toColumn: 'Dim Distance Band'.distance_band
+
+relationship 474b2032-b27a-5460-99ca-739c4054b456
+	fromColumn: 'Fact Track Point'.storm_id
+	toColumn: 'Dim Storm'.storm_id
+
+relationship 97d79b88-4ea9-597f-a5ba-b6f761ef12e7
+	fromColumn: 'Fact Track Point'.date
+	toColumn: 'Dim Date'.Date
+
+relationship 5d52302b-91c6-5d86-84ba-5b5b50e0379f
+	fromColumn: 'Fact Track Point'.category
+	toColumn: 'Dim Category'.category
+
+relationship b5bae79a-8264-5551-beb3-db23f726ac92
+	fromColumn: 'Fact Impact'.storm_id
+	toColumn: 'Dim Storm'.storm_id

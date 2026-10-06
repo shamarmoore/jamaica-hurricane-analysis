@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "JamaicaHurricanes"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "662b68a8-c4a9-560a-8faf-f3d2c07ce4b6"
+  }
+}

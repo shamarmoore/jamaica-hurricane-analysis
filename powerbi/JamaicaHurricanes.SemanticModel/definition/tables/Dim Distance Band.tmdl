@@ -1,0 +1,32 @@
+/// Closest-approach distance bands.
+table 'Dim Distance Band'
+	lineageTag: 86f55565-64d1-5be4-8c93-1ddb55fd72fa
+
+	column distance_band
+		dataType: string
+		lineageTag: 6d116c8c-f9ff-5fdc-80cc-27706c026133
+		summarizeBy: none
+		sourceColumn: distance_band
+		sortByColumn: sort_order
+
+		annotation SummarizationSetBy = User
+
+	column sort_order
+		dataType: int64
+		formatString: 0
+		isHidden
+		lineageTag: d8386f5c-58d8-5bf6-bcbc-0ab61a6a9678
+		summarizeBy: none
+		sourceColumn: sort_order
+
+		annotation SummarizationSetBy = User
+
+	partition 'Dim Distance Band' = m
+		mode: import
+		source =
+				let
+				    Source = #table(type table [distance_band = text, sort_order = Int64.Type], {{"Landfall", 1}, {"1-50 nm", 2}, {"51-100 nm", 3}, {"101-200 nm", 4}, {"201-400 nm", 5}, {"401-600 nm", 6}})
+				in
+				    Source
+
+	annotation PBI_ResultType = Table

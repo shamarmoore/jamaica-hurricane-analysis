@@ -1,0 +1,40 @@
+/// ENSO phase classification used for seasons.
+table 'Dim ENSO Phase'
+	lineageTag: 0154751c-a8a0-5b89-847a-521834e6225e
+
+	column enso_phase
+		dataType: string
+		lineageTag: 6191aa2b-505f-506f-b48d-7bc0f5ca4342
+		summarizeBy: none
+		sourceColumn: enso_phase
+		sortByColumn: sort_order
+
+		annotation SummarizationSetBy = User
+
+	column sort_order
+		dataType: int64
+		formatString: 0
+		isHidden
+		lineageTag: d0f65de3-e3c2-58af-bfdc-4f21c7faf753
+		summarizeBy: none
+		sourceColumn: sort_order
+
+		annotation SummarizationSetBy = User
+
+	column definition
+		dataType: string
+		lineageTag: ae85f263-80de-590c-ad9e-2d5ad353b482
+		summarizeBy: none
+		sourceColumn: definition
+
+		annotation SummarizationSetBy = User
+
+	partition 'Dim ENSO Phase' = m
+		mode: import
+		source =
+				let
+				    Source = #table(type table [enso_phase = text, sort_order = Int64.Type, definition = text], {{"La Nina", 1, "ONI <= -0.5 (Aug-Oct)"}, {"Neutral", 2, "-0.5 < ONI < 0.5"}, {"El Nino", 3, "ONI >= 0.5"}, {"No data (pre-1950)", 4, "ONI record starts in 1950"}})
+				in
+				    Source
+
+	annotation PBI_ResultType = Table

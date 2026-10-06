@@ -1,0 +1,58 @@
+/// Saffir-Simpson scale with sort order and colour.
+table 'Dim Category'
+	lineageTag: 51f90610-aa6c-5d8f-b1e0-efdd40598e00
+
+	column category
+		dataType: string
+		lineageTag: d634e2f3-0a97-5b6c-b005-8a136a148528
+		summarizeBy: none
+		sourceColumn: category
+		sortByColumn: sort_order
+
+		annotation SummarizationSetBy = User
+
+	column sort_order
+		dataType: int64
+		formatString: 0
+		isHidden
+		lineageTag: ad166473-e452-50ad-afc7-354ced759af5
+		summarizeBy: none
+		sourceColumn: sort_order
+
+		annotation SummarizationSetBy = User
+
+	column class
+		dataType: string
+		lineageTag: f140c9dc-0a0e-541c-92e3-c7fff4582e40
+		summarizeBy: none
+		sourceColumn: class
+
+		annotation SummarizationSetBy = User
+
+	column wind_range
+		dataType: string
+		lineageTag: 86c62d61-4400-569f-a74f-63c8e0ba3bbd
+		summarizeBy: none
+		sourceColumn: wind_range
+
+		annotation SummarizationSetBy = User
+
+	/// Ordinal colour for conditional formatting
+	column color_hex
+		dataType: string
+		isHidden
+		lineageTag: f5bcbad4-471d-522e-88e1-f722ec23bd31
+		summarizeBy: none
+		sourceColumn: color_hex
+
+		annotation SummarizationSetBy = User
+
+	partition 'Dim Category' = m
+		mode: import
+		source =
+				let
+				    Source = #table(type table [category = text, sort_order = Int64.Type, class = text, wind_range = text, color_hex = text], {{"TD", 0, "Depression", "< 34 kt", "#cde2fb"}, {"TS", 1, "Tropical storm", "34-63 kt", "#86b6ef"}, {"Cat 1", 2, "Hurricane", "64-82 kt", "#5598e7"}, {"Cat 2", 3, "Hurricane", "83-95 kt", "#2a78d6"}, {"Cat 3", 4, "Major hurricane", "96-112 kt", "#1c5cab"}, {"Cat 4", 5, "Major hurricane", "113-136 kt", "#104281"}, {"Cat 5", 6, "Major hurricane", "137+ kt", "#0d366b"}})
+				in
+				    Source
+
+	annotation PBI_ResultType = Table

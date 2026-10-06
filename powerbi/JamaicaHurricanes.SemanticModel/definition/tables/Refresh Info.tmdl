@@ -1,0 +1,23 @@
+/// Timestamp of the last data refresh.
+table 'Refresh Info'
+	isHidden
+	lineageTag: f01e04c4-d2fe-514f-a664-6a1aa2bbfc7f
+
+	column refreshed_at
+		dataType: dateTime
+		formatString: dd mmm yyyy hh:nn
+		lineageTag: 46b649a8-306e-5a28-930d-1f85592825c7
+		summarizeBy: none
+		sourceColumn: refreshed_at
+
+		annotation SummarizationSetBy = User
+
+	partition 'Refresh Info' = m
+		mode: import
+		source =
+				let
+				    Source = #table(type table [refreshed_at = datetime], {{DateTime.LocalNow()}})
+				in
+				    Source
+
+	annotation PBI_ResultType = Table

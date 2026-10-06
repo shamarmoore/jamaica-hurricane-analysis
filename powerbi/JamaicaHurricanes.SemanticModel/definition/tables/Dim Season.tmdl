@@ -1,0 +1,85 @@
+/// One row per Atlantic hurricane season with basin-wide activity and ENSO state.
+table 'Dim Season'
+	lineageTag: 1e80f2b7-7e3a-5131-9a95-1322e31e7df4
+
+	/// Hurricane season (calendar year)
+	column year
+		dataType: int64
+		isKey
+		formatString: 0
+		lineageTag: e59fa798-2ed5-5198-b584-45c2fbed87a4
+		summarizeBy: none
+		sourceColumn: year
+
+		annotation SummarizationSetBy = User
+
+	column decade
+		dataType: int64
+		formatString: 0
+		lineageTag: cf04270c-f5d6-56a4-943f-9a89e5d64431
+		summarizeBy: none
+		sourceColumn: decade
+
+		annotation SummarizationSetBy = User
+
+	/// NOAA CPC Oceanic Nino Index, Aug-Sep-Oct
+	column oni_aso
+		dataType: double
+		formatString: 0.00
+		lineageTag: 4d713df9-9a5a-5f88-bd2a-f78db129a8a2
+		summarizeBy: average
+		sourceColumn: oni_aso
+
+		annotation SummarizationSetBy = User
+
+	column enso_phase
+		dataType: string
+		isHidden
+		lineageTag: 2217bcf0-7d55-5ee5-9bbc-9e27c4ee10c3
+		summarizeBy: none
+		sourceColumn: enso_phase
+
+		annotation SummarizationSetBy = User
+
+	/// Named storms anywhere in the Atlantic that season
+	column basin_named_storms
+		dataType: int64
+		formatString: 0
+		lineageTag: 1cb83a7d-a9e2-5df3-9f9b-bc25c0cfd306
+		summarizeBy: sum
+		sourceColumn: basin_named_storms
+
+		annotation SummarizationSetBy = User
+
+	/// Atlantic Accumulated Cyclone Energy (10^4 kt^2)
+	column basin_ace
+		dataType: double
+		formatString: 0.0
+		lineageTag: 204ef230-3a88-5523-9fb5-cdf7a643dbd4
+		summarizeBy: sum
+		sourceColumn: basin_ace
+
+		annotation SummarizationSetBy = User
+
+	/// Data-quality era of the best-track record
+	column era
+		dataType: string
+		lineageTag: 57d67731-3118-54c3-b9d7-254d6b0f61fa
+		summarizeBy: none
+		sourceColumn: era
+
+		annotation SummarizationSetBy = User
+
+	partition 'Dim Season' = m
+		mode: import
+		source =
+				let
+				    Source = fnGetCsv("seasons.csv"),
+				    Selected = Table.SelectColumns(Source, {"year", "decade", "oni_aso", "enso_phase", "basin_named_storms", "basin_ace"}),
+				    Blanks = Table.ReplaceValue(Selected, "", null, Replacer.ReplaceValue, Table.ColumnNames(Selected)),
+				    Typed = Table.TransformColumnTypes(Blanks, {{"year", Int64.Type}, {"decade", Int64.Type}, {"oni_aso", type number}, {"enso_phase", type text}, {"basin_named_storms", Int64.Type}, {"basin_ace", type number}}, "en-US"),
+				    Step0 = Table.AddColumn(Typed, "era", each if [year] >= 1966 then "Satellite (1966+)" else if [year] >= 1950 then "Recon (1950-65)" else "Historical (pre-1950)", type text)
+				in
+				    Step0
+
+	annotation PBI_ResultType = Table
