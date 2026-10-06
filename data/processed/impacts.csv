@@ -1,0 +1,12 @@
+storm_name,year,damage_loss_usd_m,damage_loss_pct_gdp,deaths_jamaica,source,notes,storm_id
+GILBERT,1988,1000.0,65.0,45.0,"Govt. of Jamaica estimate via UWI EKACDM; % GDP from Charveriat (2000, IDB) as tabulated in CDKN (2014)",J$5.5bn local estimate; UNDRO put damage at over US$800m,AL081988
+MICHELLE,2001,53.6,0.8,,ECLAC LC/CAR/G.672 (2001) via CDKN (2014),Damage driven mainly by rainfall and flooding,AL152001
+IVAN,2004,580.0,8.0,17.0,PIOJ (2004) via CDKN (2014),,AL092004
+DENNIS,2005,96.8,1.2,,PIOJ (2005) via CDKN (2014),,AL042005
+WILMA,2005,56.0,0.7,,PIOJ (2005) via CDKN (2014),,AL252005
+DEAN,2007,329.0,3.4,,PIOJ (2007) via CDKN (2014),,AL042007
+GUSTAV,2008,214.0,2.1,,PIOJ (2008) via CDKN (2014),,AL072008
+NICOLE,2010,239.6,1.9,,PIOJ (2010) via CDKN (2014),Weak tropical storm; five months of above-average rain beforehand,AL162010
+SANDY,2012,107.0,0.8,,PIOJ (2012) via CDKN (2014),,AL182012
+BERYL,2024,363.0,1.9,4.0,PIOJ Post-Disaster Needs Assessment (2024); deaths per PAHO,J$56.7bn converted at ~J$156/US$,AL022024
+MELISSA,2025,12200.0,56.7,45.0,"PIOJ / ECLAC Damage and Loss Assessment, 3 Mar 2026; deaths per JIS 11 Nov 2025",World Bank/IDB GRADE physical damage alone: US$8.8bn (41% of 2024 GDP). Deaths = confirmed toll at the time; more were under investigation,AL132025

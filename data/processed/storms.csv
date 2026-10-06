@@ -1,0 +1,899 @@
+storm_id,storm_name,year,closest_datetime,closest_month,closest_distance_nm,closest_lat,closest_lon,wind_at_closest_kt,pressure_at_closest_mb,max_wind_within_100nm_kt,min_pressure_within_100nm_mb,hours_within_100nm,approach_from,approach_bearing_deg,heading_deg,forward_speed_kt,max_24h_intensification_kt,rapid_intensification,jamaica_landfall,lifetime_peak_wind_kt,lifetime_min_pressure_mb,category_near_jamaica,is_near,is_hurricane_near,is_major_near,distance_band,decade,era,storm_label,oni_aso,enso_phase
+AL041851,UNNAMED,1851,1851-08-20 01:00:00,8,103.7,20.0,-76.18,70.0,,,,0,E,89,290,16.7,20.0,False,False,100.0,,,False,False,False,101-200 nm,1850,Historical (pre-1950),Unnamed #04 (1851),,
+AL011852,UNNAMED,1852,1852-08-21 06:00:00,8,232.0,22.2,-76.1,80.0,,,,0,NE,55,284,10.5,10.0,False,False,100.0,961.0,,False,False,False,201-400 nm,1850,Historical (pre-1950),Unnamed #01 (1852),,
+AL021852,UNNAMED,1852,1852-09-06 18:00:00,9,235.4,19.7,-72.5,40.0,,,,0,E,88,281,10.6,0.0,False,False,70.0,,,False,False,False,201-400 nm,1850,Historical (pre-1950),Unnamed #02 (1852),,
+AL041852,UNNAMED,1852,1852-09-27 02:00:00,9,271.3,21.57,-73.2,80.0,,,,0,E,71,309,7.7,10.0,False,False,80.0,,,False,False,False,201-400 nm,1850,Historical (pre-1950),Unnamed #04 (1852),,
+AL051852,UNNAMED,1852,1852-10-06 15:00:00,10,30.8,17.2,-77.05,90.0,,90.0,,21,E,108,270,14.3,0.0,False,False,90.0,,Cat 2,True,True,False,1-50 nm,1850,Historical (pre-1950),Unnamed #05 (1852),,
+AL031853,UNNAMED,1853,1853-09-05 12:00:00,9,575.7,25.8,-70.1,120.0,,,,0,E,68,306,13.8,30.0,True,False,130.0,924.0,,False,False,False,401-600 nm,1850,Historical (pre-1950),Unnamed #03 (1853),,
+AL081853,UNNAMED,1853,1853-10-19 00:00:00,10,540.0,27.5,-78.5,70.0,,,,0,N,353,325,6.1,0.0,False,False,90.0,,,False,False,False,401-600 nm,1850,Historical (pre-1950),Unnamed #08 (1853),,
+AL031854,UNNAMED,1854,1854-09-07 00:00:00,9,477.7,26.4,-76.6,110.0,,,,0,N,4,312,12.0,0.0,False,False,110.0,938.0,,False,False,False,401-600 nm,1850,Historical (pre-1950),Unnamed #03 (1854),,
+AL031855,UNNAMED,1855,1855-08-11 12:00:00,8,436.6,12.5,-83.0,70.0,,,,0,SW,225,0,0.0,0.0,False,False,70.0,,,False,False,False,401-600 nm,1850,Historical (pre-1950),Unnamed #03 (1855),,
+AL041855,UNNAMED,1855,1855-08-27 18:00:00,8,181.4,19.7,-73.6,40.0,,,,0,E,91,279,12.4,10.0,False,False,60.0,997.0,,False,False,False,101-200 nm,1850,Historical (pre-1950),Unnamed #04 (1855),,
+AL011856,UNNAMED,1856,1856-08-09 00:00:00,8,504.7,25.0,-83.9,70.0,,,,0,NW,319,303,12.9,0.0,False,False,130.0,934.0,,False,False,False,401-600 nm,1850,Historical (pre-1950),Unnamed #01 (1856),,
+AL041856,UNNAMED,1856,1856-08-21 12:00:00,8,363.5,23.0,-82.5,50.0,,,,0,NW,316,0,0.0,0.0,False,False,50.0,,,False,False,False,201-400 nm,1850,Historical (pre-1950),Unnamed #04 (1856),,
+AL051856,UNNAMED,1856,1856-08-26 11:00:00,8,222.7,21.95,-75.72,78.0,,,,0,NE,60,287,9.4,0.0,False,False,100.0,969.0,,False,False,False,201-400 nm,1850,Historical (pre-1950),Unnamed #05 (1856),,
+AL021857,UNNAMED,1857,1857-09-06 18:00:00,9,531.6,26.5,-73.0,40.0,,,,0,NE,25,42,2.7,0.0,False,False,90.0,961.0,,False,False,False,401-600 nm,1850,Historical (pre-1950),Unnamed #02 (1857),,
+AL041857,UNNAMED,1857,1857-09-27 04:00:00,9,50.5,16.87,-77.27,80.0,,80.0,,13,E,105,282,21.4,10.0,False,False,90.0,,Cat 1,True,True,False,51-100 nm,1850,Historical (pre-1950),Unnamed #04 (1857),,
+AL011858,UNNAMED,1858,1858-06-12 12:00:00,6,407.7,19.0,-85.5,70.0,,,,0,W,278,0,0.0,0.0,False,False,70.0,,,False,False,False,401-600 nm,1850,Historical (pre-1950),Unnamed #01 (1858),,
+AL031858,UNNAMED,1858,1858-09-14 00:00:00,9,538.7,25.2,-84.6,60.0,,,,0,NW,318,38,10.2,0.0,False,False,90.0,979.0,,False,False,False,401-600 nm,1850,Historical (pre-1950),Unnamed #03 (1858),,
+AL051858,UNNAMED,1858,1858-09-22 12:00:00,9,261.0,21.9,-74.0,50.0,,,,0,NE,39,0,13.0,0.0,False,False,80.0,,,False,False,False,201-400 nm,1850,Historical (pre-1950),Unnamed #05 (1858),,
+AL061858,UNNAMED,1858,1858-10-21 00:00:00,10,253.9,21.5,-73.6,50.0,,,,0,NE,45,54,3.4,0.0,False,False,90.0,,,False,False,False,201-400 nm,1850,Historical (pre-1950),Unnamed #06 (1858),,
+AL061859,UNNAMED,1859,1859-10-02 01:00:00,10,51.2,17.62,-75.35,80.0,,80.0,,13,E,108,22,7.6,0.0,False,False,110.0,938.0,Cat 1,True,True,False,51-100 nm,1850,Historical (pre-1950),Unnamed #06 (1859),,
+AL071859,UNNAMED,1859,1859-10-16 12:00:00,10,410.7,25.2,-76.0,60.0,,,,0,N,16,287,5.2,0.0,False,False,60.0,,,False,False,False,401-600 nm,1850,Historical (pre-1950),Unnamed #07 (1859),,
+AL021860,UNNAMED,1860,1860-08-24 00:00:00,8,582.3,28.2,-77.1,60.0,,,,0,N,1,28,11.3,0.0,False,False,90.0,,,False,False,False,401-600 nm,1860,Historical (pre-1950),Unnamed #02 (1860),,
+AL041860,UNNAMED,1860,1860-09-11 00:00:00,9,505.9,25.1,-83.8,90.0,,,,0,NW,320,290,2.9,0.0,False,False,90.0,,,False,False,False,401-600 nm,1860,Historical (pre-1950),Unnamed #04 (1860),,
+AL051860,UNNAMED,1860,1860-09-19 00:00:00,9,556.9,24.2,-68.8,50.0,,,,0,NE,67,320,9.2,10.0,False,False,60.0,,,False,False,False,401-600 nm,1860,Historical (pre-1950),Unnamed #05 (1860),,
+AL071860,UNNAMED,1860,1860-10-20 18:00:00,10,437.0,24.2,-72.0,70.0,,,,0,NE,48,308,4.1,0.0,False,False,90.0,,,False,False,False,401-600 nm,1860,Historical (pre-1950),Unnamed #07 (1860),,
+AL011861,UNNAMED,1861,1861-07-09 00:00:00,7,583.6,23.1,-67.4,60.0,,,,0,E,82,328,11.2,10.0,False,False,90.0,,,False,False,False,401-600 nm,1860,Historical (pre-1950),Unnamed #01 (1861),,
+AL021861,UNNAMED,1861,1861-08-14 10:00:00,8,248.3,22.33,-75.5,67.0,,,,0,E,70,290,14.6,0.0,False,False,80.0,,,False,False,False,201-400 nm,1860,Historical (pre-1950),Unnamed #02 (1861),,
+AL051861,UNNAMED,1861,1861-09-27 06:00:00,9,599.2,28.5,-77.5,70.0,,,,0,N,359,352,32.3,0.0,False,False,70.0,,,False,False,False,401-600 nm,1860,Historical (pre-1950),Unnamed #05 (1861),,
+AL081861,UNNAMED,1861,1861-11-01 06:00:00,11,475.2,25.5,-82.1,60.0,,,,0,NW,330,28,18.2,0.0,False,False,70.0,999.0,,False,False,False,401-600 nm,1860,Historical (pre-1950),Unnamed #08 (1861),,
+AL061862,UNNAMED,1862,1862-11-22 00:00:00,11,453.0,10.5,-79.5,60.0,,,,0,S,196,0,0.0,0.0,False,False,60.0,,,False,False,False,401-600 nm,1860,Historical (pre-1950),Unnamed #06 (1862),,
+AL061863,UNNAMED,1863,1863-09-16 00:00:00,9,386.8,24.7,-79.9,40.0,,,,0,N,340,0,5.0,0.0,False,False,60.0,,,False,False,False,201-400 nm,1860,Historical (pre-1950),Unnamed #06 (1863),,
+AL031864,UNNAMED,1864,1864-08-30 02:00:00,8,87.6,16.3,-77.6,70.0,,70.0,,9,SE,114,281,14.7,0.0,False,False,70.0,,Cat 1,True,True,False,51-100 nm,1860,Historical (pre-1950),Unnamed #03 (1864),,
+AL011865,UNNAMED,1865,1865-05-30 00:00:00,5,319.7,13.0,-80.0,50.0,,,,0,SW,207,0,0.0,0.0,False,False,50.0,,,False,False,False,201-400 nm,1860,Historical (pre-1950),Unnamed #01 (1865),,
+AL041865,UNNAMED,1865,1865-09-09 15:00:00,9,17.6,18.7,-76.85,90.0,,90.0,,24,E,98,291,11.2,0.0,False,False,90.0,,Cat 2,True,True,False,1-50 nm,1860,Historical (pre-1950),Unnamed #04 (1865),,
+AL061865,UNNAMED,1865,1865-09-28 12:00:00,9,583.0,25.5,-69.5,70.0,,,,0,NE,43,0,0.0,0.0,False,False,70.0,,,False,False,False,401-600 nm,1860,Historical (pre-1950),Unnamed #06 (1865),,
+AL071865,UNNAMED,1865,1865-10-21 22:00:00,10,252.5,17.57,-82.73,77.0,,,,0,SW,229,349,10.2,10.0,False,False,90.0,975.0,,False,False,False,201-400 nm,1860,Historical (pre-1950),Unnamed #07 (1865),,
+AL021866,UNNAMED,1866,1866-08-15 05:00:00,8,72.2,16.53,-77.47,80.0,,80.0,,11,E,109,282,19.0,0.0,False,False,90.0,,Cat 1,True,True,False,51-100 nm,1860,Historical (pre-1950),Unnamed #02 (1866),,
+AL061866,UNNAMED,1866,1866-10-01 12:00:00,10,267.7,22.5,-75.0,120.0,,,,0,E,69,301,13.5,20.0,False,False,120.0,938.0,,False,False,False,201-400 nm,1860,Historical (pre-1950),Unnamed #06 (1866),,
+AL021867,UNNAMED,1867,1867-07-30 17:00:00,7,492.2,24.42,-70.67,80.0,,,,0,E,74,311,16.0,10.0,False,False,90.0,969.0,,False,False,False,401-600 nm,1860,Historical (pre-1950),Unnamed #02 (1867),,
+AL031867,UNNAMED,1867,1867-08-02 12:00:00,8,222.5,14.0,-77.0,90.0,,,,0,S,176,0,0.0,0.0,False,False,90.0,,,False,False,False,201-400 nm,1860,Historical (pre-1950),Unnamed #03 (1867),,
+AL091867,UNNAMED,1867,1867-10-31 00:00:00,10,158.7,18.6,-73.5,40.0,,,,0,E,87,276,19.1,40.0,True,False,110.0,952.0,,False,False,False,101-200 nm,1860,Historical (pre-1950),Unnamed #09 (1867),,
+AL031868,UNNAMED,1868,1868-10-05 00:00:00,10,148.0,17.0,-80.6,90.0,,,,0,W,251,285,4.0,0.0,False,False,90.0,,,False,False,False,101-200 nm,1860,Historical (pre-1950),Unnamed #03 (1868),,
+AL041868,UNNAMED,1868,1868-10-15 00:00:00,10,503.0,26.1,-73.3,70.0,,,,0,NE,24,13,8.2,0.0,False,False,90.0,,,False,False,False,401-600 nm,1860,Historical (pre-1950),Unnamed #04 (1868),,
+AL061869,UNNAMED,1869,1869-09-07 00:00:00,9,532.5,27.0,-74.5,90.0,,,,0,N,16,0,10.0,0.0,False,False,100.0,950.0,,False,False,False,401-600 nm,1860,Historical (pre-1950),Unnamed #06 (1869),,
+AL091869,UNNAMED,1869,1869-10-01 12:00:00,10,500.6,17.0,-67.5,50.0,,,,0,E,95,0,0.0,0.0,False,False,50.0,,,False,False,False,401-600 nm,1860,Historical (pre-1950),Unnamed #09 (1869),,
+AL061870,UNNAMED,1870,1870-10-05 16:00:00,10,35.9,18.97,-76.67,50.0,,60.0,,27,E,100,293,10.3,0.0,False,False,100.0,959.0,TS,True,False,False,1-50 nm,1870,Historical (pre-1950),Unnamed #06 (1870),,
+AL091870,UNNAMED,1870,1870-10-19 02:00:00,10,333.5,19.63,-84.07,90.0,,,,0,W,283,13,4.1,0.0,False,False,90.0,,,False,False,False,201-400 nm,1870,Historical (pre-1950),Unnamed #09 (1870),,
+AL101870,UNNAMED,1870,1870-10-23 12:00:00,10,299.5,21.0,-72.0,90.0,,,,0,NE,59,0,0.0,0.0,False,False,90.0,,,False,False,False,201-400 nm,1870,Historical (pre-1950),Unnamed #10 (1870),,
+AL111870,UNNAMED,1870,1870-10-30 00:00:00,10,414.7,17.0,-85.5,60.0,,,,0,W,263,316,1.4,0.0,False,False,70.0,,,False,False,False,401-600 nm,1870,Historical (pre-1950),Unnamed #11 (1870),,
+AL011871,UNNAMED,1871,1871-06-01 00:00:00,6,373.2,24.1,-81.0,40.0,,,,0,NW,331,270,10.0,0.0,False,False,50.0,999.0,,False,False,False,201-400 nm,1870,Historical (pre-1950),Unnamed #01 (1871),,
+AL031871,UNNAMED,1871,1871-08-15 19:00:00,8,496.8,26.8,-77.83,100.0,,,,0,N,17,270,7.7,20.0,False,False,100.0,952.0,,False,False,False,401-600 nm,1870,Historical (pre-1950),Unnamed #03 (1871),,
+AL041871,UNNAMED,1871,1871-08-23 16:00:00,8,341.8,22.97,-73.1,90.0,,,,0,E,73,303,13.7,10.0,False,False,100.0,962.0,,False,False,False,201-400 nm,1870,Historical (pre-1950),Unnamed #04 (1871),,
+AL011873,UNNAMED,1873,1873-06-01 06:00:00,6,344.7,24.2,-78.8,40.0,,,,0,N,347,7,14.1,0.0,False,False,40.0,,,False,False,False,201-400 nm,1870,Historical (pre-1950),Unnamed #01 (1873),,
+AL041873,UNNAMED,1873,1873-09-22 00:00:00,9,494.1,22.2,-86.1,40.0,,,,0,NW,298,5,10.0,0.0,False,False,50.0,,,False,False,False,401-600 nm,1870,Historical (pre-1950),Unnamed #04 (1873),,
+AL051873,UNNAMED,1873,1873-09-30 04:00:00,9,92.5,20.03,-78.2,40.0,,45.0,,14,NE,46,262,5.7,30.0,True,False,100.0,959.0,TS,True,False,False,51-100 nm,1870,Historical (pre-1950),Unnamed #05 (1873),,
+AL011874,UNNAMED,1874,1874-07-02 00:00:00,7,583.6,25.8,-85.1,40.0,,,,0,NW,318,299,8.2,0.0,False,False,50.0,,,False,False,False,401-600 nm,1870,Historical (pre-1950),Unnamed #01 (1874),,
+AL051874,UNNAMED,1874,1874-09-08 00:00:00,9,559.4,25.8,-70.6,50.0,,,,0,NE,38,325,11.0,0.0,False,False,50.0,,,False,False,False,401-600 nm,1870,Historical (pre-1950),Unnamed #05 (1874),,
+AL061874,UNNAMED,1874,1874-09-25 00:00:00,9,460.8,17.5,-86.4,40.0,,,,0,W,267,312,9.0,0.0,False,False,80.0,980.0,,False,False,False,401-600 nm,1870,Historical (pre-1950),Unnamed #06 (1874),,
+AL071874,UNNAMED,1874,1874-11-02 01:00:00,11,0.0,17.82,-77.17,87.0,,90.0,,34,S,193,16,6.9,30.0,True,True,90.0,,Cat 2,True,True,False,Landfall,1870,Historical (pre-1950),Unnamed #07 (1874),,
+AL031875,UNNAMED,1875,1875-09-12 22:00:00,9,70.1,19.0,-75.5,90.0,,90.0,,12,E,103,309,18.2,10.0,False,False,100.0,978.0,Cat 2,True,True,False,51-100 nm,1870,Historical (pre-1950),Unnamed #03 (1875),,
+AL051875,UNNAMED,1875,1875-10-07 00:00:00,10,551.7,23.7,-68.5,70.0,,,,0,NE,54,341,8.5,0.0,False,False,90.0,,,False,False,False,401-600 nm,1870,Historical (pre-1950),Unnamed #05 (1875),,
+AL061875,UNNAMED,1875,1875-10-12 00:00:00,10,546.2,27.3,-74.8,50.0,,,,0,N,14,353,7.1,0.0,False,False,70.0,,,False,False,False,401-600 nm,1870,Historical (pre-1950),Unnamed #06 (1875),,
+AL021876,UNNAMED,1876,1876-09-15 07:00:00,9,126.4,20.45,-76.35,58.0,996.0,,,0,E,81,283,13.8,10.0,False,False,100.0,980.0,,False,False,False,101-200 nm,1870,Historical (pre-1950),Unnamed #02 (1876),,
+AL041876,UNNAMED,1876,1876-10-02 04:00:00,10,288.4,12.97,-76.33,80.0,,,,0,SE,123,262,14.0,10.0,False,False,90.0,,,False,False,False,201-400 nm,1870,Historical (pre-1950),Unnamed #04 (1876),,
+AL051876,UNNAMED,1876,1876-10-16 18:00:00,10,124.5,17.8,-80.5,60.0,,,,0,SW,235,347,4.1,10.0,False,False,100.0,958.0,,False,False,False,101-200 nm,1870,Historical (pre-1950),Unnamed #05 (1876),,
+AL011877,UNNAMED,1877,1877-08-01 06:00:00,8,369.2,23.7,-73.5,40.0,,,,0,NE,43,305,14.0,0.0,False,False,60.0,,,False,False,False,201-400 nm,1870,Historical (pre-1950),Unnamed #01 (1877),,
+AL051877,UNNAMED,1877,1877-09-25 08:00:00,9,287.1,22.37,-73.93,40.0,,,,0,NE,66,297,11.2,0.0,False,False,50.0,,,False,False,False,201-400 nm,1870,Historical (pre-1950),Unnamed #05 (1877),,
+AL041877,UNNAMED,1877,1877-09-25 23:00:00,9,205.1,14.63,-78.92,72.0,,,,0,SE,150,290,11.0,0.0,False,False,100.0,,,False,False,False,201-400 nm,1870,Historical (pre-1950),Unnamed #04 (1877),,
+AL081877,UNNAMED,1877,1877-11-28 00:00:00,11,287.9,23.2,-76.5,40.0,,,,0,N,8,12,17.4,0.0,False,False,50.0,,,False,False,False,201-400 nm,1870,Historical (pre-1950),Unnamed #08 (1877),,
+AL011878,UNNAMED,1878,1878-07-02 16:00:00,7,494.9,26.1,-81.53,37.0,,,,0,NW,316,67,13.9,0.0,False,False,40.0,,,False,False,False,401-600 nm,1870,Historical (pre-1950),Unnamed #01 (1878),,
+AL021878,UNNAMED,1878,1878-08-13 01:00:00,8,120.9,16.73,-79.77,50.0,,,,0,SE,148,309,12.3,10.0,False,False,70.0,,,False,False,False,101-200 nm,1870,Historical (pre-1950),Unnamed #02 (1878),,
+AL041878,UNNAMED,1878,1878-08-25 00:00:00,8,373.0,24.7,-77.1,40.0,,,,0,N,2,33,8.3,0.0,False,False,90.0,972.0,,False,False,False,201-400 nm,1870,Historical (pre-1950),Unnamed #04 (1878),,
+AL051878,UNNAMED,1878,1878-09-05 03:00:00,9,144.4,20.25,-75.1,65.0,,,,0,E,92,298,10.6,0.0,False,False,90.0,970.0,,False,False,False,101-200 nm,1870,Historical (pre-1950),Unnamed #05 (1878),,
+AL071878,UNNAMED,1878,1878-09-26 12:00:00,9,215.4,18.7,-72.5,50.0,,,,0,E,102,347,4.1,20.0,False,False,120.0,938.0,,False,False,False,201-400 nm,1870,Historical (pre-1950),Unnamed #07 (1878),,
+AL111878,UNNAMED,1878,1878-10-18 00:00:00,10,94.3,17.2,-79.6,40.0,,40.0,,5,W,248,316,6.9,0.0,False,False,90.0,963.0,TS,True,False,False,51-100 nm,1870,Historical (pre-1950),Unnamed #11 (1878),,
+AL121878,UNNAMED,1878,1878-12-02 06:00:00,12,124.7,15.8,-76.1,40.0,,,,0,SE,119,259,5.4,0.0,False,False,60.0,,,False,False,False,101-200 nm,1870,Historical (pre-1950),Unnamed #12 (1878),,
+AL021879,UNNAMED,1879,1879-08-16 01:00:00,8,320.5,21.83,-72.23,60.0,,,,0,E,78,311,10.7,20.0,False,False,100.0,971.0,,False,False,False,201-400 nm,1870,Historical (pre-1950),Unnamed #02 (1879),,
+AL031879,UNNAMED,1879,1879-08-19 00:00:00,8,181.9,16.7,-81.1,60.0,,,,0,W,249,293,10.4,0.0,False,False,90.0,964.0,,False,False,False,101-200 nm,1870,Historical (pre-1950),Unnamed #03 (1879),,
+AL051879,UNNAMED,1879,1879-10-03 16:00:00,10,129.1,16.87,-80.1,40.0,,,,0,S,185,319,13.3,0.0,False,False,50.0,,,False,False,False,101-200 nm,1870,Historical (pre-1950),Unnamed #05 (1879),,
+AL061879,UNNAMED,1879,1879-10-12 10:00:00,10,0.0,17.9,-77.8,50.0,,50.0,,22,E,110,294,14.8,10.0,False,True,50.0,,TS,True,False,False,Landfall,1870,Historical (pre-1950),Unnamed #06 (1879),,
+AL071879,UNNAMED,1879,1879-10-24 00:00:00,10,371.5,20.2,-84.6,40.0,,,,0,W,288,311,6.2,0.0,False,False,70.0,,,False,False,False,201-400 nm,1870,Historical (pre-1950),Unnamed #07 (1879),,
+AL081879,UNNAMED,1879,1879-11-18 00:00:00,11,266.8,21.7,-73.5,60.0,,,,0,NE,44,0,8.0,0.0,False,False,90.0,968.0,,False,False,False,201-400 nm,1870,Historical (pre-1950),Unnamed #08 (1879),,
+AL021880,UNNAMED,1880,1880-08-06 23:00:00,8,32.0,17.18,-77.3,78.0,,90.0,,26,E,106,279,11.3,20.0,False,False,130.0,931.0,Cat 2,True,True,False,1-50 nm,1880,Historical (pre-1950),Unnamed #02 (1880),,
+AL031880,UNNAMED,1880,1880-08-19 02:00:00,8,0.0,18.07,-76.83,77.0,982.0,80.0,980.0,18,SE,123,331,15.5,20.0,False,True,80.0,980.0,Cat 1,True,True,False,Landfall,1880,Historical (pre-1950),Unnamed #03 (1880),,
+AL041880,UNNAMED,1880,1880-08-28 00:00:00,8,552.0,27.5,-75.4,90.0,,,,0,NE,32,279,9.4,20.0,False,False,90.0,972.0,,False,False,False,401-600 nm,1880,Historical (pre-1950),Unnamed #04 (1880),,
+AL091880,UNNAMED,1880,1880-10-05 00:00:00,10,383.5,18.2,-85.1,40.0,,,,0,W,272,310,6.2,0.0,False,False,70.0,,,False,False,False,201-400 nm,1880,Historical (pre-1950),Unnamed #09 (1880),,
+AL111880,UNNAMED,1880,1880-10-20 12:00:00,10,529.2,27.1,-75.3,40.0,,,,0,N,11,29,12.6,0.0,False,False,60.0,991.0,,False,False,False,401-600 nm,1880,Historical (pre-1950),Unnamed #11 (1880),,
+AL011881,UNNAMED,1881,1881-08-01 00:00:00,8,489.2,23.0,-85.5,40.0,,,,0,NW,304,331,5.7,0.0,False,False,50.0,,,False,False,False,401-600 nm,1880,Historical (pre-1950),Unnamed #01 (1881),,
+AL041881,UNNAMED,1881,1881-08-17 10:00:00,8,384.5,24.33,-80.93,40.0,,,,0,NW,296,64,14.2,0.0,False,False,70.0,,,False,False,False,201-400 nm,1880,Historical (pre-1950),Unnamed #04 (1881),,
+AL051881,UNNAMED,1881,1881-08-24 18:00:00,8,416.0,23.7,-71.9,70.0,,,,0,E,72,308,11.5,10.0,False,False,90.0,970.0,,False,False,False,401-600 nm,1880,Historical (pre-1950),Unnamed #05 (1881),,
+AL061881,UNNAMED,1881,1881-09-07 00:00:00,9,529.6,23.7,-69.0,70.0,,,,0,NE,53,325,15.9,0.0,False,False,90.0,975.0,,False,False,False,401-600 nm,1880,Historical (pre-1950),Unnamed #06 (1881),,
+AL021882,UNNAMED,1882,1882-09-05 00:00:00,9,232.7,22.4,-77.8,90.0,,,,0,NE,32,270,7.4,20.0,False,False,110.0,949.0,,False,False,False,201-400 nm,1880,Historical (pre-1950),Unnamed #02 (1882),,
+AL061882,UNNAMED,1882,1882-10-06 18:00:00,10,247.9,17.0,-82.5,50.0,,,,0,SW,240,342,3.2,10.0,False,False,120.0,,,False,False,False,201-400 nm,1880,Historical (pre-1950),Unnamed #06 (1882),,
+AL031883,UNNAMED,1883,1883-09-07 03:00:00,9,210.5,21.05,-74.25,70.0,,,,0,E,92,304,12.4,0.0,False,False,110.0,,,False,False,False,201-400 nm,1880,Historical (pre-1950),Unnamed #03 (1883),,
+AL041883,UNNAMED,1883,1883-10-22 00:00:00,10,539.1,27.5,-77.6,40.0,,,,0,N,358,0,3.0,0.0,False,False,70.0,,,False,False,False,401-600 nm,1880,Historical (pre-1950),Unnamed #04 (1883),,
+AL031884,UNNAMED,1884,1884-09-16 06:00:00,9,565.2,27.8,-76.0,70.0,988.0,,,0,N,15,254,1.8,20.0,False,False,80.0,979.0,,False,False,False,401-600 nm,1880,Historical (pre-1950),Unnamed #03 (1884),,
+AL041884,UNNAMED,1884,1884-10-07 23:00:00,10,9.8,17.92,-76.02,58.0,,70.0,,43,S,161,14,5.2,0.0,False,False,90.0,,Cat 1,True,True,False,1-50 nm,1880,Historical (pre-1950),Unnamed #04 (1884),,
+AL021885,UNNAMED,1885,1885-08-22 14:00:00,8,248.3,22.33,-75.5,50.0,,,,0,NE,62,288,11.8,10.0,False,False,90.0,958.0,,False,False,False,201-400 nm,1880,Historical (pre-1950),Unnamed #02 (1885),,
+AL081885,UNNAMED,1885,1885-10-10 12:00:00,10,422.5,23.9,-83.0,40.0,,,,0,NW,318,341,8.5,0.0,False,False,60.0,,,False,False,False,401-600 nm,1880,Historical (pre-1950),Unnamed #08 (1885),,
+AL021886,UNNAMED,1886,1886-06-17 00:00:00,6,368.8,19.1,-84.8,35.0,,,,0,W,279,330,5.8,0.0,False,False,85.0,,,False,False,False,201-400 nm,1880,Historical (pre-1950),Unnamed #02 (1886),,
+AL031886,UNNAMED,1886,1886-06-27 12:00:00,6,75.6,18.3,-79.7,35.0,,42.0,,5,W,275,342,9.4,0.0,False,False,85.0,,TS,True,False,False,51-100 nm,1880,Historical (pre-1950),Unnamed #03 (1886),,
+AL041886,UNNAMED,1886,1886-07-14 06:00:00,7,260.3,18.9,-82.9,35.0,,,,0,W,279,302,5.6,0.0,False,False,75.0,990.0,,False,False,False,201-400 nm,1880,Historical (pre-1950),Unnamed #04 (1886),,
+AL051886,UNNAMED,1886,1886-08-16 12:00:00,8,69.2,19.5,-76.5,85.0,,85.0,,12,E,87,303,11.8,20.0,False,False,130.0,925.0,Cat 2,True,True,False,51-100 nm,1880,Historical (pre-1950),Unnamed #05 (1886),,
+AL061886,UNNAMED,1886,1886-08-20 07:00:00,8,0.0,18.0,-76.88,95.0,,98.0,,31,SE,141,324,8.7,10.0,False,True,105.0,,Cat 3,True,True,True,Landfall,1880,Historical (pre-1950),Unnamed #06 (1886),,
+AL081886,UNNAMED,1886,1886-09-18 07:00:00,9,148.7,21.0,-77.75,35.0,,,,0,NE,59,270,13.1,10.0,False,False,85.0,,,False,False,False,101-200 nm,1880,Historical (pre-1950),Unnamed #08 (1886),,
+AL101886,UNNAMED,1886,1886-10-08 00:00:00,10,253.6,19.9,-82.5,50.0,,,,0,W,291,310,6.2,0.0,False,False,105.0,,,False,False,False,201-400 nm,1880,Historical (pre-1950),Unnamed #10 (1886),,
+AL121886,UNNAMED,1886,1886-10-21 18:00:00,10,182.3,17.8,-73.0,35.0,,,,0,E,94,18,9.4,0.0,False,False,60.0,,,False,False,False,101-200 nm,1880,Historical (pre-1950),Unnamed #12 (1886),,
+AL021887,UNNAMED,1887,1887-05-18 05:00:00,5,10.6,18.2,-78.55,45.0,,50.0,,40,S,176,340,6.4,10.0,False,False,50.0,,TS,True,False,False,1-50 nm,1880,Historical (pre-1950),Unnamed #02 (1887),,
+AL031887,UNNAMED,1887,1887-06-11 12:00:00,6,345.4,20.5,-84.0,30.0,,,,0,W,292,317,9.6,0.0,False,False,35.0,,,False,False,False,201-400 nm,1880,Historical (pre-1950),Unnamed #03 (1887),,
+AL041887,UNNAMED,1887,1887-07-23 19:00:00,7,156.6,15.13,-77.63,85.0,,,,0,SE,130,278,12.0,20.0,False,False,85.0,,,False,False,False,101-200 nm,1880,Historical (pre-1950),Unnamed #04 (1887),,
+AL051887,UNNAMED,1887,1887-08-06 15:00:00,8,54.2,19.25,-76.55,40.0,,40.0,,18,E,98,296,11.5,0.0,False,False,50.0,,TS,True,False,False,51-100 nm,1880,Historical (pre-1950),Unnamed #05 (1887),,
+AL061887,UNNAMED,1887,1887-08-17 18:00:00,8,459.2,25.5,-73.8,70.0,,,,0,NE,52,295,11.9,20.0,False,False,105.0,972.0,,False,False,False,401-600 nm,1880,Historical (pre-1950),Unnamed #06 (1887),,
+AL071887,UNNAMED,1887,1887-08-20 21:00:00,8,469.3,25.7,-73.85,62.0,,,,0,NE,57,292,10.7,15.0,False,False,110.0,,,False,False,False,401-600 nm,1880,Historical (pre-1950),Unnamed #07 (1887),,
+AL091887,UNNAMED,1887,1887-09-15 19:00:00,9,96.7,16.28,-78.1,85.0,,85.0,,4,SE,125,286,18.0,20.0,False,False,85.0,973.0,Cat 2,True,True,False,51-100 nm,1880,Historical (pre-1950),Unnamed #09 (1887),,
+AL111887,UNNAMED,1887,1887-10-06 12:00:00,10,369.3,19.7,-84.7,35.0,,,,0,W,284,270,12.2,0.0,False,False,50.0,,,False,False,False,201-400 nm,1880,Historical (pre-1950),Unnamed #11 (1887),,
+AL121887,UNNAMED,1887,1887-10-08 00:00:00,10,213.0,21.0,-74.1,50.0,,,,0,NE,46,347,4.1,0.0,False,False,60.0,,,False,False,False,201-400 nm,1880,Historical (pre-1950),Unnamed #12 (1887),,
+AL131887,UNNAMED,1887,1887-10-12 06:00:00,10,73.3,19.7,-77.4,70.0,,75.0,,15,E,77,279,12.9,20.0,False,False,75.0,,Cat 1,True,True,False,51-100 nm,1880,Historical (pre-1950),Unnamed #13 (1887),,
+AL171887,UNNAMED,1887,1887-11-29 18:00:00,11,355.9,23.3,-73.2,70.0,,,,0,NE,32,110,4.4,20.0,False,False,70.0,,,False,False,False,201-400 nm,1880,Historical (pre-1950),Unnamed #17 (1887),,
+AL191887,UNNAMED,1887,1887-12-10 16:00:00,12,354.1,11.9,-76.07,50.0,,,,0,SE,122,259,16.0,10.0,False,False,50.0,,,False,False,False,201-400 nm,1880,Historical (pre-1950),Unnamed #19 (1887),,
+AL031888,UNNAMED,1888,1888-08-15 12:00:00,8,362.2,24.3,-75.5,70.0,,,,0,NE,49,286,9.5,35.0,True,False,110.0,,,False,False,False,201-400 nm,1880,Historical (pre-1950),Unnamed #03 (1888),,
+AL041888,UNNAMED,1888,1888-09-03 19:00:00,9,240.0,22.33,-76.08,110.0,,,,0,NE,56,281,10.4,20.0,False,False,110.0,,,False,False,False,201-400 nm,1880,Historical (pre-1950),Unnamed #04 (1888),,
+AL051888,UNNAMED,1888,1888-09-06 19:00:00,9,387.5,24.47,-74.5,40.0,,,,0,NE,43,291,12.0,0.0,False,False,50.0,999.0,,False,False,False,201-400 nm,1880,Historical (pre-1950),Unnamed #05 (1888),,
+AL061888,UNNAMED,1888,1888-09-23 12:00:00,9,384.1,24.3,-81.0,35.0,,,,0,NW,332,31,14.0,0.0,False,False,70.0,985.0,,False,False,False,201-400 nm,1880,Historical (pre-1950),Unnamed #06 (1888),,
+AL011889,UNNAMED,1889,1889-05-18 08:00:00,5,539.7,24.77,-69.8,50.0,,,,0,NE,65,313,11.2,15.0,False,False,70.0,,,False,False,False,401-600 nm,1880,Historical (pre-1950),Unnamed #01 (1889),,
+AL021889,UNNAMED,1889,1889-06-15 00:00:00,6,316.0,19.8,-83.7,35.0,,,,0,W,287,341,8.5,0.0,False,False,65.0,,,False,False,False,201-400 nm,1880,Historical (pre-1950),Unnamed #02 (1889),,
+AL031889,UNNAMED,1889,1889-08-21 15:00:00,8,287.5,21.05,-72.3,58.0,,,,0,E,77,323,6.2,25.0,False,False,70.0,,,False,False,False,201-400 nm,1880,Historical (pre-1950),Unnamed #03 (1889),,
+AL041889,UNNAMED,1889,1889-09-05 00:00:00,9,490.0,21.7,-68.5,90.0,,,,0,E,81,337,7.1,25.0,False,False,90.0,,,False,False,False,401-600 nm,1880,Historical (pre-1950),Unnamed #04 (1889),,
+AL061889,UNNAMED,1889,1889-09-15 14:00:00,9,65.5,16.83,-78.13,50.0,,50.0,,25,SE,119,288,12.7,10.0,False,False,95.0,,TS,True,False,False,51-100 nm,1880,Historical (pre-1950),Unnamed #06 (1889),,
+AL091889,UNNAMED,1889,1889-10-05 06:00:00,10,255.8,20.0,-82.5,30.0,,,,0,W,292,17,15.7,0.0,False,False,50.0,,,False,False,False,201-400 nm,1880,Historical (pre-1950),Unnamed #09 (1889),,
+AL011890,UNNAMED,1890,1890-05-27 12:00:00,5,293.6,20.5,-83.0,30.0,,,,0,NW,295,335,6.6,0.0,False,False,50.0,,,False,False,False,201-400 nm,1890,Historical (pre-1950),Unnamed #01 (1890),,
+AL021890,UNNAMED,1890,1890-08-22 19:00:00,8,60.3,16.73,-77.45,41.0,,45.0,,28,SE,122,284,8.5,0.0,False,False,50.0,,TS,True,False,False,51-100 nm,1890,Historical (pre-1950),Unnamed #02 (1890),,
+AL041890,UNNAMED,1890,1890-10-31 00:00:00,10,259.5,14.3,-80.3,80.0,,,,0,SW,218,276,9.7,0.0,False,False,80.0,,,False,False,False,201-400 nm,1890,Historical (pre-1950),Unnamed #04 (1890),,
+AL031891,UNNAMED,1891,1891-08-23 00:00:00,8,322.9,23.3,-74.5,85.0,,,,0,NE,57,296,10.2,0.0,False,False,110.0,961.0,,False,False,False,201-400 nm,1890,Historical (pre-1950),Unnamed #03 (1891),,
+AL071891,UNNAMED,1891,1891-10-05 00:00:00,10,119.6,17.0,-80.0,45.0,,,,0,SW,208,328,8.9,0.0,False,False,45.0,1004.0,,False,False,False,101-200 nm,1890,Historical (pre-1950),Unnamed #07 (1891),,
+AL081891,UNNAMED,1891,1891-10-08 21:00:00,10,369.9,21.1,-84.2,35.0,,,,0,W,276,25,8.8,5.0,False,False,55.0,,,False,False,False,201-400 nm,1890,Historical (pre-1950),Unnamed #08 (1891),,
+AL101891,UNNAMED,1891,1891-11-03 00:00:00,11,383.0,24.1,-73.8,35.0,,,,0,NE,28,53,14.9,0.0,False,False,50.0,,,False,False,False,201-400 nm,1890,Historical (pre-1950),Unnamed #10 (1891),,
+AL011892,UNNAMED,1892,1892-06-09 00:00:00,6,306.6,20.8,-83.1,35.0,,,,0,NW,297,331,5.7,0.0,False,False,45.0,,,False,False,False,201-400 nm,1890,Historical (pre-1950),Unnamed #01 (1892),,
+AL071892,UNNAMED,1892,1892-10-10 06:00:00,10,266.4,13.4,-78.3,85.0,,,,0,SE,144,283,13.0,10.0,False,False,85.0,,,False,False,False,201-400 nm,1890,Historical (pre-1950),Unnamed #07 (1892),,
+AL081892,UNNAMED,1892,1892-10-13 00:00:00,10,551.1,26.0,-71.2,40.0,,,,0,NE,35,42,6.7,0.0,False,False,80.0,,,False,False,False,401-600 nm,1890,Historical (pre-1950),Unnamed #08 (1892),,
+AL091892,UNNAMED,1892,1892-10-25 04:00:00,10,590.6,28.2,-79.8,37.0,,,,0,NW,323,79,15.7,0.0,False,False,45.0,,,False,False,False,401-600 nm,1890,Historical (pre-1950),Unnamed #09 (1892),,
+AL021893,UNNAMED,1893,1893-07-05 12:00:00,7,329.7,14.0,-82.0,70.0,,,,0,S,195,310,10.8,35.0,True,False,85.0,,,False,False,False,201-400 nm,1890,Historical (pre-1950),Unnamed #02 (1893),,
+AL031893,UNNAMED,1893,1893-08-18 18:00:00,8,353.9,22.5,-72.1,105.0,,,,0,E,78,312,10.5,30.0,True,False,105.0,,,False,False,False,201-400 nm,1890,Historical (pre-1950),Unnamed #03 (1893),,
+AL061893,UNNAMED,1893,1893-08-26 02:00:00,8,405.2,24.83,-74.67,105.0,960.0,,,0,NE,51,287,13.1,0.0,False,False,105.0,954.0,,False,False,False,401-600 nm,1890,Historical (pre-1950),Unnamed #06 (1893),,
+AL081893,UNNAMED,1893,1893-09-04 06:00:00,9,394.8,18.4,-85.3,35.0,,,,0,W,273,308,9.7,0.0,False,False,85.0,,,False,False,False,201-400 nm,1890,Historical (pre-1950),Unnamed #08 (1893),,
+AL101893,UNNAMED,1893,1893-09-27 12:00:00,9,220.8,16.4,-81.7,35.0,,,,0,W,249,305,10.5,0.0,False,False,115.0,948.0,,False,False,False,201-400 nm,1890,Historical (pre-1950),Unnamed #10 (1893),,
+AL091893,UNNAMED,1893,1893-10-11 07:00:00,10,468.3,25.85,-74.37,105.0,,,,0,NE,42,289,9.5,0.0,False,False,105.0,955.0,,False,False,False,401-600 nm,1890,Historical (pre-1950),Unnamed #09 (1893),,
+AL111893,UNNAMED,1893,1893-10-20 19:00:00,10,143.7,19.75,-80.4,30.0,,,,0,W,269,38,19.2,0.0,False,False,50.0,,,False,False,False,101-200 nm,1890,Historical (pre-1950),Unnamed #11 (1893),,
+AL121893,UNNAMED,1893,1893-11-05 18:00:00,11,567.9,27.2,-73.1,50.0,,,,0,NE,34,292,5.3,0.0,False,False,60.0,,,False,False,False,401-600 nm,1890,Historical (pre-1950),Unnamed #12 (1893),,
+AL011894,UNNAMED,1894,1894-06-06 07:00:00,6,28.5,19.0,-77.88,35.0,,35.0,,29,N,354,270,4.4,0.0,False,False,35.0,,TS,True,False,False,1-50 nm,1890,Historical (pre-1950),Unnamed #01 (1894),,
+AL041894,UNNAMED,1894,1894-09-23 07:00:00,9,108.2,20.0,-76.0,82.0,,,,0,E,92,295,13.5,10.0,False,False,105.0,985.0,,False,False,False,101-200 nm,1890,Historical (pre-1950),Unnamed #04 (1894),,
+AL051894,UNNAMED,1894,1894-10-02 18:00:00,10,232.9,15.9,-81.6,55.0,,,,0,SW,215,323,5.6,15.0,False,False,105.0,,,False,False,False,201-400 nm,1890,Historical (pre-1950),Unnamed #05 (1894),,
+AL071894,UNNAMED,1894,1894-10-24 09:00:00,10,476.8,25.2,-72.4,75.0,,,,0,NE,58,299,12.4,15.0,False,False,95.0,955.0,,False,False,False,401-600 nm,1890,Historical (pre-1950),Unnamed #07 (1894),,
+AL021895,UNNAMED,1895,1895-08-25 07:00:00,8,14.6,17.5,-77.33,81.0,,85.0,,18,E,108,287,19.6,20.0,False,False,95.0,,Cat 2,True,True,False,1-50 nm,1890,Historical (pre-1950),Unnamed #02 (1895),,
+AL041895,UNNAMED,1895,1895-10-02 00:00:00,10,263.8,17.4,-82.9,35.0,,,,0,W,263,292,8.2,0.0,False,False,35.0,,,False,False,False,201-400 nm,1890,Historical (pre-1950),Unnamed #04 (1895),,
+AL031895,UNNAMED,1895,1895-10-02 05:00:00,10,388.8,24.45,-80.83,50.0,,,,0,NW,311,65,8.0,15.0,False,False,50.0,,,False,False,False,201-400 nm,1890,Historical (pre-1950),Unnamed #03 (1895),,
+AL061895,UNNAMED,1895,1895-10-16 13:00:00,10,467.9,25.7,-81.3,35.0,,,,0,NW,305,64,15.0,0.0,False,False,35.0,,,False,False,False,401-600 nm,1890,Historical (pre-1950),Unnamed #06 (1895),,
+AL051895,UNNAMED,1895,1895-10-18 19:00:00,10,145.3,15.37,-77.83,90.0,,,,0,SE,126,282,18.1,20.0,False,False,90.0,,,False,False,False,101-200 nm,1890,Historical (pre-1950),Unnamed #05 (1895),,
+AL011896,UNNAMED,1896,1896-07-04 12:00:00,7,218.2,20.9,-81.1,35.0,,,,0,NW,309,317,12.3,0.0,False,False,85.0,,,False,False,False,201-400 nm,1890,Historical (pre-1950),Unnamed #01 (1896),,
+AL021896,UNNAMED,1896,1896-09-03 23:00:00,9,220.2,21.75,-75.28,85.0,,,,0,NE,63,296,7.6,10.0,False,False,100.0,956.0,,False,False,False,201-400 nm,1890,Historical (pre-1950),Unnamed #02 (1896),,
+AL031896,UNNAMED,1896,1896-09-21 14:00:00,9,484.0,24.37,-70.83,85.0,,,,0,E,68,310,12.1,20.0,False,False,85.0,,,False,False,False,401-600 nm,1890,Historical (pre-1950),Unnamed #03 (1896),,
+AL041896,UNNAMED,1896,1896-09-25 23:00:00,9,3.4,17.65,-77.2,69.0,,80.0,,26,E,101,285,12.1,10.0,False,False,110.0,960.0,Cat 1,True,True,False,1-50 nm,1890,Historical (pre-1950),Unnamed #04 (1896),,
+AL051896,UNNAMED,1896,1896-10-09 02:00:00,10,521.4,26.4,-82.0,50.0,,,,0,NW,305,58,14.8,15.0,False,False,85.0,,,False,False,False,401-600 nm,1890,Historical (pre-1950),Unnamed #05 (1896),,
+AL021897,UNNAMED,1897,1897-09-10 06:00:00,9,330.7,23.7,-80.0,50.0,,,,0,NW,336,288,9.6,0.0,False,False,75.0,,,False,False,False,201-400 nm,1890,Historical (pre-1950),Unnamed #02 (1897),,
+AL031897,UNNAMED,1897,1897-09-20 12:00:00,9,469.3,24.3,-83.8,40.0,,,,0,NW,317,32,11.9,0.0,False,False,60.0,,,False,False,False,401-600 nm,1890,Historical (pre-1950),Unnamed #03 (1897),,
+AL041897,UNNAMED,1897,1897-09-25 00:00:00,9,269.2,19.6,-82.9,35.0,,,,0,W,287,305,3.5,0.0,False,False,40.0,,,False,False,False,201-400 nm,1890,Historical (pre-1950),Unnamed #04 (1897),,
+AL051897,UNNAMED,1897,1897-10-13 04:00:00,10,168.5,15.0,-77.97,40.0,,,,0,SE,132,284,12.8,0.0,False,False,70.0,,,False,False,False,101-200 nm,1890,Historical (pre-1950),Unnamed #05 (1897),,
+AL061897,UNNAMED,1897,1897-10-23 06:00:00,10,360.0,24.5,-77.3,50.0,,,,0,N,360,16,13.5,0.0,False,False,55.0,,,False,False,False,201-400 nm,1890,Historical (pre-1950),Unnamed #06 (1897),,
+AL011898,UNNAMED,1898,1898-08-02 00:00:00,8,502.3,26.8,-79.2,35.0,,,,0,N,349,291,17.1,0.0,False,False,70.0,,,False,False,False,401-600 nm,1890,Historical (pre-1950),Unnamed #01 (1898),,
+AL051898,UNNAMED,1898,1898-09-14 06:00:00,9,244.7,15.2,-81.2,50.0,,,,0,SW,215,311,3.8,0.0,False,False,50.0,,,False,False,False,201-400 nm,1890,Historical (pre-1950),Unnamed #05 (1898),,
+AL061898,UNNAMED,1898,1898-09-21 14:00:00,9,319.3,15.0,-82.77,50.0,,,,0,S,202,322,8.1,0.0,False,False,50.0,,,False,False,False,201-400 nm,1890,Historical (pre-1950),Unnamed #06 (1898),,
+AL081898,UNNAMED,1898,1898-09-26 10:00:00,9,340.9,22.23,-82.77,30.0,,,,0,W,291,44,11.6,0.0,False,False,45.0,1008.0,,False,False,False,201-400 nm,1890,Historical (pre-1950),Unnamed #08 (1898),,
+AL071898,UNNAMED,1898,1898-09-28 19:00:00,9,540.1,25.47,-70.7,95.0,968.0,,,0,NE,60,307,6.7,20.0,False,False,115.0,938.0,,False,False,False,401-600 nm,1890,Historical (pre-1950),Unnamed #07 (1898),,
+AL091898,UNNAMED,1898,1898-10-08 00:00:00,10,58.8,17.4,-78.9,50.0,,50.0,,39,SE,145,305,7.0,0.0,False,False,60.0,,TS,True,False,False,51-100 nm,1890,Historical (pre-1950),Unnamed #09 (1898),,
+AL101898,UNNAMED,1898,1898-10-22 21:00:00,10,355.1,23.05,-82.2,38.0,,,,0,W,288,51,14.3,5.0,False,False,40.0,,,False,False,False,201-400 nm,1890,Historical (pre-1950),Unnamed #10 (1898),,
+AL111898,UNNAMED,1898,1898-10-31 04:00:00,10,18.3,17.4,-77.13,50.0,,50.0,,38,E,101,270,7.6,0.0,False,False,50.0,,TS,True,False,False,1-50 nm,1890,Historical (pre-1950),Unnamed #11 (1898),,
+AL021899,UNNAMED,1899,1899-07-29 09:00:00,7,189.4,20.9,-74.7,40.0,,,,0,E,97,298,17.0,0.0,False,False,85.0,979.0,,False,False,False,101-200 nm,1890,Historical (pre-1950),Unnamed #02 (1899),,
+AL031899,UNNAMED,1899,1899-08-10 18:00:00,8,245.7,21.4,-73.7,105.0,,,,0,E,71,306,8.6,0.0,False,False,130.0,930.0,,False,False,False,201-400 nm,1890,Historical (pre-1950),Unnamed #03 (1899),,
+AL041899,UNNAMED,1899,1899-09-01 18:00:00,9,230.1,18.5,-72.2,55.0,,,,0,E,100,357,8.5,10.0,False,False,90.0,,,False,False,False,201-400 nm,1890,Historical (pre-1950),Unnamed #04 (1899),,
+AL051899,UNNAMED,1899,1899-09-10 18:00:00,9,470.2,22.5,-69.4,105.0,,,,0,E,78,331,8.6,15.0,False,False,105.0,939.0,,False,False,False,401-600 nm,1890,Historical (pre-1950),Unnamed #05 (1899),,
+AL061899,UNNAMED,1899,1899-10-02 06:00:00,10,341.0,20.0,-84.1,35.0,,,,0,W,287,312,7.5,0.0,False,False,50.0,,,False,False,False,201-400 nm,1890,Historical (pre-1950),Unnamed #06 (1899),,
+AL081899,UNNAMED,1899,1899-10-15 12:00:00,10,419.2,25.5,-77.5,30.0,,,,0,N,359,65,11.9,0.0,False,False,40.0,,,False,False,False,401-600 nm,1890,Historical (pre-1950),Unnamed #08 (1899),,
+AL091899,UNNAMED,1899,1899-10-27 04:00:00,10,52.3,18.07,-79.27,40.0,,60.0,,48,SW,223,346,4.0,5.0,False,False,95.0,,TS,True,False,False,51-100 nm,1890,Historical (pre-1950),Unnamed #09 (1899),,
+AL101899,UNNAMED,1899,1899-11-08 18:00:00,11,0.0,18.0,-76.5,55.0,,55.0,,24,S,179,357,9.5,15.0,False,True,55.0,,TS,True,False,False,Landfall,1890,Historical (pre-1950),Unnamed #10 (1899),,
+AL011900,UNNAMED,1900,1900-09-03 12:00:00,9,108.2,20.0,-76.0,35.0,,,,0,E,79,292,8.1,0.0,False,False,125.0,936.0,,False,False,False,101-200 nm,1900,Historical (pre-1950),Unnamed #01 (1900),,
+AL041900,UNNAMED,1900,1900-09-11 00:00:00,9,400.9,20.0,-85.2,35.0,,,,0,W,285,320,11.7,0.0,False,False,45.0,,,False,False,False,401-600 nm,1900,Historical (pre-1950),Unnamed #04 (1900),,
+AL051900,UNNAMED,1900,1900-10-08 12:00:00,10,531.6,26.5,-73.0,55.0,,,,0,NE,31,134,5.0,15.0,False,False,60.0,,,False,False,False,401-600 nm,1900,Historical (pre-1950),Unnamed #05 (1900),,
+AL071900,UNNAMED,1900,1900-10-26 17:00:00,10,201.7,20.5,-73.8,39.0,,,,0,E,86,319,8.0,5.0,False,False,45.0,,,False,False,False,201-400 nm,1900,Historical (pre-1950),Unnamed #07 (1900),,
+AL011901,UNNAMED,1901,1901-06-11 00:00:00,6,231.6,19.3,-82.3,25.0,,,,0,W,285,317,9.6,0.0,False,False,35.0,,,False,False,False,201-400 nm,1900,Historical (pre-1950),Unnamed #01 (1901),,
+AL021901,UNNAMED,1901,1901-07-05 14:00:00,7,22.1,18.77,-76.8,60.0,,60.0,,32,E,102,285,9.0,15.0,False,False,60.0,,TS,True,False,False,1-50 nm,1900,Historical (pre-1950),Unnamed #02 (1901),,
+AL031901,UNNAMED,1901,1901-07-08 00:00:00,7,342.2,21.3,-71.3,60.0,,,,0,E,92,327,16.8,20.0,False,False,70.0,,,False,False,False,201-400 nm,1900,Historical (pre-1950),Unnamed #03 (1901),,
+AL041901,UNNAMED,1901,1901-08-09 06:00:00,8,402.2,25.0,-75.6,35.0,,,,0,NE,29,279,6.4,5.0,False,False,80.0,973.0,,False,False,False,401-600 nm,1900,Historical (pre-1950),Unnamed #04 (1901),,
+AL051901,UNNAMED,1901,1901-08-22 18:00:00,8,429.5,12.8,-71.0,25.0,,,,0,SE,115,274,14.7,10.0,False,False,45.0,,,False,False,False,401-600 nm,1900,Historical (pre-1950),Unnamed #05 (1901),,
+AL081901,UNNAMED,1901,1901-09-14 01:00:00,9,46.5,19.23,-77.22,56.0,,64.0,,21,E,82,278,12.4,20.0,False,False,70.0,,Cat 1,True,True,False,1-50 nm,1900,Historical (pre-1950),Unnamed #08 (1901),,
+AL101901,UNNAMED,1901,1901-09-22 10:00:00,9,185.4,14.9,-78.67,35.0,,,,0,SE,148,287,9.8,0.0,False,False,45.0,,,False,False,False,101-200 nm,1900,Historical (pre-1950),Unnamed #10 (1901),,
+AL121901,UNNAMED,1901,1901-10-15 00:00:00,10,183.2,21.0,-80.0,30.0,,,,0,NW,319,52,8.2,0.0,False,False,50.0,,,False,False,False,101-200 nm,1900,Historical (pre-1950),Unnamed #12 (1901),,
+AL131901,UNNAMED,1901,1901-10-30 12:00:00,10,512.5,19.3,-67.3,30.0,,,,0,E,81,4,12.0,0.0,False,False,70.0,,,False,False,False,401-600 nm,1900,Historical (pre-1950),Unnamed #13 (1901),,
+AL011902,UNNAMED,1902,1902-06-12 18:00:00,6,301.4,19.1,-83.6,30.0,,,,0,W,267,12,15.4,0.0,False,False,50.0,,,False,False,False,201-400 nm,1900,Historical (pre-1950),Unnamed #01 (1902),,
+AL051902,UNNAMED,1902,1902-11-01 06:00:00,11,483.3,21.0,-68.3,30.0,,,,0,E,77,0,12.5,0.0,False,False,60.0,,,False,False,False,401-600 nm,1900,Historical (pre-1950),Unnamed #05 (1902),,
+AL011903,UNNAMED,1903,1903-07-21 20:00:00,7,387.9,22.9,-71.67,35.0,,,,0,E,77,313,17.2,0.0,False,False,70.0,,,False,False,False,201-400 nm,1900,Historical (pre-1950),Unnamed #01 (1903),,
+AL021903,UNNAMED,1903,1903-08-11 09:00:00,8,0.0,18.0,-76.45,105.0,962.0,105.0,959.0,21,E,105,291,17.3,30.0,True,True,105.0,958.0,Cat 3,True,True,True,Landfall,1900,Historical (pre-1950),Unnamed #02 (1903),,
+AL031903,UNNAMED,1903,1903-09-09 13:00:00,9,274.8,21.87,-73.5,50.0,,,,0,NE,54,301,7.9,0.0,False,False,80.0,976.0,,False,False,False,201-400 nm,1900,Historical (pre-1950),Unnamed #03 (1903),,
+AL051903,UNNAMED,1903,1903-09-19 00:00:00,9,312.0,20.8,-71.6,30.0,,,,0,NE,62,349,5.1,0.0,False,False,50.0,,,False,False,False,201-400 nm,1900,Historical (pre-1950),Unnamed #05 (1903),,
+AL081903,UNNAMED,1903,1903-10-05 00:00:00,10,490.3,25.5,-72.5,35.0,,,,0,NE,30,42,2.7,0.0,False,False,60.0,,,False,False,False,401-600 nm,1900,Historical (pre-1950),Unnamed #08 (1903),,
+AL091903,UNNAMED,1903,1903-10-21 13:00:00,10,295.9,21.57,-72.57,30.0,,,,0,NE,57,312,5.5,0.0,False,False,50.0,,,False,False,False,201-400 nm,1900,Historical (pre-1950),Unnamed #09 (1903),,
+AL011904,UNNAMED,1904,1904-06-13 11:00:00,6,21.6,18.65,-78.57,64.0,,70.0,,36,W,249,49,6.7,20.0,False,False,70.0,,Cat 1,True,True,False,1-50 nm,1900,Historical (pre-1950),Unnamed #01 (1904),,
+AL021904,UNNAMED,1904,1904-09-12 18:00:00,9,554.8,27.2,-73.8,70.0,,,,0,NE,35,292,8.1,20.0,False,False,75.0,,,False,False,False,401-600 nm,1900,Historical (pre-1950),Unnamed #02 (1904),,
+AL031904,UNNAMED,1904,1904-09-30 12:00:00,9,289.0,15.5,-82.5,55.0,,,,0,SW,222,327,5.4,15.0,False,False,70.0,,,False,False,False,201-400 nm,1900,Historical (pre-1950),Unnamed #03 (1904),,
+AL041904,UNNAMED,1904,1904-10-13 23:00:00,10,54.9,17.92,-79.27,40.0,,46.0,,34,S,187,340,5.7,5.0,False,False,70.0,,TS,True,False,False,51-100 nm,1900,Historical (pre-1950),Unnamed #04 (1904),,
+AL011905,UNNAMED,1905,1905-09-08 18:00:00,9,264.2,15.9,-72.1,25.0,,,,0,E,109,289,18.3,0.0,False,False,50.0,,,False,False,False,201-400 nm,1900,Historical (pre-1950),Unnamed #01 (1905),,
+AL031905,UNNAMED,1905,1905-09-24 06:00:00,9,323.0,17.7,-84.0,35.0,,,,0,W,267,307,8.3,0.0,False,False,45.0,,,False,False,False,201-400 nm,1900,Historical (pre-1950),Unnamed #03 (1905),,
+AL041905,UNNAMED,1905,1905-10-05 14:00:00,10,62.2,17.37,-75.27,55.0,,57.0,,15,S,181,32,12.1,10.0,False,False,105.0,945.0,TS,True,False,False,51-100 nm,1900,Historical (pre-1950),Unnamed #04 (1905),,
+AL011906,UNNAMED,1906,1906-06-08 12:00:00,6,304.6,19.4,-83.6,35.0,,,,0,W,283,355,10.1,0.0,False,False,45.0,,,False,False,False,201-400 nm,1900,Historical (pre-1950),Unnamed #01 (1906),,
+AL021906,UNNAMED,1906,1906-06-14 11:00:00,6,269.2,22.98,-77.32,35.0,,,,0,N,10,277,9.0,0.0,False,False,90.0,979.0,,False,False,False,201-400 nm,1900,Historical (pre-1950),Unnamed #02 (1906),,
+AL041906,UNNAMED,1906,1906-09-05 19:00:00,9,380.5,23.57,-72.82,115.0,,,,0,NE,60,302,7.6,10.0,False,False,115.0,950.0,,False,False,False,201-400 nm,1900,Historical (pre-1950),Unnamed #04 (1906),,
+AL061906,UNNAMED,1906,1906-09-22 05:00:00,9,245.6,15.7,-81.72,40.0,,,,0,SW,210,320,7.4,5.0,False,False,105.0,953.0,,False,False,False,201-400 nm,1900,Historical (pre-1950),Unnamed #06 (1906),,
+AL101906,UNNAMED,1906,1906-10-15 14:00:00,10,416.1,22.03,-70.23,35.0,,,,0,NE,67,326,11.4,0.0,False,False,45.0,,,False,False,False,401-600 nm,1900,Historical (pre-1950),Unnamed #10 (1906),,
+AL081906,UNNAMED,1906,1906-10-17 18:00:00,10,310.0,21.5,-82.7,105.0,,,,0,W,283,43,13.0,40.0,True,False,105.0,953.0,,False,False,False,201-400 nm,1900,Historical (pre-1950),Unnamed #08 (1906),,
+AL111906,UNNAMED,1906,1906-11-07 07:00:00,11,219.3,21.75,-79.88,68.0,,,,0,NW,303,65,6.5,20.0,False,False,70.0,,,False,False,False,201-400 nm,1900,Historical (pre-1950),Unnamed #11 (1906),,
+AL011907,UNNAMED,1907,1907-06-24 12:00:00,6,112.4,16.0,-78.0,35.0,,,,0,S,198,277,7.8,0.0,False,False,55.0,,,False,False,False,101-200 nm,1900,Historical (pre-1950),Unnamed #01 (1907),,
+AL021907,UNNAMED,1907,1907-09-18 12:00:00,9,393.9,25.0,-79.0,30.0,,,,0,N,347,293,12.8,0.0,False,False,40.0,,,False,False,False,201-400 nm,1900,Historical (pre-1950),Unnamed #02 (1907),,
+AL021908,UNNAMED,1908,1908-05-24 12:00:00,5,313.6,21.0,-71.7,30.0,,,,0,NE,60,338,7.5,0.0,False,False,65.0,989.0,,False,False,False,201-400 nm,1900,Historical (pre-1950),Unnamed #02 (1908),,
+AL031908,UNNAMED,1908,1908-07-28 00:00:00,7,514.9,27.1,-77.7,40.0,,,,0,N,357,101,5.0,5.0,False,False,70.0,,,False,False,False,401-600 nm,1900,Historical (pre-1950),Unnamed #03 (1908),,
+AL061908,UNNAMED,1908,1908-09-12 01:00:00,9,250.4,21.57,-73.8,95.0,,,,0,E,76,305,7.6,35.0,True,False,105.0,,,False,False,False,201-400 nm,1900,Historical (pre-1950),Unnamed #06 (1908),,
+AL081908,UNNAMED,1908,1908-09-29 13:00:00,9,152.4,20.07,-74.58,73.0,,,,0,E,84,312,5.5,10.0,False,False,95.0,,,False,False,False,101-200 nm,1900,Historical (pre-1950),Unnamed #08 (1908),,
+AL091908,UNNAMED,1908,1908-10-14 12:00:00,10,368.6,11.7,-78.5,30.0,,,,0,S,190,270,2.9,0.0,False,False,90.0,,,False,False,False,201-400 nm,1900,Historical (pre-1950),Unnamed #09 (1908),,
+AL011909,UNNAMED,1909,1909-06-18 18:00:00,6,381.9,13.7,-83.0,40.0,,,,0,SW,225,302,2.9,5.0,False,False,40.0,,,False,False,False,201-400 nm,1900,Historical (pre-1950),Unnamed #01 (1909),,
+AL021909,UNNAMED,1909,1909-06-25 12:00:00,6,508.2,25.0,-84.0,35.0,,,,0,NW,319,308,8.1,0.0,False,False,85.0,972.0,,False,False,False,401-600 nm,1900,Historical (pre-1950),Unnamed #02 (1909),,
+AL031909,UNNAMED,1909,1909-06-27 09:00:00,6,220.1,21.85,-75.55,32.0,,,,0,NE,59,290,8.9,0.0,False,False,45.0,,,False,False,False,201-400 nm,1900,Historical (pre-1950),Unnamed #03 (1909),,
+AL041909,UNNAMED,1909,1909-07-16 22:00:00,7,83.6,16.33,-77.43,33.0,,42.0,,17,SE,122,282,10.8,0.0,False,False,100.0,959.0,TS,True,False,False,51-100 nm,1900,Historical (pre-1950),Unnamed #04 (1909),,
+AL051909,UNNAMED,1909,1909-08-06 05:00:00,8,109.1,17.18,-79.92,30.0,,,,0,SW,235,326,8.5,0.0,False,False,40.0,1004.0,,False,False,False,101-200 nm,1900,Historical (pre-1950),Unnamed #05 (1909),,
+AL071909,UNNAMED,1909,1909-08-22 00:00:00,8,498.5,23.0,-85.7,25.0,,,,0,NW,303,312,7.5,0.0,False,False,45.0,,,False,False,False,401-600 nm,1900,Historical (pre-1950),Unnamed #07 (1909),,
+AL061909,UNNAMED,1909,1909-08-24 06:00:00,8,119.3,20.5,-77.6,65.0,,,,0,E,87,275,17.4,10.0,False,False,105.0,,,False,False,False,101-200 nm,1900,Historical (pre-1950),Unnamed #06 (1909),,
+AL081909,UNNAMED,1909,1909-08-28 00:00:00,8,382.2,23.7,-73.0,35.0,,,,0,NE,35,305,15.7,0.0,False,False,45.0,,,False,False,False,201-400 nm,1900,Historical (pre-1950),Unnamed #08 (1909),,
+AL091909,UNNAMED,1909,1909-09-14 14:00:00,9,10.1,18.57,-76.83,30.0,,43.0,,32,E,94,282,10.2,0.0,False,False,105.0,952.0,TS,True,False,False,1-50 nm,1900,Historical (pre-1950),Unnamed #09 (1909),,
+AL101909,UNNAMED,1909,1909-09-24 00:00:00,9,341.7,22.0,-83.0,30.0,,,,0,NW,307,0,5.0,0.0,False,False,50.0,,,False,False,False,201-400 nm,1900,Historical (pre-1950),Unnamed #10 (1909),,
+AL111909,UNNAMED,1909,1909-10-08 12:00:00,10,103.2,17.2,-79.8,65.0,,,,0,S,185,316,9.0,20.0,False,False,105.0,957.0,,False,False,False,101-200 nm,1900,Historical (pre-1950),Unnamed #11 (1909),,
+AL121909,UNNAMED,1909,1909-11-12 02:00:00,11,28.3,17.67,-75.77,62.0,,68.0,,20,S,196,39,10.6,15.0,False,False,90.0,,Cat 1,True,True,False,1-50 nm,1900,Historical (pre-1950),Unnamed #12 (1909),,
+AL011910,UNNAMED,1910,1910-08-25 04:00:00,8,136.9,20.0,-74.93,30.0,,,,0,E,97,305,15.9,0.0,False,False,40.0,,,False,False,False,101-200 nm,1910,Historical (pre-1950),Unnamed #01 (1910),,
+AL031910,UNNAMED,1910,1910-09-08 20:00:00,9,1.2,18.4,-76.87,70.0,,70.0,,21,E,93,283,14.1,10.0,False,False,95.0,,Cat 1,True,True,False,1-50 nm,1910,Historical (pre-1950),Unnamed #03 (1910),,
+AL051910,UNNAMED,1910,1910-10-12 19:00:00,10,212.0,17.03,-81.85,77.0,,,,0,SW,220,341,8.8,30.0,True,False,130.0,924.0,,False,False,False,201-400 nm,1910,Historical (pre-1950),Unnamed #05 (1910),,
+AL021911,UNNAMED,1911,1911-08-08 12:00:00,8,485.7,25.5,-82.5,30.0,,,,0,NW,328,270,0.9,0.0,False,False,70.0,,,False,False,False,401-600 nm,1910,Historical (pre-1950),Unnamed #02 (1911),,
+AL031911,UNNAMED,1911,1911-08-25 09:00:00,8,590.3,27.35,-72.45,70.0,,,,0,NE,39,296,6.9,20.0,False,False,85.0,972.0,,False,False,False,401-600 nm,1910,Historical (pre-1950),Unnamed #03 (1911),,
+AL041911,UNNAMED,1911,1911-09-09 00:00:00,9,337.8,12.1,-77.7,75.0,,,,0,SE,157,276,9.3,15.0,False,False,85.0,,,False,False,False,201-400 nm,1910,Historical (pre-1950),Unnamed #04 (1911),,
+AL061911,UNNAMED,1911,1911-10-26 09:00:00,10,238.7,22.5,-77.75,30.0,,,,0,N,21,270,13.9,0.0,False,False,45.0,,,False,False,False,201-400 nm,1910,Historical (pre-1950),Unnamed #06 (1911),,
+AL021912,UNNAMED,1912,1912-07-12 12:00:00,7,427.3,25.0,-74.0,35.0,,,,0,NE,23,331,9.2,0.0,False,False,45.0,,,False,False,False,401-600 nm,1910,Historical (pre-1950),Unnamed #02 (1912),,
+AL061912,UNNAMED,1912,1912-10-11 12:00:00,10,133.2,18.5,-80.7,35.0,,,,0,W,277,298,8.6,0.0,False,False,85.0,,,False,False,False,101-200 nm,1910,Historical (pre-1950),Unnamed #06 (1912),,
+AL071912,UNNAMED,1912,1912-11-18 14:00:00,11,0.0,18.33,-78.3,95.0,,100.0,965.0,78,SW,246,64,3.0,20.0,False,True,100.0,965.0,Cat 3,True,True,True,Landfall,1910,Historical (pre-1950),Unnamed #07 (1912),,
+AL011913,UNNAMED,1913,1913-06-23 19:00:00,6,344.9,14.7,-83.08,39.0,,,,0,SW,214,321,7.7,15.0,False,False,65.0,,,False,False,False,201-400 nm,1910,Historical (pre-1950),Unnamed #01 (1913),,
+AL061913,UNNAMED,1913,1913-10-30 06:00:00,10,347.2,22.8,-82.3,30.0,,,,0,NW,299,72,9.7,30.0,True,False,65.0,1003.0,,False,False,False,201-400 nm,1910,Historical (pre-1950),Unnamed #06 (1913),,
+AL011914,UNNAMED,1914,1914-09-15 00:00:00,9,407.6,25.2,-76.4,30.0,,,,0,N,7,339,7.5,0.0,False,False,60.0,,,False,False,False,401-600 nm,1910,Historical (pre-1950),Unnamed #01 (1914),,
+AL011915,UNNAMED,1915,1915-07-31 08:00:00,7,537.7,27.43,-76.83,37.0,,,,0,N,4,277,8.9,0.0,False,False,65.0,990.0,,False,False,False,401-600 nm,1910,Historical (pre-1950),Unnamed #01 (1915),,
+AL021915,UNNAMED,1915,1915-08-13 08:00:00,8,3.9,18.47,-77.0,97.0,,101.0,,19,E,99,286,18.1,10.0,False,False,125.0,940.0,Cat 3,True,True,True,1-50 nm,1910,Historical (pre-1950),Unnamed #02 (1915),,
+AL041915,UNNAMED,1915,1915-09-01 03:00:00,9,135.1,17.5,-80.6,42.0,,,,0,SW,214,339,10.7,0.0,False,False,85.0,982.0,,False,False,False,101-200 nm,1910,Historical (pre-1950),Unnamed #04 (1915),,
+AL061915,UNNAMED,1915,1915-09-25 19:00:00,9,129.7,15.65,-77.88,125.0,931.0,,,0,SE,131,286,11.3,35.0,True,False,125.0,931.0,,False,False,False,101-200 nm,1910,Historical (pre-1950),Unnamed #06 (1915),,
+AL011916,UNNAMED,1916,1916-05-13 12:00:00,5,183.2,21.0,-80.0,25.0,,,,0,NW,319,345,14.5,0.0,False,False,50.0,990.0,,False,False,False,101-200 nm,1910,Historical (pre-1950),Unnamed #01 (1916),,
+AL021916,UNNAMED,1916,1916-07-01 12:00:00,7,301.3,16.5,-83.3,30.0,,,,0,SW,235,327,5.3,5.0,False,False,105.0,950.0,,False,False,False,201-400 nm,1910,Historical (pre-1950),Unnamed #02 (1916),,
+AL041916,UNNAMED,1916,1916-07-11 06:00:00,7,546.1,25.9,-71.2,40.0,,,,0,NE,35,310,9.4,0.0,False,False,100.0,960.0,,False,False,False,401-600 nm,1910,Historical (pre-1950),Unnamed #04 (1916),,
+AL031916,UNNAMED,1916,1916-07-17 03:00:00,7,488.5,24.4,-70.75,90.0,,,,0,NE,54,311,6.1,20.0,False,False,90.0,980.0,,False,False,False,401-600 nm,1910,Historical (pre-1950),Unnamed #03 (1916),,
+AL061916,UNNAMED,1916,1916-08-16 00:00:00,8,0.0,17.8,-77.3,75.0,,77.0,,16,SE,118,303,19.3,15.0,False,True,115.0,932.0,Cat 1,True,True,False,Landfall,1910,Historical (pre-1950),Unnamed #06 (1916),,
+AL071916,UNNAMED,1916,1916-08-23 19:00:00,8,198.8,20.83,-74.28,44.0,,,,0,E,85,306,13.1,40.0,True,False,95.0,,,False,False,False,101-200 nm,1910,Historical (pre-1950),Unnamed #07 (1916),,
+AL081916,UNNAMED,1916,1916-08-30 21:00:00,8,60.3,16.7,-77.2,52.0,,57.0,,12,E,105,276,19.3,5.0,False,False,70.0,986.0,TS,True,False,False,51-100 nm,1910,Historical (pre-1950),Unnamed #08 (1916),,
+AL091916,UNNAMED,1916,1916-09-04 12:00:00,9,356.3,24.2,-75.5,35.0,,,,0,N,15,332,19.3,0.0,False,False,45.0,,,False,False,False,201-400 nm,1910,Historical (pre-1950),Unnamed #09 (1916),,
+AL121916,UNNAMED,1916,1916-10-02 06:00:00,10,502.1,26.5,-74.6,40.0,,,,0,N,16,329,7.0,0.0,False,False,50.0,1000.0,,False,False,False,401-600 nm,1910,Historical (pre-1950),Unnamed #12 (1916),,
+AL141916,UNNAMED,1916,1916-10-09 14:00:00,10,4.3,17.87,-76.13,25.0,,30.0,,40,E,76,222,5.6,0.0,False,False,95.0,970.0,TD,False,False,False,1-50 nm,1910,Historical (pre-1950),Unnamed #14 (1916),,
+AL151916,UNNAMED,1916,1916-11-11 13:00:00,11,312.7,12.52,-77.67,30.0,,,,0,S,163,276,9.8,0.0,False,False,60.0,1002.0,,False,False,False,201-400 nm,1910,Historical (pre-1950),Unnamed #15 (1916),,
+AL011917,UNNAMED,1917,1917-07-09 21:00:00,7,147.4,15.25,-77.25,32.0,,,,0,SE,125,274,14.5,10.0,False,False,45.0,,,False,False,False,101-200 nm,1910,Historical (pre-1950),Unnamed #01 (1917),,
+AL041917,UNNAMED,1917,1917-09-23 11:00:00,9,0.0,18.35,-76.98,90.0,,99.0,,30,E,102,287,11.9,20.0,False,True,130.0,928.0,Cat 3,True,True,True,Landfall,1910,Historical (pre-1950),Unnamed #04 (1917),,
+AL011918,UNNAMED,1918,1918-08-03 20:00:00,8,51.7,17.1,-78.17,50.0,,50.0,,14,SE,121,299,18.4,10.0,False,False,105.0,955.0,TS,True,False,False,51-100 nm,1910,Historical (pre-1950),Unnamed #01 (1918),,
+AL031918,UNNAMED,1918,1918-08-23 06:00:00,8,592.0,27.7,-73.3,35.0,,,,0,N,20,316,15.3,0.0,False,False,65.0,,,False,False,False,401-600 nm,1910,Historical (pre-1950),Unnamed #03 (1918),,
+AL021918,UNNAMED,1918,1918-08-24 20:00:00,8,142.3,15.33,-77.2,77.0,,,,0,SE,115,273,22.5,15.0,False,False,90.0,968.0,,False,False,False,101-200 nm,1910,Historical (pre-1950),Unnamed #02 (1918),,
+AL061918,UNNAMED,1918,1918-09-12 22:00:00,9,30.7,17.2,-77.07,35.0,,40.0,,25,E,102,271,12.3,5.0,False,False,40.0,,TS,True,False,False,1-50 nm,1910,Historical (pre-1950),Unnamed #06 (1918),,
+AL011919,UNNAMED,1919,1919-07-02 06:00:00,7,501.0,24.6,-84.3,25.0,,,,0,NW,316,318,5.4,0.0,False,False,55.0,995.0,,False,False,False,401-600 nm,1910,Historical (pre-1950),Unnamed #01 (1919),,
+AL021919,UNNAMED,1919,1919-09-05 12:00:00,9,259.6,20.5,-72.5,35.0,,,,0,E,77,332,4.0,15.0,False,False,130.0,927.0,,False,False,False,201-400 nm,1910,Historical (pre-1950),Unnamed #02 (1919),,
+AL041919,UNNAMED,1919,1919-09-29 00:00:00,9,551.2,27.5,-75.5,30.0,,,,0,N,10,319,6.7,0.0,False,False,40.0,,,False,False,False,401-600 nm,1910,Historical (pre-1950),Unnamed #04 (1919),,
+AL021920,UNNAMED,1920,1920-09-17 01:00:00,9,318.4,12.97,-79.87,30.0,,,,0,S,173,293,11.0,0.0,False,False,85.0,975.0,,False,False,False,201-400 nm,1920,Historical (pre-1950),Unnamed #02 (1920),,
+AL051920,UNNAMED,1920,1920-09-25 06:00:00,9,474.9,25.0,-83.0,25.0,,,,0,NW,323,270,6.3,0.0,False,False,75.0,,,False,False,False,401-600 nm,1920,Historical (pre-1950),Unnamed #05 (1920),,
+AL011921,UNNAMED,1921,1921-06-16 00:00:00,6,253.6,16.5,-82.4,30.0,,,,0,W,252,270,7.7,0.0,False,False,80.0,980.0,,False,False,False,201-400 nm,1920,Historical (pre-1950),Unnamed #01 (1921),,
+AL031921,UNNAMED,1921,1921-09-11 12:00:00,9,437.0,19.0,-68.6,90.0,961.0,,,0,E,100,353,7.6,30.0,True,False,110.0,959.0,,False,False,False,401-600 nm,1920,Historical (pre-1950),Unnamed #03 (1921),,
+AL051921,UNNAMED,1921,1921-10-15 12:00:00,10,463.6,24.0,-84.0,30.0,,,,0,NW,314,31,17.6,0.0,False,False,70.0,,,False,False,False,401-600 nm,1920,Historical (pre-1950),Unnamed #05 (1921),,
+AL061921,UNNAMED,1921,1921-10-21 18:00:00,10,275.0,15.5,-82.2,55.0,,,,0,SW,219,322,6.3,15.0,False,False,120.0,941.0,,False,False,False,201-400 nm,1920,Historical (pre-1950),Unnamed #06 (1921),,
+AL071921,UNNAMED,1921,1921-11-22 17:00:00,11,232.2,22.33,-78.58,40.0,,,,0,NE,23,263,12.8,15.0,False,False,50.0,,,False,False,False,201-400 nm,1920,Historical (pre-1950),Unnamed #07 (1921),,
+AL011922,UNNAMED,1922,1922-06-12 12:00:00,6,279.6,15.5,-82.3,25.0,,,,0,SW,242,307,13.3,0.0,False,False,45.0,1006.0,,False,False,False,201-400 nm,1920,Historical (pre-1950),Unnamed #01 (1922),,
+AL021922,UNNAMED,1922,1922-09-17 18:00:00,9,545.3,21.2,-67.2,105.0,,,,0,E,85,340,6.9,40.0,True,False,105.0,939.0,,False,False,False,401-600 nm,1920,Historical (pre-1950),Unnamed #02 (1922),,
+AL051922,UNNAMED,1922,1922-10-13 14:00:00,10,263.7,18.33,-83.0,35.0,,,,0,W,257,1,9.3,10.0,False,False,45.0,,,False,False,False,201-400 nm,1920,Historical (pre-1950),Unnamed #05 (1922),,
+AL041922,UNNAMED,1922,1922-10-14 12:00:00,10,119.6,17.0,-80.0,30.0,,,,0,S,188,326,8.5,5.0,False,False,95.0,,,False,False,False,101-200 nm,1920,Historical (pre-1950),Unnamed #04 (1922),,
+AL041923,UNNAMED,1923,1923-09-10 00:00:00,9,559.0,27.0,-73.0,25.0,,,,0,NE,23,24,11.0,0.0,False,False,70.0,,,False,False,False,401-600 nm,1920,Historical (pre-1950),Unnamed #04 (1923),,
+AL051923,UNNAMED,1923,1923-09-24 18:00:00,9,255.1,21.0,-73.0,40.0,,,,0,NE,54,331,5.7,0.0,False,False,105.0,,,False,False,False,201-400 nm,1920,Historical (pre-1950),Unnamed #05 (1923),,
+AL011924,UNNAMED,1924,1924-06-18 00:00:00,6,391.9,17.6,-85.2,35.0,,,,0,W,267,279,13.5,0.0,False,False,40.0,,,False,False,False,201-400 nm,1920,Historical (pre-1950),Unnamed #01 (1924),,
+AL021924,UNNAMED,1924,1924-07-28 06:00:00,7,599.9,28.5,-78.5,30.0,,,,0,N,354,30,17.4,0.0,False,False,55.0,,,False,False,False,401-600 nm,1920,Historical (pre-1950),Unnamed #02 (1924),,
+AL031924,UNNAMED,1924,1924-08-20 19:00:00,8,495.5,24.17,-70.28,61.0,,,,0,E,71,315,13.3,20.0,False,False,105.0,963.0,,False,False,False,401-600 nm,1920,Historical (pre-1950),Unnamed #03 (1924),,
+AL041924,UNNAMED,1924,1924-08-31 18:00:00,8,523.0,22.0,-68.0,90.0,,,,0,E,70,331,2.9,0.0,False,False,95.0,965.0,,False,False,False,401-600 nm,1920,Historical (pre-1950),Unnamed #04 (1924),,
+AL051924,UNNAMED,1924,1924-09-13 00:00:00,9,483.2,24.0,-84.5,35.0,,,,0,NW,312,311,12.1,0.0,False,False,75.0,980.0,,False,False,False,401-600 nm,1920,Historical (pre-1950),Unnamed #05 (1924),,
+AL081924,UNNAMED,1924,1924-09-27 22:00:00,9,440.3,18.4,-86.1,30.0,,,,0,W,260,358,6.0,0.0,False,False,65.0,999.0,,False,False,False,401-600 nm,1920,Historical (pre-1950),Unnamed #08 (1924),,
+AL101924,UNNAMED,1924,1924-10-14 00:00:00,10,331.9,15.7,-83.5,25.0,,,,0,W,249,316,5.6,0.0,False,False,145.0,910.0,,False,False,False,201-400 nm,1920,Historical (pre-1950),Unnamed #10 (1924),,
+AL111924,UNNAMED,1924,1924-11-08 04:00:00,11,0.0,17.93,-76.97,38.0,,40.0,,31,SW,208,29,9.0,0.0,False,True,70.0,,TS,True,False,False,Landfall,1920,Historical (pre-1950),Unnamed #11 (1924),,
+AL041925,UNNAMED,1925,1925-11-29 12:00:00,11,294.9,19.0,-83.5,35.0,,,,0,W,282,0,1.5,5.0,False,False,80.0,980.0,,False,False,False,201-400 nm,1920,Historical (pre-1950),Unnamed #04 (1925),,
+AL011926,UNNAMED,1926,1926-07-25 11:00:00,7,306.0,22.38,-73.32,103.0,,,,0,E,79,305,11.7,40.0,True,False,120.0,967.0,,False,False,False,201-400 nm,1920,Historical (pre-1950),Unnamed #01 (1926),,
+AL031926,UNNAMED,1926,1926-08-21 07:00:00,8,188.5,15.67,-80.25,31.0,,,,0,S,163,305,17.6,0.0,False,False,100.0,955.0,,False,False,False,101-200 nm,1920,Historical (pre-1950),Unnamed #03 (1926),,
+AL061926,UNNAMED,1926,1926-09-11 04:00:00,9,214.7,16.73,-81.77,25.0,,,,0,W,251,331,2.3,0.0,False,False,35.0,,,False,False,False,201-400 nm,1920,Historical (pre-1950),Unnamed #06 (1926),,
+AL071926,UNNAMED,1926,1926-09-17 13:00:00,9,284.9,22.62,-74.55,125.0,,,,0,E,70,293,15.4,25.0,False,False,130.0,930.0,,False,False,False,201-400 nm,1920,Historical (pre-1950),Unnamed #07 (1926),,
+AL091926,UNNAMED,1926,1926-10-03 00:00:00,10,214.3,14.5,-79.0,30.0,,,,0,SW,205,270,3.9,0.0,False,False,35.0,,,False,False,False,201-400 nm,1920,Historical (pre-1950),Unnamed #09 (1926),,
+AL101926,UNNAMED,1926,1926-10-18 13:00:00,10,245.4,15.92,-81.88,76.0,978.0,,,0,SW,219,327,7.6,20.0,False,False,130.0,934.0,,False,False,False,201-400 nm,1920,Historical (pre-1950),Unnamed #10 (1926),,
+AL111926,UNNAMED,1926,1926-11-16 10:00:00,11,304.0,22.93,-80.73,27.0,,,,0,W,285,61,16.8,0.0,False,False,35.0,,,False,False,False,201-400 nm,1920,Historical (pre-1950),Unnamed #11 (1926),,
+AL051927,UNNAMED,1927,1927-10-01 04:00:00,10,445.3,24.7,-72.6,30.0,,,,0,NE,56,300,12.2,0.0,False,False,50.0,,,False,False,False,401-600 nm,1920,Historical (pre-1950),Unnamed #05 (1927),,
+AL061927,UNNAMED,1927,1927-10-18 13:00:00,10,117.1,20.17,-79.2,40.0,,,,0,W,268,58,17.2,10.0,False,False,40.0,,,False,False,False,101-200 nm,1920,Historical (pre-1950),Unnamed #06 (1927),,
+AL071927,UNNAMED,1927,1927-10-30 12:00:00,10,116.6,19.5,-80.0,30.0,,,,0,NW,299,11,5.1,0.0,False,False,40.0,,,False,False,False,101-200 nm,1920,Historical (pre-1950),Unnamed #07 (1927),,
+AL011928,UNNAMED,1928,1928-08-05 18:00:00,8,289.4,22.1,-73.4,40.0,,,,0,E,75,303,12.1,5.0,False,False,90.0,971.0,,False,False,False,201-400 nm,1920,Historical (pre-1950),Unnamed #01 (1928),,
+AL021928,UNNAMED,1928,1928-08-11 13:00:00,8,35.6,18.68,-76.07,69.0,,77.0,,24,E,98,296,10.6,20.0,False,False,80.0,,Cat 1,True,True,False,1-50 nm,1920,Historical (pre-1950),Unnamed #02 (1928),,
+AL031928,UNNAMED,1928,1928-09-02 17:00:00,9,2.8,17.68,-77.25,35.0,,38.0,,23,E,101,274,15.0,0.0,False,False,50.0,,TS,True,False,False,1-50 nm,1920,Historical (pre-1950),Unnamed #03 (1928),,
+AL041928,UNNAMED,1928,1928-09-15 15:00:00,9,316.3,22.55,-73.25,135.0,934.0,,,0,E,77,305,12.3,20.0,False,False,140.0,929.0,,False,False,False,201-400 nm,1920,Historical (pre-1950),Unnamed #04 (1928),,
+AL021929,UNNAMED,1929,1929-09-27 06:00:00,9,338.8,24.1,-78.8,120.0,942.0,,,0,N,360,270,3.2,40.0,True,False,135.0,924.0,,False,False,False,201-400 nm,1920,Historical (pre-1950),Unnamed #02 (1929),,
+AL021930,UNNAMED,1930,1930-09-05 01:00:00,9,65.8,19.45,-76.53,45.0,,49.0,,17,E,84,282,13.5,35.0,True,False,135.0,933.0,TS,True,False,False,51-100 nm,1930,Historical (pre-1950),Unnamed #02 (1930),,
+AL011931,UNNAMED,1931,1931-06-25 00:00:00,6,482.3,19.2,-86.8,40.0,,,,0,W,271,0,6.0,0.0,False,False,45.0,,,False,False,False,401-600 nm,1930,Historical (pre-1950),Unnamed #01 (1931),,
+AL021931,UNNAMED,1931,1931-07-11 06:00:00,7,272.6,15.7,-82.3,30.0,,,,0,SW,244,294,7.4,0.0,False,False,60.0,1000.0,,False,False,False,201-400 nm,1930,Historical (pre-1950),Unnamed #02 (1931),,
+AL031931,UNNAMED,1931,1931-08-13 20:00:00,8,100.6,16.03,-77.3,50.0,,,,0,SE,114,274,14.1,15.0,False,False,50.0,,,False,False,False,101-200 nm,1930,Historical (pre-1950),Unnamed #03 (1931),,
+AL041931,UNNAMED,1931,1931-08-19 00:00:00,8,402.3,22.6,-71.0,30.0,,,,0,E,76,317,6.8,10.0,False,False,35.0,,,False,False,False,401-600 nm,1930,Historical (pre-1950),Unnamed #04 (1931),,
+AL051931,UNNAMED,1931,1931-09-04 00:00:00,9,240.7,19.5,-72.3,30.0,,,,0,E,80,270,14.1,10.0,False,False,40.0,,,False,False,False,201-400 nm,1930,Historical (pre-1950),Unnamed #05 (1931),,
+AL061931,UNNAMED,1931,1931-09-08 23:00:00,9,166.6,14.97,-77.65,65.0,,,,0,SE,124,278,14.3,20.0,False,False,115.0,,,False,False,False,101-200 nm,1930,Historical (pre-1950),Unnamed #06 (1931),,
+AL071931,UNNAMED,1931,1931-09-12 21:00:00,9,0.0,18.1,-76.5,58.0,,60.0,,23,E,87,270,15.2,20.0,False,True,85.0,987.0,TS,True,False,False,Landfall,1930,Historical (pre-1950),Unnamed #07 (1931),,
+AL091931,UNNAMED,1931,1931-10-13 12:00:00,10,390.4,24.8,-75.6,30.0,,,,0,N,13,299,6.2,0.0,False,False,40.0,,,False,False,False,201-400 nm,1930,Historical (pre-1950),Unnamed #09 (1931),,
+AL101931,UNNAMED,1931,1931-10-19 15:00:00,10,221.3,21.15,-80.9,40.0,,,,0,W,267,50,17.1,10.0,False,False,55.0,,,False,False,False,201-400 nm,1930,Historical (pre-1950),Unnamed #10 (1931),,
+AL111931,UNNAMED,1931,1931-11-01 12:00:00,11,296.4,17.5,-83.5,30.0,,,,0,W,265,289,3.0,0.0,False,False,50.0,,,False,False,False,201-400 nm,1930,Historical (pre-1950),Unnamed #11 (1931),,
+AL121931,UNNAMED,1931,1931-11-14 17:00:00,11,284.2,15.42,-82.33,45.0,,,,0,SW,216,320,6.5,10.0,False,False,45.0,,,False,False,False,201-400 nm,1930,Historical (pre-1950),Unnamed #12 (1931),,
+AL131931,UNNAMED,1931,1931-11-25 18:00:00,11,522.2,27.1,-76.2,30.0,,,,0,N,12,230,4.7,20.0,False,False,55.0,,,False,False,False,401-600 nm,1930,Historical (pre-1950),Unnamed #13 (1931),,
+AL011932,UNNAMED,1932,1932-05-05 18:00:00,5,203.2,14.8,-74.8,30.0,,,,0,SE,147,67,2.6,0.0,False,False,55.0,,,False,False,False,201-400 nm,1930,Historical (pre-1950),Unnamed #01 (1932),,
+AL031932,UNNAMED,1932,1932-08-28 12:00:00,8,229.5,22.0,-75.5,40.0,,,,0,NE,53,295,7.2,10.0,False,False,75.0,979.0,,False,False,False,201-400 nm,1930,Historical (pre-1950),Unnamed #03 (1932),,
+AL041932,UNNAMED,1932,1932-09-03 18:00:00,9,370.3,22.7,-71.9,95.0,,,,0,NE,61,313,4.4,30.0,True,False,140.0,,,False,False,False,201-400 nm,1930,Historical (pre-1950),Unnamed #04 (1932),,
+AL091932,UNNAMED,1932,1932-09-29 09:00:00,9,3.4,17.65,-77.2,40.0,975.0,53.0,965.0,32,E,91,264,9.6,0.0,False,False,125.0,943.0,TS,True,False,False,1-50 nm,1930,Historical (pre-1950),Unnamed #09 (1932),,
+AL111932,UNNAMED,1932,1932-10-07 00:00:00,10,280.8,15.6,-82.4,30.0,,,,0,SW,244,297,4.3,0.0,False,False,60.0,,,False,False,False,201-400 nm,1930,Historical (pre-1950),Unnamed #11 (1932),,
+AL141932,UNNAMED,1932,1932-11-09 04:00:00,11,126.9,19.7,-80.07,135.0,,,,0,SW,247,41,11.7,0.0,False,False,150.0,918.0,,False,False,False,101-200 nm,1930,Historical (pre-1950),Unnamed #14 (1932),,
+AL011933,UNNAMED,1933,1933-05-15 01:00:00,5,338.6,15.5,-83.52,35.0,,,,0,SW,224,329,13.2,0.0,False,False,45.0,1001.0,,False,False,False,201-400 nm,1930,Historical (pre-1950),Unnamed #01 (1933),,
+AL021933,UNNAMED,1933,1933-07-01 08:00:00,7,94.5,16.17,-77.53,85.0,,85.0,,11,SE,133,283,9.9,15.0,False,False,95.0,,Cat 2,True,True,False,51-100 nm,1930,Historical (pre-1950),Unnamed #02 (1933),,
+AL031933,UNNAMED,1933,1933-07-16 19:00:00,7,1.3,17.72,-77.25,35.0,,40.0,,22,E,97,274,14.3,5.0,False,False,45.0,,TS,True,False,False,1-50 nm,1930,Historical (pre-1950),Unnamed #03 (1933),,
+AL051933,UNNAMED,1933,1933-07-28 03:00:00,7,329.9,22.85,-73.3,75.0,,,,0,E,71,303,13.1,35.0,True,False,80.0,975.0,,False,False,False,201-400 nm,1930,Historical (pre-1950),Unnamed #05 (1933),,
+AL071933,UNNAMED,1933,1933-08-16 06:00:00,8,49.9,16.9,-77.4,35.0,,35.0,,23,SE,119,285,11.4,5.0,False,False,40.0,,TS,True,False,False,1-50 nm,1930,Historical (pre-1950),Unnamed #07 (1933),,
+AL081933,UNNAMED,1933,1933-08-31 22:00:00,8,258.2,22.73,-76.77,118.0,,,,0,NE,52,278,14.9,40.0,True,False,140.0,940.0,,False,False,False,201-400 nm,1930,Historical (pre-1950),Unnamed #08 (1933),,
+AL111933,UNNAMED,1933,1933-09-03 01:00:00,9,366.6,23.92,-74.07,111.0,,,,0,NE,64,295,16.1,20.0,False,False,120.0,945.0,,False,False,False,201-400 nm,1930,Historical (pre-1950),Unnamed #11 (1933),,
+AL131933,UNNAMED,1933,1933-09-12 12:00:00,9,493.2,17.8,-87.0,60.0,992.0,,,0,W,265,335,2.2,25.0,False,False,95.0,960.0,,False,False,False,401-600 nm,1930,Historical (pre-1950),Unnamed #13 (1933),,
+AL141933,UNNAMED,1933,1933-09-20 03:00:00,9,113.9,16.2,-78.7,105.0,,,,0,SE,136,298,13.0,40.0,True,False,140.0,929.0,,False,False,False,101-200 nm,1930,Historical (pre-1950),Unnamed #14 (1933),,
+AL161933,UNNAMED,1933,1933-10-01 12:00:00,10,356.8,21.0,-70.8,30.0,,,,0,E,69,332,4.0,0.0,False,False,40.0,,,False,False,False,201-400 nm,1930,Historical (pre-1950),Unnamed #16 (1933),,
+AL171933,UNNAMED,1933,1933-10-03 01:00:00,10,189.6,18.23,-81.7,66.0,,,,0,SW,242,358,8.0,25.0,False,False,110.0,971.0,,False,False,False,101-200 nm,1930,Historical (pre-1950),Unnamed #17 (1933),,
+AL191933,UNNAMED,1933,1933-10-26 00:00:00,10,571.5,27.8,-75.2,35.0,,,,0,N,11,30,7.0,0.0,False,False,70.0,,,False,False,False,401-600 nm,1930,Historical (pre-1950),Unnamed #19 (1933),,
+AL181933,UNNAMED,1933,1933-10-29 20:00:00,10,0.0,18.23,-78.07,77.0,,80.0,982.0,72,S,192,2,3.8,30.0,True,True,80.0,982.0,Cat 1,True,True,False,Landfall,1930,Historical (pre-1950),Unnamed #18 (1933),,
+AL201933,UNNAMED,1933,1933-11-15 18:00:00,11,416.3,11.5,-80.6,35.0,,,,0,S,200,294,7.5,0.0,False,False,50.0,,,False,False,False,401-600 nm,1930,Historical (pre-1950),Unnamed #20 (1933),,
+AL011934,UNNAMED,1934,1934-06-04 12:00:00,6,499.3,17.0,-87.0,30.0,,,,0,W,265,270,1.0,0.0,False,False,85.0,966.0,,False,False,False,401-600 nm,1930,Historical (pre-1950),Unnamed #01 (1934),,
+AL041934,UNNAMED,1934,1934-08-23 06:00:00,8,365.3,16.9,-69.9,30.0,,,,0,E,100,285,11.9,0.0,False,False,35.0,,,False,False,False,201-400 nm,1930,Historical (pre-1950),Unnamed #04 (1934),,
+AL071934,UNNAMED,1934,1934-09-05 06:00:00,9,362.5,23.9,-74.2,40.0,,,,0,NE,26,0,3.0,0.0,False,False,90.0,,,False,False,False,201-400 nm,1930,Historical (pre-1950),Unnamed #07 (1934),,
+AL081934,UNNAMED,1934,1934-09-21 12:00:00,9,377.7,24.5,-75.2,25.0,,,,0,NE,49,288,11.5,0.0,False,False,45.0,,,False,False,False,201-400 nm,1930,Historical (pre-1950),Unnamed #08 (1934),,
+AL111934,UNNAMED,1934,1934-10-01 12:00:00,10,347.6,20.6,-84.0,25.0,,,,0,NW,293,306,6.9,0.0,False,False,50.0,,,False,False,False,201-400 nm,1930,Historical (pre-1950),Unnamed #11 (1934),,
+AL121934,UNNAMED,1934,1934-10-20 15:00:00,10,0.0,17.9,-76.3,40.0,,40.0,,29,S,172,317,11.1,0.0,False,True,40.0,,TS,True,False,False,Landfall,1930,Historical (pre-1950),Unnamed #12 (1934),,
+AL131934,UNNAMED,1934,1934-11-30 05:00:00,11,67.0,16.88,-75.73,20.0,,22.0,,15,E,80,243,10.8,0.0,False,False,100.0,,TD,False,False,False,51-100 nm,1930,Historical (pre-1950),Unnamed #13 (1934),,
+AL011935,UNNAMED,1935,1935-05-15 20:00:00,5,365.5,19.57,-70.0,30.0,,,,0,E,96,345,11.2,0.0,False,False,50.0,1006.0,,False,False,False,201-400 nm,1930,Historical (pre-1950),Unnamed #01 (1935),,
+AL021935,UNNAMED,1935,1935-08-20 06:00:00,8,574.8,22.8,-67.4,90.0,,,,0,E,72,332,4.0,30.0,True,False,115.0,,,False,False,False,401-600 nm,1930,Historical (pre-1950),Unnamed #02 (1935),,
+AL041935,UNNAMED,1935,1935-08-30 00:00:00,8,452.2,20.5,-86.0,25.0,,,,0,W,288,270,9.4,0.0,False,False,50.0,,,False,False,False,401-600 nm,1930,Historical (pre-1950),Unnamed #04 (1935),,
+AL031935,UNNAMED,1935,1935-09-01 18:00:00,9,310.7,23.7,-77.9,75.0,,,,0,N,19,270,5.5,30.0,True,False,160.0,892.0,,False,False,False,201-400 nm,1930,Historical (pre-1950),Unnamed #03 (1935),,
+AL051935,UNNAMED,1935,1935-09-27 18:00:00,9,88.5,18.0,-79.9,100.0,,103.0,,10,SW,225,352,10.1,20.0,False,False,120.0,955.0,Cat 3,True,True,True,51-100 nm,1930,Historical (pre-1950),Unnamed #05 (1935),,
+AL061935,UNNAMED,1935,1935-10-21 14:00:00,10,0.0,17.97,-76.6,52.0,995.0,75.0,988.0,84,S,193,30,6.0,10.0,False,True,75.0,988.0,Cat 1,True,True,False,Landfall,1930,Historical (pre-1950),Unnamed #06 (1935),,
+AL071935,UNNAMED,1935,1935-11-04 18:00:00,11,459.3,25.9,-80.1,85.0,973.0,,,0,N,3,257,11.1,15.0,False,False,90.0,964.0,,False,False,False,401-600 nm,1930,Historical (pre-1950),Unnamed #07 (1935),,
+AL011936,UNNAMED,1936,1936-06-15 16:00:00,6,453.0,26.0,-78.97,40.0,1001.0,,,0,NW,315,78,21.4,0.0,False,False,40.0,996.0,,False,False,False,401-600 nm,1930,Historical (pre-1950),Unnamed #01 (1936),,
+AL041936,UNNAMED,1936,1936-07-26 06:00:00,7,451.6,23.2,-84.5,25.0,,,,0,NW,308,300,15.9,0.0,False,False,40.0,,,False,False,False,401-600 nm,1930,Historical (pre-1950),Unnamed #04 (1936),,
+AL051936,UNNAMED,1936,1936-07-27 16:00:00,7,340.7,23.93,-75.5,33.0,,,,0,NE,29,284,8.5,0.0,False,False,90.0,964.0,,False,False,False,201-400 nm,1930,Historical (pre-1950),Unnamed #05 (1936),,
+AL061936,UNNAMED,1936,1936-08-06 12:00:00,8,556.9,24.2,-68.8,30.0,,,,0,NE,65,318,9.5,0.0,False,False,45.0,,,False,False,False,401-600 nm,1930,Historical (pre-1950),Unnamed #06 (1936),,
+AL081936,UNNAMED,1936,1936-08-15 06:00:00,8,497.1,20.6,-86.8,35.0,,,,0,W,287,337,9.8,0.0,False,False,65.0,999.0,,False,False,False,401-600 nm,1930,Historical (pre-1950),Unnamed #08 (1936),,
+AL091936,UNNAMED,1936,1936-08-20 06:00:00,8,426.2,25.5,-76.3,25.0,,,,0,N,7,324,6.2,0.0,False,False,50.0,,,False,False,False,401-600 nm,1930,Historical (pre-1950),Unnamed #09 (1936),,
+AL111936,UNNAMED,1936,1936-08-28 00:00:00,8,446.5,18.1,-86.2,30.0,,,,0,W,271,300,12.1,0.0,False,False,70.0,,,False,False,False,401-600 nm,1930,Historical (pre-1950),Unnamed #11 (1936),,
+AL151936,UNNAMED,1936,1936-09-20 18:00:00,9,566.0,24.1,-68.5,70.0,,,,0,E,74,324,10.0,25.0,False,False,90.0,983.0,,False,False,False,401-600 nm,1930,Historical (pre-1950),Unnamed #15 (1936),,
+AL021937,UNNAMED,1937,1937-08-02 18:00:00,8,275.0,22.8,-75.5,25.0,,,,0,N,19,335,8.8,0.0,False,False,55.0,,,False,False,False,201-400 nm,1930,Historical (pre-1950),Unnamed #02 (1937),,
+AL031937,UNNAMED,1937,1937-08-28 12:00:00,8,365.2,24.5,-76.5,40.0,,,,0,NE,27,285,5.7,5.0,False,False,60.0,,,False,False,False,201-400 nm,1930,Historical (pre-1950),Unnamed #03 (1937),,
+AL091937,UNNAMED,1937,1937-09-26 06:00:00,9,292.8,23.2,-79.4,30.0,,,,0,N,339,20,5.3,0.0,False,False,65.0,,,False,False,False,201-400 nm,1930,Historical (pre-1950),Unnamed #09 (1937),,
+AL021938,UNNAMED,1938,1938-08-09 18:00:00,8,207.7,19.2,-72.8,35.0,,,,0,E,84,270,21.7,0.0,False,False,60.0,,,False,False,False,201-400 nm,1930,Historical (pre-1950),Unnamed #02 (1938),,
+AL031938,UNNAMED,1938,1938-08-11 22:00:00,8,1.0,18.47,-77.23,68.0,,78.0,,14,E,111,285,24.4,20.0,False,False,85.0,,Cat 1,True,True,False,1-50 nm,1930,Historical (pre-1950),Unnamed #03 (1938),,
+AL041938,UNNAMED,1938,1938-08-24 04:00:00,8,110.8,16.33,-78.83,58.0,,,,0,SE,141,300,15.3,0.0,False,False,105.0,979.0,,False,False,False,101-200 nm,1930,Historical (pre-1950),Unnamed #04 (1938),,
+AL061938,UNNAMED,1938,1938-09-20 00:00:00,9,476.8,25.2,-72.4,140.0,,,,0,NE,65,296,11.5,15.0,False,False,140.0,940.0,,False,False,False,401-600 nm,1930,Historical (pre-1950),Unnamed #06 (1938),,
+AL071938,UNNAMED,1938,1938-10-10 18:00:00,10,540.9,16.0,-87.5,30.0,,,,0,W,259,334,4.4,0.0,False,False,50.0,996.0,,False,False,False,401-600 nm,1930,Historical (pre-1950),Unnamed #07 (1938),,
+AL081938,UNNAMED,1938,1938-10-19 18:00:00,10,481.0,26.5,-77.0,35.0,1006.0,,,0,NE,29,276,9.9,5.0,False,False,35.0,1004.0,,False,False,False,401-600 nm,1930,Historical (pre-1950),Unnamed #08 (1938),,
+AL091938,UNNAMED,1938,1938-11-10 03:00:00,11,233.4,20.8,-81.55,30.0,,,,0,N,340,218,7.6,5.0,False,False,60.0,,,False,False,False,201-400 nm,1930,Historical (pre-1950),Unnamed #09 (1938),,
+AL011939,UNNAMED,1939,1939-06-13 00:00:00,6,455.6,20.7,-86.0,45.0,,,,0,W,269,16,12.0,0.0,False,False,55.0,,,False,False,False,401-600 nm,1930,Historical (pre-1950),Unnamed #01 (1939),,
+AL021939,UNNAMED,1939,1939-08-10 12:00:00,8,382.3,24.3,-74.3,50.0,,,,0,NE,53,291,9.8,10.0,False,False,65.0,985.0,,False,False,False,201-400 nm,1930,Historical (pre-1950),Unnamed #02 (1939),,
+AL051939,UNNAMED,1939,1939-10-14 12:00:00,10,536.2,22.3,-67.9,80.0,,,,0,E,75,332,6.8,40.0,True,False,120.0,,,False,False,False,401-600 nm,1930,Historical (pre-1950),Unnamed #05 (1939),,
+AL061939,UNNAMED,1939,1939-11-03 06:00:00,11,24.1,18.8,-76.8,55.0,,69.0,,66,NW,333,99,3.4,15.0,False,False,80.0,,Cat 1,True,True,False,1-50 nm,1930,Historical (pre-1950),Unnamed #06 (1939),,
+AL011940,UNNAMED,1940,1940-05-19 12:00:00,5,379.8,22.0,-71.0,35.0,,,,0,NE,56,338,7.5,0.0,False,False,55.0,,,False,False,False,201-400 nm,1940,Historical (pre-1950),Unnamed #01 (1940),,
+AL031940,UNNAMED,1940,1940-08-07 05:00:00,8,309.2,22.42,-73.27,44.0,1000.0,,,0,E,78,314,8.2,0.0,False,False,85.0,972.0,,False,False,False,201-400 nm,1940,Historical (pre-1950),Unnamed #03 (1940),,
+AL051940,UNNAMED,1940,1940-09-13 12:00:00,9,442.7,23.2,-70.6,85.0,,,,0,E,71,312,10.5,30.0,True,False,85.0,,,False,False,False,401-600 nm,1940,Historical (pre-1950),Unnamed #05 (1940),,
+AL061940,UNNAMED,1940,1940-09-18 12:00:00,9,413.8,12.0,-81.5,25.0,,,,0,SW,214,297,4.4,0.0,False,False,45.0,1004.0,,False,False,False,401-600 nm,1940,Historical (pre-1950),Unnamed #06 (1940),,
+AL081940,UNNAMED,1940,1940-10-23 00:00:00,10,333.4,14.0,-82.1,70.0,,,,0,SW,213,305,3.5,20.0,False,False,70.0,993.0,,False,False,False,201-400 nm,1940,Historical (pre-1950),Unnamed #08 (1940),,
+AL091940,UNNAMED,1940,1940-10-24 18:00:00,10,316.9,22.0,-72.5,35.0,,,,0,NE,48,29,5.7,0.0,False,False,70.0,,,False,False,False,201-400 nm,1940,Historical (pre-1950),Unnamed #09 (1940),,
+AL031941,UNNAMED,1941,1941-09-18 00:00:00,9,499.0,26.8,-78.7,30.0,,,,0,N,352,5,10.0,0.0,False,False,70.0,990.0,,False,False,False,401-600 nm,1940,Historical (pre-1950),Unnamed #03 (1941),,
+AL041941,UNNAMED,1941,1941-09-26 19:00:00,9,204.3,14.3,-77.12,91.0,,,,0,SE,127,272,12.6,25.0,False,False,115.0,,,False,False,False,201-400 nm,1940,Historical (pre-1950),Unnamed #04 (1941),,
+AL051941,UNNAMED,1941,1941-10-05 18:00:00,10,357.6,24.2,-75.4,105.0,962.0,,,0,NE,54,280,17.1,40.0,True,False,105.0,962.0,,False,False,False,201-400 nm,1940,Historical (pre-1950),Unnamed #05 (1941),,
+AL061941,UNNAMED,1941,1941-10-16 20:00:00,10,278.8,22.9,-75.63,25.0,,,,0,NE,58,285,12.1,0.0,False,False,45.0,1004.0,,False,False,False,201-400 nm,1940,Historical (pre-1950),Unnamed #06 (1941),,
+AL011942,UNNAMED,1942,1942-08-03 00:00:00,8,410.5,16.2,-85.2,30.0,,,,0,W,257,277,7.8,0.0,False,False,50.0,,,False,False,False,401-600 nm,1940,Historical (pre-1950),Unnamed #01 (1942),,
+AL021942,UNNAMED,1942,1942-08-17 12:00:00,8,407.7,19.0,-85.5,30.0,,,,0,W,278,349,10.2,0.0,False,False,70.0,,,False,False,False,401-600 nm,1940,Historical (pre-1950),Unnamed #02 (1942),,
+AL031942,UNNAMED,1942,1942-08-24 12:00:00,8,129.1,15.7,-78.0,35.0,,,,0,SE,136,286,7.5,5.0,False,False,100.0,950.0,,False,False,False,101-200 nm,1940,Historical (pre-1950),Unnamed #03 (1942),,
+AL051942,UNNAMED,1942,1942-09-19 00:00:00,9,72.3,16.5,-77.1,45.0,,45.0,,26,SE,114,270,7.7,10.0,False,False,45.0,,TS,True,False,False,51-100 nm,1940,Historical (pre-1950),Unnamed #05 (1942),,
+AL081942,UNNAMED,1942,1942-09-30 12:00:00,9,461.4,24.0,-71.0,30.0,,,,0,NE,44,20,5.3,0.0,False,False,60.0,,,False,False,False,401-600 nm,1940,Historical (pre-1950),Unnamed #08 (1942),,
+AL101942,UNNAMED,1942,1942-10-13 12:00:00,10,59.3,19.4,-76.9,30.0,,30.0,,5,N,16,30,9.3,0.0,False,False,45.0,,TD,False,False,False,51-100 nm,1940,Historical (pre-1950),Unnamed #10 (1942),,
+AL111942,UNNAMED,1942,1942-11-07 04:00:00,11,199.2,21.33,-79.97,60.0,,,,0,N,21,240,14.1,25.0,False,False,95.0,,,False,False,False,101-200 nm,1940,Historical (pre-1950),Unnamed #11 (1942),,
+AL021943,UNNAMED,1943,1943-08-15 12:00:00,8,418.3,23.0,-71.0,45.0,,,,0,E,83,319,14.0,10.0,False,False,50.0,,,False,False,False,401-600 nm,1940,Historical (pre-1950),Unnamed #02 (1943),,
+AL051943,UNNAMED,1943,1943-09-13 00:00:00,9,448.8,26.0,-77.8,30.0,,,,0,N,357,0,8.0,0.0,False,False,45.0,,,False,False,False,401-600 nm,1940,Historical (pre-1950),Unnamed #05 (1943),,
+AL091943,UNNAMED,1943,1943-10-15 06:00:00,10,459.5,20.0,-68.4,85.0,,,,0,E,102,351,14.2,15.0,False,False,95.0,,,False,False,False,401-600 nm,1940,Historical (pre-1950),Unnamed #09 (1943),,
+AL101943,UNNAMED,1943,1943-10-26 18:00:00,10,149.7,18.3,-81.0,30.0,,,,0,W,266,84,9.6,0.0,False,False,40.0,,,False,False,False,101-200 nm,1940,Historical (pre-1950),Unnamed #10 (1943),,
+AL011944,UNNAMED,1944,1944-07-14 02:00:00,7,381.7,22.57,-71.47,35.0,,,,0,E,78,317,10.9,0.0,False,False,70.0,,,False,False,False,201-400 nm,1940,Historical (pre-1950),Unnamed #01 (1944),,
+AL021944,UNNAMED,1944,1944-07-27 03:00:00,7,61.1,16.7,-77.35,40.0,,48.0,,14,E,104,277,18.3,20.0,False,False,55.0,,TS,True,False,False,51-100 nm,1940,Historical (pre-1950),Unnamed #02 (1944),,
+AL031944,UNNAMED,1944,1944-07-31 02:00:00,7,389.8,23.7,-72.73,47.0,,,,0,NE,65,302,17.3,0.0,False,False,70.0,985.0,,False,False,False,201-400 nm,1940,Historical (pre-1950),Unnamed #03 (1944),,
+AL051944,UNNAMED,1944,1944-08-18 12:00:00,8,398.5,20.5,-85.0,25.0,,,,0,W,289,306,6.9,0.0,False,False,50.0,,,False,False,False,201-400 nm,1940,Historical (pre-1950),Unnamed #05 (1944),,
+AL041944,UNNAMED,1944,1944-08-20 19:00:00,8,0.0,18.35,-76.87,88.0,,105.0,,24,E,110,283,14.6,15.0,False,True,105.0,973.0,Cat 3,True,True,True,Landfall,1940,Historical (pre-1950),Unnamed #04 (1944),,
+AL071944,UNNAMED,1944,1944-09-12 22:00:00,9,537.1,26.77,-73.43,132.0,933.0,,,0,NE,41,295,9.9,30.0,True,False,140.0,918.0,,False,False,False,401-600 nm,1940,Historical (pre-1950),Unnamed #07 (1944),,
+AL081944,UNNAMED,1944,1944-09-19 06:00:00,9,303.4,19.3,-83.6,40.0,,,,0,W,282,321,9.0,0.0,False,False,70.0,,,False,False,False,201-400 nm,1940,Historical (pre-1950),Unnamed #08 (1944),,
+AL131944,UNNAMED,1944,1944-10-15 05:00:00,10,121.2,18.28,-80.5,80.0,966.0,,,0,W,267,325,1.6,40.0,True,False,125.0,937.0,,False,False,False,101-200 nm,1940,Historical (pre-1950),Unnamed #13 (1944),,
+AL141944,UNNAMED,1944,1944-11-01 00:00:00,11,397.4,12.2,-81.3,30.0,,,,0,SW,214,224,1.4,0.0,False,False,60.0,,,False,False,False,201-400 nm,1940,Historical (pre-1950),Unnamed #14 (1944),,
+AL011945,UNNAMED,1945,1945-06-20 12:00:00,6,419.1,19.0,-85.7,35.0,,,,0,W,278,339,5.3,0.0,False,False,85.0,,,False,False,False,401-600 nm,1940,Historical (pre-1950),Unnamed #01 (1945),,
+AL031945,UNNAMED,1945,1945-08-04 18:00:00,8,282.6,18.7,-71.3,30.0,,,,0,E,95,296,13.7,10.0,False,False,50.0,,,False,False,False,201-400 nm,1940,Historical (pre-1950),Unnamed #03 (1945),,
+AL041945,UNNAMED,1945,1945-08-21 04:00:00,8,211.4,21.93,-76.67,27.0,,,,0,E,68,278,15.0,0.0,False,False,60.0,,,False,False,False,201-400 nm,1940,Historical (pre-1950),Unnamed #04 (1945),,
+AL061945,UNNAMED,1945,1945-08-30 06:00:00,8,210.9,16.4,-81.5,45.0,,,,0,SW,228,333,9.5,10.0,False,False,60.0,990.0,,False,False,False,201-400 nm,1940,Historical (pre-1950),Unnamed #06 (1945),,
+AL071945,UNNAMED,1945,1945-09-04 02:00:00,9,379.5,22.47,-83.47,30.0,,,,0,NW,294,39,14.2,0.0,False,False,35.0,,,False,False,False,201-400 nm,1940,Historical (pre-1950),Unnamed #07 (1945),,
+AL091945,UNNAMED,1945,1945-09-14 21:00:00,9,254.5,22.3,-75.1,105.0,,,,0,E,70,295,14.3,25.0,False,False,115.0,949.0,,False,False,False,201-400 nm,1940,Historical (pre-1950),Unnamed #09 (1945),,
+AL101945,UNNAMED,1945,1945-10-02 06:00:00,10,223.5,15.5,-81.0,40.0,,,,0,SW,234,282,4.9,0.0,False,False,80.0,982.0,,False,False,False,201-400 nm,1940,Historical (pre-1950),Unnamed #10 (1945),,
+AL111945,UNNAMED,1945,1945-10-11 15:00:00,10,109.8,18.3,-80.3,50.0,,,,0,S,190,0,10.0,15.0,False,False,85.0,982.0,,False,False,False,101-200 nm,1940,Historical (pre-1950),Unnamed #11 (1945),,
+AL041946,UNNAMED,1946,1946-09-12 00:00:00,9,305.3,23.5,-79.0,35.0,,,,0,N,344,340,5.3,0.0,False,False,85.0,975.0,,False,False,False,201-400 nm,1940,Historical (pre-1950),Unnamed #04 (1946),,
+AL061946,UNNAMED,1946,1946-10-06 21:00:00,10,374.9,21.1,-84.3,78.0,984.0,,,0,W,274,25,8.8,40.0,True,False,85.0,977.0,,False,False,False,201-400 nm,1940,Historical (pre-1950),Unnamed #06 (1946),,
+AL071946,UNNAMED,1946,1946-10-31 19:00:00,10,276.2,22.08,-73.8,31.0,,,,0,NE,43,304,20.0,0.0,False,False,40.0,1002.0,,False,False,False,201-400 nm,1940,Historical (pre-1950),Unnamed #07 (1946),,
+AL021947,UNNAMED,1947,1947-08-11 00:00:00,8,201.7,15.5,-80.4,30.0,,,,0,S,184,305,8.8,5.0,False,False,95.0,977.0,,False,False,False,201-400 nm,1940,Historical (pre-1950),Unnamed #02 (1947),,
+AL031947,UNNAMED,1947,1947-08-18 18:00:00,8,360.1,23.3,-82.0,30.0,,,,0,NW,321,245,7.1,0.0,False,False,70.0,984.0,,False,False,False,201-400 nm,1940,Historical (pre-1950),Unnamed #03 (1947),,
+AL041947,UNNAMED,1947,1947-09-17 16:00:00,9,471.5,26.12,-80.03,115.0,943.0,,,0,N,4,261,8.3,10.0,False,False,125.0,938.0,,False,False,False,401-600 nm,1940,Historical (pre-1950),Unnamed #04 (1947),,
+AL061947,UNNAMED,1947,1947-09-20 06:00:00,9,41.2,19.2,-77.7,35.0,,35.0,,12,N,341,288,9.9,0.0,False,False,55.0,987.0,TS,True,False,False,1-50 nm,1940,Historical (pre-1950),Unnamed #06 (1947),,
+AL071947,UNNAMED,1947,1947-10-05 18:00:00,10,390.4,25.0,-78.5,25.0,,,,0,N,351,22,9.7,0.0,False,False,50.0,,,False,False,False,201-400 nm,1940,Historical (pre-1950),Unnamed #07 (1947),,
+AL091947,UNNAMED,1947,1947-10-10 01:00:00,10,300.0,17.35,-83.53,40.0,,,,0,SW,234,348,8.9,15.0,False,False,90.0,966.0,,False,False,False,201-400 nm,1940,Historical (pre-1950),Unnamed #09 (1947),,
+AL101947,UNNAMED,1947,1947-10-18 12:00:00,10,444.2,22.8,-70.2,70.0,990.0,,,0,E,78,335,8.8,25.0,False,False,105.0,961.0,,False,False,False,401-600 nm,1940,Historical (pre-1950),Unnamed #10 (1947),,
+AL011948,UNNAMED,1948,1948-05-22 09:00:00,5,174.4,17.65,-73.15,30.0,,,,0,E,104,5,11.0,0.0,False,False,45.0,,,False,False,False,101-200 nm,1940,Historical (pre-1950),Unnamed #01 (1948),,
+AL081948,UNNAMED,1948,1948-09-18 06:00:00,9,47.2,18.2,-79.2,40.0,,55.0,,10,W,273,270,5.7,0.0,False,False,115.0,940.0,TS,True,False,False,1-50 nm,1940,Historical (pre-1950),Unnamed #08 (1948),,
+AL091948,UNNAMED,1948,1948-10-03 12:00:00,10,308.1,16.7,-83.5,30.0,,,,0,W,258,312,10.4,0.0,False,False,110.0,971.0,,False,False,False,201-400 nm,1940,Historical (pre-1950),Unnamed #09 (1948),,
+AL011949,UNNAMED,1949,1949-08-22 13:00:00,8,508.9,25.53,-71.85,81.0,982.0,,,0,NE,66,299,15.8,20.0,False,False,95.0,963.0,,False,False,False,401-600 nm,1940,Historical (pre-1950),Unnamed #01 (1949),,
+AL021949,UNNAMED,1949,1949-08-26 00:00:00,8,363.5,24.2,-75.0,90.0,,,,0,NE,59,284,12.7,20.0,False,False,115.0,954.0,,False,False,False,201-400 nm,1940,Historical (pre-1950),Unnamed #02 (1949),,
+AL031949,UNNAMED,1949,1949-09-03 00:00:00,9,496.5,15.3,-68.0,25.0,,,,0,E,102,270,10.6,10.0,False,False,40.0,,,False,False,False,401-600 nm,1940,Historical (pre-1950),Unnamed #03 (1949),,
+AL041949,UNNAMED,1949,1949-09-03 15:00:00,9,572.0,20.4,-66.45,62.0,,,,0,E,86,347,12.3,0.0,False,False,110.0,974.0,,False,False,False,401-600 nm,1940,Historical (pre-1950),Unnamed #04 (1949),,
+AL101949,UNNAMED,1949,1949-09-22 18:00:00,9,320.6,18.5,-70.6,35.0,,,,0,E,94,280,11.6,25.0,False,False,70.0,,,False,False,False,201-400 nm,1940,Historical (pre-1950),Unnamed #10 (1949),,
+AL131949,UNNAMED,1949,1949-10-13 06:00:00,10,184.2,20.8,-74.7,30.0,,,,0,NE,42,39,9.0,0.0,False,False,80.0,995.0,,False,False,False,101-200 nm,1940,Historical (pre-1950),Unnamed #13 (1949),,
+AL161949,UNNAMED,1949,1949-11-03 06:00:00,11,235.9,18.0,-82.5,35.0,,,,0,W,270,270,6.7,0.0,False,False,55.0,993.0,,False,False,False,201-400 nm,1940,Historical (pre-1950),Unnamed #16 (1949),,
+AL011950,ABLE,1950,1950-08-17 12:00:00,8,487.9,25.5,-72.6,100.0,962.0,,,0,NE,44,287,8.5,20.0,False,False,110.0,953.0,,False,False,False,401-600 nm,1950,Recon (1950-65),Able (1950),-0.56,La Nina
+AL021950,BAKER,1950,1950-08-25 10:00:00,8,189.1,21.67,-77.6,38.0,999.0,,,0,E,71,274,13.2,20.0,False,False,90.0,979.0,,False,False,False,101-200 nm,1950,Recon (1950-65),Baker (1950),-0.56,La Nina
+AL051950,EASY,1950,1950-09-01 06:00:00,9,287.2,19.7,-83.2,40.0,,,,0,W,287,0,2.0,0.0,False,False,105.0,960.0,,False,False,False,201-400 nm,1950,Recon (1950-65),Easy (1950),-0.56,La Nina
+AL111950,KING,1950,1950-10-16 04:00:00,10,48.9,18.73,-79.1,68.0,988.0,80.0,985.0,25,W,255,30,5.6,25.0,False,False,115.0,955.0,Cat 1,True,True,False,1-50 nm,1950,Recon (1950-65),King (1950),-0.56,La Nina
+AL011951,UNNAMED,1951,1951-01-08 12:00:00,1,596.7,21.9,-66.5,50.0,,,,0,E,76,338,3.8,10.0,False,False,55.0,,,False,False,False,401-600 nm,1950,Recon (1950-65),Unnamed #01 (1951),1.02,El Nino
+AL021951,ABLE,1951,1951-05-18 06:00:00,5,503.4,26.9,-78.3,75.0,982.0,,,0,N,355,99,3.2,35.0,True,False,80.0,973.0,,False,False,False,401-600 nm,1950,Recon (1950-65),Able (1951),1.02,El Nino
+AL041951,CHARLIE,1951,1951-08-18 04:00:00,8,0.0,17.97,-77.2,102.0,975.0,110.0,971.0,20,E,106,286,16.1,35.0,True,True,115.0,968.0,Cat 3,True,True,True,Landfall,1950,Recon (1950-65),Charlie (1951),1.02,El Nino
+AL051951,DOG,1951,1951-09-05 04:00:00,9,134.9,15.47,-77.4,32.0,,,,0,SE,123,273,14.7,0.0,False,False,80.0,992.0,,False,False,False,101-200 nm,1950,Recon (1950-65),Dog (1951),1.02,El Nino
+AL091951,HOW,1951,1951-09-29 00:00:00,9,436.6,20.2,-85.8,25.0,,,,0,W,286,320,11.7,0.0,False,False,85.0,963.0,,False,False,False,401-600 nm,1950,Recon (1950-65),How (1951),1.02,El Nino
+AL101951,ITEM,1951,1951-10-12 16:00:00,10,174.8,16.67,-80.93,30.0,,,,0,SW,227,325,8.1,0.0,False,False,55.0,998.0,,False,False,False,101-200 nm,1950,Recon (1950-65),Item (1951),1.02,El Nino
+AL111951,JIG,1951,1951-10-15 06:00:00,10,559.2,27.7,-76.0,50.0,,,,0,N,7,19,13.7,0.0,False,False,65.0,990.0,,False,False,False,401-600 nm,1950,Recon (1950-65),Jig (1951),1.02,El Nino
+AL011952,UNNAMED,1952,1952-02-03 00:00:00,2,406.3,23.7,-82.8,40.0,,,,0,W,274,45,31.4,0.0,False,False,60.0,,,False,False,False,401-600 nm,1950,Recon (1950-65),Unnamed #01 (1952),0.03,Neutral
+AL021952,ABLE,1952,1952-08-28 21:00:00,8,524.5,25.5,-71.25,50.0,1002.0,,,0,NE,66,305,14.2,10.0,False,False,85.0,983.0,,False,False,False,401-600 nm,1950,Recon (1950-65),Able (1952),0.03,Neutral
+AL061952,CHARLIE,1952,1952-09-24 21:00:00,9,375.7,23.1,-72.25,40.0,,,,0,E,75,309,12.9,0.0,False,False,105.0,958.0,,False,False,False,201-400 nm,1950,Recon (1950-65),Charlie (1952),0.03,Neutral
+AL101952,FOX,1952,1952-10-23 12:00:00,10,206.7,18.3,-82.0,110.0,942.0,,,0,W,259,0,4.5,55.0,True,False,125.0,934.0,,False,False,False,201-400 nm,1950,Recon (1950-65),Fox (1952),0.03,Neutral
+AL011953,ALICE,1953,1953-05-29 16:00:00,5,217.5,17.9,-82.17,33.0,,,,0,SW,232,352,8.9,5.0,False,False,60.0,994.0,,False,False,False,201-400 nm,1950,Recon (1950-65),Alice (1953),0.59,El Nino
+AL021953,UNNAMED,1953,1953-07-11 18:00:00,7,490.2,26.1,-81.3,25.0,,,,0,NW,336,36,6.2,0.0,False,False,45.0,,,False,False,False,401-600 nm,1950,Recon (1950-65),Unnamed #02 (1953),0.59,El Nino
+AL031953,BARBARA,1953,1953-08-11 06:00:00,8,298.6,22.8,-74.4,25.0,,,,0,NE,30,350,10.2,0.0,False,False,80.0,973.0,,False,False,False,201-400 nm,1950,Recon (1950-65),Barbara (1953),0.59,El Nino
+AL051953,UNNAMED,1953,1953-08-29 18:00:00,8,494.3,26.3,-80.9,25.0,1007.0,,,0,N,339,67,15.5,0.0,False,False,35.0,1007.0,,False,False,False,401-600 nm,1950,Recon (1950-65),Unnamed #05 (1953),0.59,El Nino
+AL061953,DOLLY,1953,1953-09-09 15:00:00,9,418.9,21.0,-69.55,52.0,1004.0,,,0,E,84,335,6.6,15.0,False,False,65.0,989.0,,False,False,False,401-600 nm,1950,Recon (1950-65),Dolly (1953),0.59,El Nino
+AL071953,EDNA,1953,1953-09-16 06:00:00,9,487.3,23.7,-70.0,80.0,980.0,,,0,E,79,318,11.5,30.0,True,False,100.0,962.0,,False,False,False,401-600 nm,1950,Recon (1950-65),Edna (1953),0.59,El Nino
+AL081953,UNNAMED,1953,1953-09-17 06:00:00,9,587.9,26.2,-84.7,40.0,,,,0,NW,306,208,2.8,15.0,False,False,45.0,1004.0,,False,False,False,401-600 nm,1950,Recon (1950-65),Unnamed #08 (1953),0.59,El Nino
+AL091953,FLORENCE,1953,1953-09-23 20:00:00,9,130.2,16.73,-80.0,45.0,,,,0,S,192,312,19.4,0.0,False,False,100.0,968.0,,False,False,False,101-200 nm,1950,Recon (1950-65),Florence (1953),0.59,El Nino
+AL111953,UNNAMED,1953,1953-10-04 00:00:00,10,301.3,22.9,-80.7,35.0,,,,0,NW,321,61,4.2,0.0,False,False,55.0,,,False,False,False,201-400 nm,1950,Recon (1950-65),Unnamed #11 (1953),0.59,El Nino
+AL121953,HAZEL,1953,1953-10-07 06:00:00,10,473.8,20.5,-86.4,25.0,,,,0,W,287,13,4.1,0.0,False,False,75.0,989.0,,False,False,False,401-600 nm,1950,Recon (1950-65),Hazel (1953),0.59,El Nino
+AL021954,UNNAMED,1954,1954-06-18 06:00:00,6,458.4,25.7,-80.8,25.0,,,,0,N,338,180,0.5,0.0,False,False,60.0,,,False,False,False,401-600 nm,1950,Recon (1950-65),Unnamed #02 (1954),-0.73,La Nina
+AL061954,CAROL,1954,1954-08-25 12:00:00,8,340.6,23.8,-75.0,30.0,,,,0,N,20,339,12.8,0.0,False,False,100.0,955.0,,False,False,False,201-400 nm,1950,Recon (1950-65),Carol (1954),-0.73,La Nina
+AL071954,DOLLY,1954,1954-08-31 14:00:00,8,456.2,21.1,-68.87,37.0,,,,0,E,72,338,19.5,0.0,False,False,75.0,994.0,,False,False,False,401-600 nm,1950,Recon (1950-65),Dolly (1954),-0.73,La Nina
+AL081954,EDNA,1954,1954-09-07 10:00:00,9,347.6,22.73,-72.57,63.0,,,,0,NE,62,310,8.4,20.0,False,False,110.0,943.0,,False,False,False,201-400 nm,1950,Recon (1950-65),Edna (1954),-0.73,La Nina
+AL121954,GILDA,1954,1954-09-25 03:00:00,9,202.5,14.35,-77.55,38.0,,,,0,S,160,275,12.6,0.0,False,False,60.0,998.0,,False,False,False,201-400 nm,1950,Recon (1950-65),Gilda (1954),-0.73,La Nina
+AL141954,HAZEL,1954,1954-10-12 00:00:00,10,90.6,17.4,-74.7,105.0,977.0,105.0,976.0,12,SE,145,27,6.2,20.0,False,False,115.0,938.0,Cat 3,True,True,True,51-100 nm,1950,Recon (1950-65),Hazel (1954),-0.73,La Nina
+AL021955,CONNIE,1955,1955-08-08 00:00:00,8,495.4,23.9,-70.0,120.0,944.0,,,0,E,77,317,15.2,25.0,False,False,120.0,944.0,,False,False,False,401-600 nm,1950,Recon (1950-65),Connie (1955),-1.11,La Nina
+AL051955,UNNAMED,1955,1955-08-25 18:00:00,8,531.8,24.6,-85.1,30.0,,,,0,NW,313,340,5.3,0.0,False,False,45.0,1004.0,,False,False,False,401-600 nm,1950,Recon (1950-65),Unnamed #05 (1955),-1.11,La Nina
+AL091955,HILDA,1955,1955-09-14 14:00:00,9,92.5,20.03,-78.2,50.0,992.0,52.0,990.0,8,NE,61,264,14.2,30.0,True,False,105.0,952.0,TS,True,False,False,51-100 nm,1950,Recon (1950-65),Hilda (1955),-1.11,La Nina
+AL081955,IONE,1955,1955-09-17 00:00:00,9,509.5,25.1,-71.1,85.0,976.0,,,0,NE,60,306,9.5,20.0,False,False,120.0,938.0,,False,False,False,401-600 nm,1950,Recon (1950-65),Ione (1955),-1.11,La Nina
+AL101955,JANET,1955,1955-09-27 00:00:00,9,140.5,15.8,-78.9,110.0,956.0,,,0,SE,153,298,11.9,40.0,True,False,150.0,914.0,,False,False,False,101-200 nm,1950,Recon (1950-65),Janet (1955),-1.11,La Nina
+AL131955,KATIE,1955,1955-10-16 10:00:00,10,207.2,15.2,-73.97,62.0,,,,0,S,182,51,10.0,20.0,False,False,95.0,984.0,,False,False,False,201-400 nm,1950,Recon (1950-65),Katie (1955),-1.11,La Nina
+AL031956,BETSY,1956,1956-08-13 16:00:00,8,355.1,22.67,-72.27,100.0,970.0,,,0,E,86,310,15.5,15.0,False,False,105.0,954.0,,False,False,False,201-400 nm,1950,Recon (1950-65),Betsy (1956),-0.43,Neutral
+AL041956,CARLA,1956,1956-09-07 00:00:00,9,398.0,24.8,-75.0,30.0,,,,0,N,17,0,5.0,0.0,False,False,60.0,1000.0,,False,False,False,201-400 nm,1950,Recon (1950-65),Carla (1956),-0.43,Neutral
+AL061956,ETHEL,1956,1956-09-11 18:00:00,9,312.9,23.5,-75.7,25.0,,,,0,N,15,20,5.3,0.0,False,False,50.0,999.0,,False,False,False,201-400 nm,1950,Recon (1950-65),Ethel (1956),-0.43,Neutral
+AL071956,FLOSSY,1956,1956-09-20 18:00:00,9,463.9,18.0,-86.5,25.0,,,,0,W,271,282,4.9,0.0,False,False,80.0,974.0,,False,False,False,401-600 nm,1950,Recon (1950-65),Flossy (1956),-0.43,Neutral
+AL111956,UNNAMED,1956,1956-10-14 12:00:00,10,264.6,22.6,-79.8,35.0,,,,0,NW,333,328,3.5,0.0,False,False,55.0,996.0,,False,False,False,201-400 nm,1950,Recon (1950-65),Unnamed #11 (1956),-0.43,Neutral
+AL081956,GRETA,1956,1956-10-31 00:00:00,10,145.0,20.0,-74.7,25.0,,,,0,NE,52,347,4.1,0.0,False,False,85.0,970.0,,False,False,False,101-200 nm,1950,Recon (1950-65),Greta (1956),-0.43,Neutral
+AL071957,FRIEDA,1957,1957-09-23 06:00:00,9,594.9,26.9,-71.3,45.0,1003.0,,,0,NE,44,293,6.3,15.0,False,False,75.0,975.0,,False,False,False,401-600 nm,1950,Recon (1950-65),Frieda (1957),1.12,El Nino
+AL111958,UNNAMED,1958,1958-05-25 00:00:00,5,413.4,25.0,-80.5,25.0,1003.0,,,0,NW,337,47,14.8,0.0,False,False,55.0,1001.0,,False,False,False,401-600 nm,1950,Recon (1950-65),Unnamed #11 (1958),0.28,Neutral
+AL021958,BECKY,1958,1958-08-14 22:00:00,8,499.3,24.87,-71.07,40.0,1005.0,,,0,E,76,310,21.5,0.0,False,False,60.0,1004.0,,False,False,False,401-600 nm,1950,Recon (1950-65),Becky (1958),0.28,Neutral
+AL041958,DAISY,1958,1958-08-23 18:00:00,8,451.3,25.0,-73.0,25.0,,,,0,NE,29,306,3.4,0.0,False,False,115.0,948.0,,False,False,False,401-600 nm,1950,Recon (1950-65),Daisy (1958),0.28,Neutral
+AL051958,ELLA,1958,1958-09-01 21:00:00,9,96.7,19.55,-75.5,70.0,996.0,70.0,995.0,4,E,101,305,16.0,35.0,True,False,95.0,983.0,Cat 1,True,True,False,51-100 nm,1950,Recon (1950-65),Ella (1958),0.28,Neutral
+AL071958,GERDA,1958,1958-09-15 16:00:00,9,7.9,18.63,-77.7,35.0,1004.0,38.0,1004.0,13,E,92,274,26.0,0.0,False,False,50.0,1001.0,TS,True,False,False,1-50 nm,1950,Recon (1950-65),Gerda (1958),0.28,Neutral
+AL081958,HELENE,1958,1958-09-24 00:00:00,9,540.3,24.6,-69.6,50.0,999.0,,,0,NE,67,308,13.2,15.0,False,False,130.0,930.0,,False,False,False,401-600 nm,1950,Recon (1950-65),Helene (1958),0.28,Neutral
+AL101958,JANICE,1958,1958-10-04 12:00:00,10,155.9,18.5,-81.1,30.0,,,,0,W,277,349,5.1,0.0,False,False,85.0,968.0,,False,False,False,101-200 nm,1950,Recon (1950-65),Janice (1958),0.28,Neutral
+AL121958,UNNAMED,1958,1958-10-15 18:00:00,10,469.6,21.3,-68.7,30.0,,,,0,NE,67,8,14.1,0.0,False,False,60.0,,,False,False,False,401-600 nm,1950,Recon (1950-65),Unnamed #12 (1958),0.28,Neutral
+AL011959,ARLENE,1959,1959-05-28 06:00:00,5,545.5,23.3,-86.5,25.0,,,,0,NW,303,327,8.4,0.0,False,False,55.0,993.0,,False,False,False,401-600 nm,1950,Recon (1950-65),Arlene (1959),-0.04,Neutral
+AL081959,GRACIE,1959,1959-09-21 12:00:00,9,209.9,20.6,-73.7,30.0,1011.0,,,0,E,77,300,9.1,5.0,False,False,115.0,951.0,,False,False,False,201-400 nm,1950,Recon (1950-65),Gracie (1959),-0.04,Neutral
+AL111959,JUDITH,1959,1959-10-14 20:00:00,10,221.2,14.03,-77.5,40.0,,,,0,SE,138,273,14.9,0.0,False,False,75.0,988.0,,False,False,False,201-400 nm,1950,Recon (1950-65),Judith (1959),-0.04,Neutral
+AL021960,ABBY,1960,1960-07-13 07:00:00,7,168.1,15.15,-75.62,49.0,1006.0,,,0,SE,117,261,12.1,5.0,False,False,70.0,995.0,,False,False,False,101-200 nm,1960,Recon (1950-65),Abby (1960),0.19,Neutral
+AL041960,CLEO,1960,1960-08-18 00:00:00,8,449.5,25.5,-74.3,30.0,,,,0,N,16,105,5.6,0.0,False,False,75.0,995.0,,False,False,False,401-600 nm,1960,Recon (1950-65),Cleo (1960),0.19,Neutral
+AL051960,DONNA,1960,1960-09-08 18:00:00,9,243.7,22.4,-76.1,105.0,945.0,,,0,NE,49,279,7.7,10.0,False,False,125.0,930.0,,False,False,False,201-400 nm,1960,Recon (1950-65),Donna (1960),0.19,Neutral
+AL071960,FLORENCE,1960,1960-09-19 18:00:00,9,221.4,21.5,-74.7,30.0,1006.0,,,0,NE,66,297,9.9,20.0,False,False,50.0,1000.0,,False,False,False,201-400 nm,1960,Recon (1950-65),Florence (1960),0.19,Neutral
+AL011961,ANNA,1961,1961-07-22 15:00:00,7,198.5,14.8,-79.05,88.0,980.0,,,0,SE,133,290,17.5,20.0,False,False,90.0,976.0,,False,False,False,101-200 nm,1960,Recon (1950-65),Anna (1961),-0.32,Neutral
+AL031961,CARLA,1961,1961-09-04 23:00:00,9,231.2,15.4,-81.08,39.0,1002.0,,,0,S,195,306,9.1,5.0,False,False,125.0,927.0,,False,False,False,201-400 nm,1960,Recon (1950-65),Carla (1961),-0.32,Neutral
+AL061961,UNNAMED,1961,1961-09-12 12:00:00,9,436.9,25.8,-78.0,25.0,,,,0,N,355,0,2.0,0.0,False,False,60.0,995.0,,False,False,False,401-600 nm,1960,Recon (1950-65),Unnamed #06 (1961),-0.32,Neutral
+AL071961,FRANCES,1961,1961-10-03 16:00:00,10,404.0,20.13,-69.47,50.0,1006.0,,,0,E,96,340,12.0,5.0,False,False,115.0,948.0,,False,False,False,401-600 nm,1960,Recon (1950-65),Frances (1961),-0.32,Neutral
+AL081961,GERDA,1961,1961-10-17 00:00:00,10,70.6,19.7,-77.9,30.0,1003.0,30.0,1002.0,8,N,340,347,4.1,0.0,False,False,65.0,988.0,TD,False,False,False,51-100 nm,1960,Recon (1950-65),Gerda (1961),-0.32,Neutral
+AL091961,HATTIE,1961,1961-10-29 12:00:00,10,186.2,16.9,-81.3,100.0,963.0,,,0,SW,223,341,9.0,45.0,True,False,145.0,914.0,,False,False,False,101-200 nm,1960,Recon (1950-65),Hattie (1961),-0.32,Neutral
+AL011962,ALMA,1962,1962-08-26 12:00:00,8,442.6,25.7,-79.7,25.0,,,,0,N,344,342,11.6,0.0,False,False,75.0,984.0,,False,False,False,401-600 nm,1960,Recon (1950-65),Alma (1962),-0.16,Neutral
+AL041962,DAISY,1962,1962-10-04 19:00:00,10,576.3,24.78,-68.88,70.0,986.0,,,0,NE,60,312,7.0,15.0,False,False,90.0,950.0,,False,False,False,401-600 nm,1960,Recon (1950-65),Daisy (1962),-0.16,Neutral
+AL051962,ELLA,1962,1962-10-14 06:00:00,10,321.9,22.5,-73.0,30.0,,,,0,NE,42,20,5.3,0.0,False,False,95.0,958.0,,False,False,False,201-400 nm,1960,Recon (1950-65),Ella (1962),-0.16,Neutral
+AL101963,UNNAMED,1963,1963-06-01 12:00:00,6,448.8,26.0,-77.8,30.0,,,,0,N,357,20,5.3,0.0,False,False,50.0,1000.0,,False,False,False,401-600 nm,1960,Recon (1950-65),Unnamed #10 (1963),1.09,El Nino
+AL011963,ARLENE,1963,1963-08-07 00:00:00,8,561.2,25.0,-69.5,30.0,1007.0,,,0,NE,64,316,8.4,5.0,False,False,100.0,969.0,,False,False,False,401-600 nm,1960,Recon (1950-65),Arlene (1963),1.09,El Nino
+AL061963,EDITH,1963,1963-09-28 18:00:00,9,320.5,21.8,-72.2,35.0,,,,0,E,78,321,9.6,0.0,False,False,85.0,990.0,,False,False,False,201-400 nm,1960,Recon (1950-65),Edith (1963),1.09,El Nino
+AL071963,FLORA,1963,1963-10-06 12:00:00,10,112.6,20.4,-77.8,85.0,977.0,,,0,N,15,285,1.9,10.0,False,False,130.0,933.0,,False,False,False,101-200 nm,1960,Recon (1950-65),Flora (1963),1.09,El Nino
+AL081963,GINNY,1963,1963-10-17 18:00:00,10,503.1,25.5,-72.0,20.0,,,,0,NE,33,28,5.7,0.0,False,False,95.0,948.0,,False,False,False,401-600 nm,1960,Recon (1950-65),Ginny (1963),1.09,El Nino
+AL011964,UNNAMED,1964,1964-06-03 12:00:00,6,440.4,18.5,-86.1,25.0,,,,0,W,274,0,2.0,0.0,False,False,60.0,992.0,,False,False,False,401-600 nm,1960,Recon (1950-65),Unnamed #01 (1964),-0.72,La Nina
+AL051964,CLEO,1964,1964-08-25 11:00:00,8,61.8,19.33,-76.42,77.0,971.0,92.0,965.0,18,E,98,295,11.0,30.0,True,False,130.0,938.0,Cat 2,True,True,False,51-100 nm,1960,Recon (1950-65),Cleo (1964),-0.72,La Nina
+AL101964,HILDA,1964,1964-09-28 12:00:00,9,193.3,21.2,-80.0,25.0,,,,0,NW,321,276,10.3,0.0,False,False,120.0,941.0,,False,False,False,101-200 nm,1960,Recon (1950-65),Hilda (1964),-0.72,La Nina
+AL111964,ISBELL,1964,1964-10-09 06:00:00,10,313.0,15.5,-83.0,30.0,,,,0,SW,245,311,7.6,0.0,False,False,100.0,964.0,,False,False,False,201-400 nm,1960,Recon (1950-65),Isbell (1964),-0.72,La Nina
+AL121964,UNNAMED,1964,1964-11-06 17:00:00,11,312.1,13.97,-81.45,40.0,1001.0,,,0,SW,213,297,4.4,15.0,False,False,60.0,997.0,,False,False,False,201-400 nm,1960,Recon (1950-65),Unnamed #12 (1964),-0.72,La Nina
+AL031965,BETSY,1965,1965-09-08 01:00:00,9,402.8,25.18,-78.75,95.0,960.0,,,0,N,4,262,7.8,25.0,False,False,120.0,942.0,,False,False,False,401-600 nm,1960,Recon (1950-65),Betsy (1965),1.55,El Nino
+AL051965,DEBBIE,1965,1965-09-24 12:00:00,9,383.2,17.3,-85.0,25.0,,,,0,W,265,316,6.9,0.0,False,False,50.0,1000.0,,False,False,False,201-400 nm,1960,Recon (1950-65),Debbie (1965),1.55,El Nino
+AL091965,UNNAMED,1965,1965-10-16 12:00:00,10,509.2,27.0,-77.5,30.0,,,,0,N,356,119,5.1,0.0,False,False,55.0,1004.0,,False,False,False,401-600 nm,1960,Recon (1950-65),Unnamed #09 (1965),1.55,El Nino
+AL011966,ALMA,1966,1966-06-08 01:00:00,6,310.6,20.27,-83.43,81.0,976.0,,,0,W,278,22,9.0,35.0,True,False,100.0,970.0,,False,False,False,201-400 nm,1960,Satellite (1966+),Alma (1966),-0.09,Neutral
+AL121966,UNNAMED,1966,1966-06-28 12:00:00,6,249.5,19.7,-82.5,25.0,,,,0,W,289,0,6.0,0.0,False,False,40.0,1004.0,,False,False,False,201-400 nm,1960,Satellite (1966+),Unnamed #12 (1966),-0.09,Neutral
+AL031966,CELIA,1966,1966-07-17 18:00:00,7,328.4,23.8,-75.9,25.0,1007.0,,,0,NE,32,283,6.6,0.0,False,False,65.0,994.0,,False,False,False,201-400 nm,1960,Satellite (1966+),Celia (1966),-0.09,Neutral
+AL061966,FAITH,1966,1966-08-28 04:00:00,8,431.6,22.53,-70.27,78.0,975.0,,,0,E,77,326,6.3,15.0,False,False,105.0,950.0,,False,False,False,401-600 nm,1960,Satellite (1966+),Faith (1966),-0.09,Neutral
+AL071966,GRETA,1966,1966-09-07 06:00:00,9,574.1,26.1,-70.6,25.0,1012.0,,,0,NE,65,304,9.8,5.0,False,False,45.0,1004.0,,False,False,False,401-600 nm,1960,Satellite (1966+),Greta (1966),-0.09,Neutral
+AL091966,INEZ,1966,1966-09-30 11:00:00,9,111.8,19.7,-75.25,98.0,989.0,,,0,E,95,305,10.4,40.0,True,False,140.0,927.0,,False,False,False,101-200 nm,1960,Satellite (1966+),Inez (1966),-0.09,Neutral
+AL011967,UNNAMED,1967,1967-06-11 00:00:00,6,380.5,17.6,-85.0,25.0,1004.0,,,0,W,263,351,3.0,0.0,False,False,25.0,1004.0,,False,False,False,201-400 nm,1960,Satellite (1966+),Unnamed #01 (1967),-0.4,Neutral
+AL141967,DORIA,1967,1967-09-09 00:00:00,9,549.1,27.6,-79.1,30.0,1007.0,,,0,N,359,270,1.3,0.0,False,False,85.0,973.0,,False,False,False,401-600 nm,1960,Satellite (1966+),Doria (1967),-0.4,Neutral
+AL131967,BEULAH,1967,1967-09-12 14:00:00,9,64.1,17.1,-75.47,45.0,999.0,50.0,998.0,19,E,96,233,12.8,0.0,False,False,140.0,923.0,TS,True,False,False,51-100 nm,1960,Satellite (1966+),Beulah (1967),-0.4,Neutral
+AL231967,UNNAMED,1967,1967-10-14 06:00:00,10,595.0,27.0,-71.5,40.0,1002.0,,,0,NE,30,10,15.2,0.0,False,False,50.0,1002.0,,False,False,False,401-600 nm,1960,Satellite (1966+),Unnamed #23 (1967),-0.4,Neutral
+AL011968,ABBY,1968,1968-06-02 22:00:00,6,407.1,21.8,-84.56,44.0,998.0,,,0,W,272,27,8.4,15.0,False,False,65.0,992.0,,False,False,False,401-600 nm,1960,Satellite (1966+),Abby (1968),0.34,Neutral
+AL021968,BRENDA,1968,1968-06-18 00:00:00,6,429.2,25.0,-81.3,25.0,,,,0,NW,332,0,3.0,0.0,False,False,70.0,990.0,,False,False,False,401-600 nm,1960,Satellite (1966+),Brenda (1968),0.34,Neutral
+AL051968,DOLLY,1968,1968-08-10 06:00:00,8,458.1,25.9,-80.0,30.0,,,,0,N,343,342,11.6,0.0,False,False,75.0,985.0,,False,False,False,401-600 nm,1960,Satellite (1966+),Dolly (1968),0.34,Neutral
+AL061968,UNNAMED,1968,1968-08-30 06:00:00,8,598.9,27.8,-82.0,25.0,,,,0,NW,335,90,0.9,0.0,False,False,25.0,,,False,False,False,401-600 nm,1960,Satellite (1966+),Unnamed #06 (1968),0.34,Neutral
+AL121968,FRANCES,1968,1968-09-23 12:00:00,9,515.4,26.4,-73.5,25.0,,,,0,N,22,347,8.2,0.0,False,False,50.0,1001.0,,False,False,False,401-600 nm,1960,Satellite (1966+),Frances (1968),0.34,Neutral
+AL131968,UNNAMED,1968,1968-09-26 03:00:00,9,381.8,21.45,-84.25,25.0,,,,0,W,286,27,10.1,0.0,False,False,30.0,1004.0,,False,False,False,201-400 nm,1960,Satellite (1966+),Unnamed #13 (1968),0.34,Neutral
+AL141968,GLADYS,1968,1968-10-14 18:00:00,10,238.0,17.7,-82.5,35.0,1002.0,,,0,SW,228,355,5.5,10.0,False,False,85.0,977.0,,False,False,False,201-400 nm,1960,Satellite (1966+),Gladys (1968),0.34,Neutral
+AL151968,UNNAMED,1968,1968-11-24 18:00:00,11,483.0,25.0,-71.8,30.0,,,,0,NE,36,8,20.2,0.0,False,False,30.0,,,False,False,False,401-600 nm,1960,Satellite (1966+),Unnamed #15 (1968),0.34,Neutral
+AL031969,UNNAMED,1969,1969-06-08 00:00:00,6,233.2,19.0,-82.4,25.0,,,,0,W,281,7,15.1,0.0,False,False,25.0,,,False,False,False,201-400 nm,1960,Satellite (1966+),Unnamed #03 (1969),0.61,El Nino
+AL061969,ANNA,1969,1969-08-01 06:00:00,8,522.4,23.5,-69.0,35.0,1005.0,,,0,E,91,326,27.1,0.0,False,False,60.0,1001.0,,False,False,False,401-600 nm,1960,Satellite (1966+),Anna (1969),0.61,El Nino
+AL071969,BLANCHE,1969,1969-08-10 18:00:00,8,552.9,26.3,-71.7,30.0,,,,0,NE,31,0,18.0,0.0,False,False,75.0,996.0,,False,False,False,401-600 nm,1960,Satellite (1966+),Blanche (1969),0.61,El Nino
+AL091969,CAMILLE,1969,1969-08-14 00:00:00,8,75.6,18.3,-79.7,30.0,,32.0,,4,W,275,285,7.9,0.0,False,False,150.0,900.0,TD,False,False,False,51-100 nm,1960,Satellite (1966+),Camille (1969),0.61,El Nino
+AL131969,FRANCELIA,1969,1969-08-31 19:00:00,8,133.0,15.87,-78.75,49.0,1002.0,,,0,SE,145,298,9.4,25.0,False,False,85.0,973.0,,False,False,False,101-200 nm,1960,Satellite (1966+),Francelia (1969),0.61,El Nino
+AL161969,GERDA,1969,1969-09-07 00:00:00,9,486.6,26.3,-80.4,25.0,1011.0,,,0,N,341,346,7.2,0.0,False,False,105.0,977.0,,False,False,False,401-600 nm,1960,Satellite (1966+),Gerda (1969),0.61,El Nino
+AL191969,UNNAMED,1969,1969-09-19 12:00:00,9,520.3,24.0,-85.4,30.0,,,,0,NW,309,340,5.3,0.0,False,False,30.0,1007.0,,False,False,False,401-600 nm,1960,Satellite (1966+),Unnamed #19 (1969),0.61,El Nino
+AL231969,UNNAMED,1969,1969-09-29 12:00:00,9,506.3,23.5,-85.5,30.0,1004.0,,,0,NW,307,340,5.3,0.0,False,False,50.0,995.0,,False,False,False,401-600 nm,1960,Satellite (1966+),Unnamed #23 (1969),0.61,El Nino
+AL241969,JENNY,1969,1969-10-01 18:00:00,10,292.8,20.0,-83.2,25.0,1005.0,,,0,W,279,21,11.8,0.0,False,False,40.0,1000.0,,False,False,False,201-400 nm,1960,Satellite (1966+),Jenny (1969),0.61,El Nino
+AL251969,KARA,1969,1969-10-08 13:00:00,10,304.1,21.65,-72.45,30.0,1006.0,,,0,E,77,311,12.3,0.0,False,False,80.0,978.0,,False,False,False,201-400 nm,1960,Satellite (1966+),Kara (1969),0.61,El Nino
+AL261969,LAURIE,1969,1969-10-17 00:00:00,10,395.4,18.0,-85.3,25.0,1007.0,,,0,W,270,342,3.1,0.0,False,False,80.0,973.0,,False,False,False,201-400 nm,1960,Satellite (1966+),Laurie (1969),0.61,El Nino
+AL291969,MARTHA,1969,1969-11-20 12:00:00,11,417.2,11.2,-79.8,25.0,,,,0,S,200,206,2.2,0.0,False,False,80.0,979.0,,False,False,False,401-600 nm,1960,Satellite (1966+),Martha (1969),0.61,El Nino
+AL011970,ALMA,1970,1970-05-21 17:00:00,5,102.1,18.92,-80.03,45.0,1003.0,,,0,W,259,11,5.1,35.0,True,False,65.0,993.0,,False,False,False,101-200 nm,1970,Satellite (1966+),Alma (1970),-0.69,La Nina
+AL021970,BECKY,1970,1970-07-19 00:00:00,7,292.4,18.5,-83.5,30.0,1011.0,,,0,W,275,288,9.9,0.0,False,False,55.0,1003.0,,False,False,False,201-400 nm,1970,Satellite (1966+),Becky (1970),-0.69,La Nina
+AL041970,CELIA,1970,1970-07-31 00:00:00,7,235.5,18.5,-82.5,25.0,1008.0,,,0,W,275,339,10.7,0.0,False,False,120.0,944.0,,False,False,False,201-400 nm,1970,Satellite (1966+),Celia (1970),-0.69,La Nina
+AL081970,UNNAMED,1970,1970-08-15 00:00:00,8,411.0,23.8,-72.2,35.0,1011.0,,,0,E,82,310,23.7,25.0,False,False,70.0,1002.0,,False,False,False,401-600 nm,1970,Satellite (1966+),Unnamed #08 (1970),-0.69,La Nina
+AL091970,DOROTHY,1970,1970-08-22 00:00:00,8,538.5,15.4,-67.2,35.0,1007.0,,,0,E,101,280,11.8,15.0,False,False,60.0,996.0,,False,False,False,401-600 nm,1970,Satellite (1966+),Dorothy (1970),-0.69,La Nina
+AL121970,ELLA,1970,1970-09-08 12:00:00,9,293.7,15.8,-82.8,25.0,1009.0,,,0,SW,247,324,4.9,0.0,False,False,110.0,962.0,,False,False,False,201-400 nm,1970,Satellite (1966+),Ella (1970),-0.69,La Nina
+AL131970,FELICE,1970,1970-09-13 11:00:00,9,405.6,25.03,-79.85,25.0,,,,0,N,355,257,8.7,0.0,False,False,60.0,990.0,,False,False,False,401-600 nm,1970,Satellite (1966+),Felice (1970),-0.69,La Nina
+AL101970,UNNAMED,1970,1970-09-13 12:00:00,9,380.8,20.8,-70.2,30.0,,,,0,E,78,280,11.4,5.0,False,False,40.0,1006.0,,False,False,False,201-400 nm,1970,Satellite (1966+),Unnamed #10 (1970),-0.69,La Nina
+AL161970,GRETA,1970,1970-09-26 12:00:00,9,242.7,22.2,-75.4,35.0,,,,0,NE,23,304,8.9,0.0,False,False,40.0,1003.0,,False,False,False,201-400 nm,1970,Satellite (1966+),Greta (1970),-0.69,La Nina
+AL151970,UNNAMED,1970,1970-10-08 04:00:00,10,307.3,17.5,-70.83,30.0,1004.0,,,0,E,110,7,9.2,5.0,False,False,75.0,989.0,,False,False,False,201-400 nm,1970,Satellite (1966+),Unnamed #15 (1970),-0.69,La Nina
+AL181970,UNNAMED,1970,1970-10-12 12:00:00,10,581.0,24.5,-68.5,30.0,1003.0,,,0,NE,51,47,7.4,0.0,False,False,85.0,974.0,,False,False,False,401-600 nm,1970,Satellite (1966+),Unnamed #18 (1970),-0.69,La Nina
+AL221970,UNNAMED,1970,1970-11-15 12:00:00,11,275.3,17.0,-83.0,25.0,,,,0,SW,243,44,5.5,5.0,False,False,30.0,1004.0,,False,False,False,201-400 nm,1970,Satellite (1966+),Unnamed #22 (1970),-0.69,La Nina
+AL061971,BETH,1971,1971-08-11 00:00:00,8,479.7,26.5,-78.4,25.0,1012.0,,,0,N,350,77,4.6,0.0,False,False,75.0,977.0,,False,False,False,401-600 nm,1970,Satellite (1966+),Beth (1971),-0.68,La Nina
+AL071971,UNNAMED,1971,1971-08-13 12:00:00,8,541.0,27.0,-81.3,25.0,1010.0,,,0,N,338,42,2.7,0.0,False,False,40.0,1002.0,,False,False,False,401-600 nm,1970,Satellite (1966+),Unnamed #07 (1971),-0.68,La Nina
+AL081971,CHLOE,1971,1971-08-22 12:00:00,8,172.1,14.9,-77.8,30.0,1006.0,,,0,SE,122,283,8.9,20.0,False,False,50.0,1002.0,,False,False,False,101-200 nm,1970,Satellite (1966+),Chloe (1971),-0.68,La Nina
+AL091971,DORIA,1971,1971-08-25 18:00:00,8,322.4,23.1,-74.1,30.0,,,,0,E,72,312,10.5,0.0,False,False,60.0,987.0,,False,False,False,201-400 nm,1970,Satellite (1966+),Doria (1971),-0.68,La Nina
+AL141971,GINGER,1971,1971-09-06 00:00:00,9,525.1,25.6,-71.4,25.0,,,,0,NE,35,119,2.1,0.0,False,False,100.0,959.0,,False,False,False,401-600 nm,1970,Satellite (1966+),Ginger (1971),-0.68,La Nina
+AL131971,EDITH,1971,1971-09-08 20:00:00,9,232.6,13.87,-77.73,83.0,979.0,,,0,SE,131,278,15.7,30.0,True,False,130.0,943.0,,False,False,False,201-400 nm,1970,Satellite (1966+),Edith (1971),-0.68,La Nina
+AL171971,HEIDI,1971,1971-09-11 12:00:00,9,590.8,27.5,-72.8,30.0,,,,0,NE,23,312,6.0,0.0,False,False,50.0,995.0,,False,False,False,401-600 nm,1970,Satellite (1966+),Heidi (1971),-0.68,La Nina
+AL181971,IRENE,1971,1971-09-17 12:00:00,9,328.2,12.3,-76.3,40.0,1005.0,,,0,SE,129,263,16.3,10.0,False,False,110.0,948.0,,False,False,False,201-400 nm,1970,Satellite (1966+),Irene (1971),-0.68,La Nina
+AL201971,UNNAMED,1971,1971-10-06 12:00:00,10,442.8,17.0,-86.0,25.0,,,,0,W,264,298,2.2,0.0,False,False,30.0,,,False,False,False,401-600 nm,1970,Satellite (1966+),Unnamed #20 (1971),-0.68,La Nina
+AL221971,LAURA,1971,1971-11-14 04:00:00,11,246.1,15.67,-81.7,30.0,1006.0,,,0,SW,203,321,9.1,5.0,False,False,60.0,994.0,,False,False,False,201-400 nm,1970,Satellite (1966+),Laura (1971),-0.68,La Nina
+AL021972,AGNES,1972,1972-06-17 06:00:00,6,420.2,20.8,-85.3,55.0,991.0,,,0,W,284,11,5.1,15.0,False,False,70.0,977.0,,False,False,False,401-600 nm,1970,Satellite (1966+),Agnes (1972),1.49,El Nino
+AL041972,UNNAMED,1972,1972-07-11 00:00:00,7,585.5,28.2,-79.2,30.0,1014.0,,,0,N,351,0,15.0,0.0,False,False,35.0,1014.0,,False,False,False,401-600 nm,1970,Satellite (1966+),Unnamed #04 (1972),1.49,El Nino
+AL061972,UNNAMED,1972,1972-08-04 18:00:00,8,437.0,23.7,-71.3,30.0,1008.0,,,0,NE,47,200,5.3,5.0,False,False,30.0,1008.0,,False,False,False,401-600 nm,1970,Satellite (1966+),Unnamed #06 (1972),1.49,El Nino
+AL131972,DAWN,1972,1972-09-05 18:00:00,9,405.6,25.0,-80.0,30.0,1007.0,,,0,N,340,15,10.4,0.0,False,False,55.0,996.0,,False,False,False,401-600 nm,1970,Satellite (1966+),Dawn (1972),1.49,El Nino
+AL191973,UNNAMED,1973,1973-07-23 12:00:00,7,513.2,16.0,-87.0,30.0,,,,0,W,259,322,6.3,0.0,False,False,40.0,1007.0,,False,False,False,401-600 nm,1970,Satellite (1966+),Unnamed #19 (1973),-1.26,La Nina
+AL081973,BRENDA,1973,1973-08-18 06:00:00,8,352.8,20.6,-84.1,35.0,,,,0,W,292,291,11.0,0.0,False,False,80.0,977.0,,False,False,False,201-400 nm,1970,Satellite (1966+),Brenda (1973),-1.26,La Nina
+AL101973,DELIA,1973,1973-09-02 00:00:00,9,500.9,21.4,-86.6,30.0,1006.0,,,0,W,292,340,5.3,0.0,False,False,75.0,986.0,,False,False,False,401-600 nm,1970,Satellite (1966+),Delia (1973),-1.26,La Nina
+AL091973,CHRISTINE,1973,1973-09-04 18:00:00,9,572.5,19.0,-66.2,30.0,,,,0,E,93,298,12.9,0.0,False,False,50.0,999.0,,False,False,False,401-600 nm,1970,Satellite (1966+),Christine (1973),-1.26,La Nina
+AL161973,GILDA,1973,1973-10-18 00:00:00,10,103.3,19.5,-79.7,40.0,996.0,,,0,W,271,33,6.0,10.0,False,False,60.0,968.0,,False,False,False,101-200 nm,1970,Satellite (1966+),Gilda (1973),-1.26,La Nina
+AL171973,UNNAMED,1973,1973-11-20 00:00:00,11,438.3,11.7,-81.8,30.0,1007.0,,,0,SW,224,127,2.5,10.0,False,False,35.0,1006.0,,False,False,False,401-600 nm,1970,Satellite (1966+),Unnamed #17 (1973),-1.26,La Nina
+AL011974,UNNAMED,1974,1974-06-26 18:00:00,6,599.1,23.5,-87.5,25.0,1004.0,,,0,W,281,37,15.1,15.0,False,False,45.0,997.0,,False,False,False,401-600 nm,1970,Satellite (1966+),Unnamed #01 (1974),-0.47,Neutral
+AL051974,UNNAMED,1974,1974-07-14 18:00:00,7,484.4,26.5,-76.5,25.0,1015.0,,,0,N,5,0,2.0,0.0,False,False,50.0,1007.0,,False,False,False,401-600 nm,1970,Satellite (1966+),Unnamed #05 (1974),-0.47,Neutral
+AL081974,UNNAMED,1974,1974-08-24 18:00:00,8,565.8,23.5,-86.8,25.0,1011.0,,,0,NW,303,295,12.1,0.0,False,False,30.0,1010.0,,False,False,False,401-600 nm,1970,Satellite (1966+),Unnamed #08 (1974),-0.47,Neutral
+AL101974,CARMEN,1974,1974-08-31 16:00:00,8,34.6,17.13,-77.27,73.0,988.0,80.0,986.0,17,E,100,276,18.3,30.0,True,False,135.0,928.0,Cat 1,True,True,False,1-50 nm,1970,Satellite (1966+),Carmen (1974),-0.47,Neutral
+AL111974,UNNAMED,1974,1974-09-11 18:00:00,9,198.1,21.2,-75.0,20.0,1011.0,,,0,E,72,277,16.0,0.0,False,False,30.0,1011.0,,False,False,False,101-200 nm,1970,Satellite (1966+),Unnamed #11 (1974),-0.47,Neutral
+AL141974,FIFI,1974,1974-09-16 14:00:00,9,32.2,17.17,-77.13,35.0,1005.0,55.0,993.0,28,E,112,265,10.2,5.0,False,False,85.0,970.0,TS,True,False,False,1-50 nm,1970,Satellite (1966+),Fifi (1974),-0.47,Neutral
+AL161974,UNNAMED,1974,1974-09-23 12:00:00,9,264.4,18.0,-83.0,20.0,1009.0,,,0,W,270,317,11.0,0.0,False,False,30.0,1003.0,,False,False,False,201-400 nm,1970,Satellite (1966+),Unnamed #16 (1974),-0.47,Neutral
+AL181974,UNNAMED,1974,1974-10-04 00:00:00,10,182.7,21.0,-75.2,30.0,1009.0,,,0,NE,34,0,1.0,0.0,False,False,55.0,1003.0,,False,False,False,101-200 nm,1970,Satellite (1966+),Unnamed #18 (1974),-0.47,Neutral
+AL171974,GERTRUDE,1974,1974-10-04 06:00:00,10,554.8,13.1,-68.0,25.0,,,,0,E,111,276,9.8,0.0,False,False,85.0,992.0,,False,False,False,401-600 nm,1970,Satellite (1966+),Gertrude (1974),-0.47,Neutral
+AL041975,BLANCHE,1975,1975-07-24 18:00:00,7,568.7,26.5,-71.5,30.0,1012.0,,,0,NE,37,302,10.5,0.0,False,False,70.0,981.0,,False,False,False,401-600 nm,1970,Satellite (1966+),Blanche (1975),-1.29,La Nina
+AL071975,CAROLINE,1975,1975-08-26 00:00:00,8,112.8,20.4,-78.0,25.0,1011.0,,,0,NE,51,264,14.6,0.0,False,False,100.0,961.0,,False,False,False,101-200 nm,1970,Satellite (1966+),Caroline (1975),-1.29,La Nina
+AL131975,ELOISE,1975,1975-09-19 00:00:00,9,71.0,19.7,-78.0,30.0,1007.0,33.0,1006.0,19,NE,64,267,9.4,25.0,False,False,110.0,950.0,TD,False,False,False,51-100 nm,1970,Satellite (1966+),Eloise (1975),-1.29,La Nina
+AL161975,UNNAMED,1975,1975-09-26 00:00:00,9,350.6,18.9,-84.5,25.0,1010.0,,,0,W,279,223,1.4,0.0,False,False,25.0,1010.0,,False,False,False,201-400 nm,1970,Satellite (1966+),Unnamed #16 (1975),-1.29,La Nina
+AL151975,GLADYS,1975,1975-10-01 02:00:00,10,576.7,26.33,-70.9,80.0,975.0,,,0,NE,58,302,12.7,35.0,True,False,130.0,939.0,,False,False,False,401-600 nm,1970,Satellite (1966+),Gladys (1975),-1.29,La Nina
+AL201975,UNNAMED,1975,1975-10-28 00:00:00,10,343.9,13.7,-82.0,30.0,1004.0,,,0,SW,226,302,5.7,0.0,False,False,30.0,1004.0,,False,False,False,201-400 nm,1970,Satellite (1966+),Unnamed #20 (1975),-1.29,La Nina
+AL211975,UNNAMED,1975,1975-11-09 12:00:00,11,452.5,19.7,-86.2,30.0,1004.0,,,0,W,282,328,3.5,0.0,False,False,35.0,1004.0,,False,False,False,401-600 nm,1970,Satellite (1966+),Unnamed #21 (1975),-1.29,La Nina
+AL021976,UNNAMED,1976,1976-06-07 06:00:00,6,500.8,26.8,-79.0,20.0,,,,0,N,350,20,12.8,0.0,False,False,30.0,,,False,False,False,401-600 nm,1970,Satellite (1966+),Unnamed #02 (1976),0.6,El Nino
+AL031976,UNNAMED,1976,1976-06-11 12:00:00,6,507.4,26.5,-81.0,20.0,,,,0,N,338,52,28.1,0.0,False,False,30.0,,,False,False,False,401-600 nm,1970,Satellite (1966+),Unnamed #03 (1976),0.6,El Nino
+AL071976,BELLE,1976,1976-08-07 00:00:00,8,478.1,25.6,-73.2,40.0,1005.0,,,0,NE,27,90,0.9,0.0,False,False,105.0,957.0,,False,False,False,401-600 nm,1970,Satellite (1966+),Belle (1976),0.6,El Nino
+AL081976,DOTTIE,1976,1976-08-19 00:00:00,8,430.9,24.6,-82.2,25.0,1005.0,,,0,NW,323,57,2.7,5.0,False,False,45.0,996.0,,False,False,False,401-600 nm,1970,Satellite (1966+),Dottie (1976),0.6,El Nino
+AL191976,UNNAMED,1976,1976-10-11 20:00:00,10,296.3,17.97,-71.0,25.0,,,,0,E,108,0,7.8,0.0,False,False,30.0,,,False,False,False,201-400 nm,1970,Satellite (1966+),Unnamed #19 (1976),0.6,El Nino
+AL031977,UNNAMED,1977,1977-07-25 12:00:00,7,531.5,25.5,-84.0,20.0,,,,0,NW,321,262,7.3,0.0,False,False,25.0,,,False,False,False,401-600 nm,1970,Satellite (1966+),Unnamed #03 (1977),0.45,Neutral
+AL141977,FRIEDA,1977,1977-10-16 18:00:00,10,281.9,17.3,-83.2,25.0,1011.0,,,0,W,263,270,1.9,0.0,False,False,50.0,1005.0,,False,False,False,201-400 nm,1970,Satellite (1966+),Frieda (1977),0.45,Neutral
+AL021978,UNNAMED,1978,1978-06-22 18:00:00,6,570.1,26.6,-83.5,,,,,0,NW,315,66,4.9,0.0,False,False,25.0,,,False,False,False,401-600 nm,1970,Satellite (1966+),Unnamed #02 (1978),-0.44,Neutral
+AL071978,UNNAMED,1978,1978-08-10 15:00:00,8,298.3,12.75,-76.75,22.0,,,,0,SE,121,266,14.7,5.0,False,False,30.0,,,False,False,False,201-400 nm,1970,Satellite (1966+),Unnamed #07 (1978),-0.44,Neutral
+AL061978,CORA,1978,1978-08-12 00:00:00,8,548.7,12.2,-68.8,30.0,1010.0,,,0,E,109,273,19.6,0.0,False,False,80.0,980.0,,False,False,False,401-600 nm,1970,Satellite (1966+),Cora (1978),-0.44,Neutral
+AL161978,GRETA,1978,1978-09-16 20:00:00,9,220.0,14.4,-79.0,77.0,984.0,,,0,SE,149,289,9.4,25.0,False,False,115.0,947.0,,False,False,False,201-400 nm,1970,Satellite (1966+),Greta (1978),-0.44,Neutral
+AL201978,JULIET,1978,1978-10-10 15:00:00,10,504.6,23.55,-69.45,45.0,1006.0,,,0,E,79,322,19.2,15.0,False,False,45.0,1006.0,,False,False,False,401-600 nm,1970,Satellite (1966+),Juliet (1978),-0.44,Neutral
+AL231978,KENDRA,1978,1978-10-28 18:00:00,10,380.6,23.5,-72.7,30.0,1008.0,,,0,NE,38,327,8.4,0.0,False,False,70.0,990.0,,False,False,False,201-400 nm,1970,Satellite (1966+),Kendra (1978),-0.44,Neutral
+AL011979,UNNAMED,1979,1979-06-12 11:00:00,6,81.4,18.9,-79.65,25.0,,30.0,,20,W,259,24,6.2,0.0,False,False,30.0,,TD,False,False,False,51-100 nm,1970,Satellite (1966+),Unnamed #01 (1979),0.34,Neutral
+AL031979,UNNAMED,1979,1979-07-08 15:00:00,7,380.7,20.7,-70.15,22.0,,,,0,E,70,335,6.6,0.0,False,False,25.0,,,False,False,False,201-400 nm,1970,Satellite (1966+),Unnamed #03 (1979),0.34,Neutral
+AL061979,CLAUDETTE,1979,1979-07-20 12:00:00,7,66.4,19.5,-76.7,20.0,1013.0,20.0,1013.0,12,E,82,282,19.3,0.0,False,False,45.0,997.0,TD,False,False,False,51-100 nm,1970,Satellite (1966+),Claudette (1979),0.34,Neutral
+AL091979,DAVID,1979,1979-09-01 15:00:00,9,173.0,20.15,-74.15,62.0,1002.0,,,0,E,93,317,12.4,25.0,False,False,150.0,924.0,,False,False,False,101-200 nm,1970,Satellite (1966+),David (1979),0.34,Neutral
+AL111979,FREDERIC,1979,1979-09-07 09:00:00,9,125.7,20.45,-76.4,25.0,1006.0,,,0,E,74,285,11.6,0.0,False,False,115.0,943.0,,False,False,False,101-200 nm,1970,Satellite (1966+),Frederic (1979),0.34,Neutral
+AL151979,HENRI,1979,1979-09-15 00:00:00,9,492.8,20.3,-86.8,25.0,1003.0,,,0,W,285,356,12.0,0.0,False,False,75.0,983.0,,False,False,False,401-600 nm,1970,Satellite (1966+),Henri (1979),0.34,Neutral
+AL171979,UNNAMED,1979,1979-10-16 06:00:00,10,189.8,20.0,-81.2,30.0,,,,0,W,280,17,3.1,5.0,False,False,30.0,,,False,False,False,101-200 nm,1970,Satellite (1966+),Unnamed #17 (1979),0.34,Neutral
+AL191979,UNNAMED,1979,1979-10-26 07:00:00,10,77.6,17.33,-79.33,30.0,,30.0,,11,S,190,323,10.0,10.0,False,False,30.0,,TD,False,False,False,51-100 nm,1970,Satellite (1966+),Unnamed #19 (1979),0.34,Neutral
+AL031980,UNNAMED,1980,1980-07-22 00:00:00,7,342.6,23.2,-73.5,20.0,,,,0,NE,34,311,12.2,0.0,False,False,30.0,,,False,False,False,201-400 nm,1980,Satellite (1966+),Unnamed #03 (1980),-0.17,Neutral
+AL041980,ALLEN,1980,1980-08-06 07:00:00,8,18.6,18.45,-76.25,115.0,955.0,132.0,948.0,14,E,107,291,21.4,45.0,True,False,165.0,899.0,Cat 4,True,True,True,1-50 nm,1980,Satellite (1966+),Allen (1980),-0.17,Neutral
+AL131980,HERMINE,1980,1980-09-20 14:00:00,9,184.8,14.67,-77.7,25.0,1008.0,,,0,S,178,278,14.7,0.0,False,False,60.0,993.0,,False,False,False,101-200 nm,1980,Satellite (1966+),Hermine (1980),-0.17,Neutral
+AL151980,UNNAMED,1980,1980-10-16 00:00:00,10,410.5,16.2,-85.2,20.0,,,,0,W,257,270,2.9,0.0,False,False,25.0,,,False,False,False,401-600 nm,1980,Satellite (1966+),Unnamed #15 (1980),-0.17,Neutral
+AL161980,JEANNE,1980,1980-11-08 08:00:00,11,317.1,16.43,-83.57,22.0,1006.0,,,0,SW,229,340,13.8,0.0,False,False,85.0,986.0,,False,False,False,201-400 nm,1980,Satellite (1966+),Jeanne (1980),-0.17,Neutral
+AL171980,UNNAMED,1980,1980-11-15 08:00:00,11,297.6,20.23,-83.2,30.0,,,,0,W,265,22,7.4,10.0,False,False,30.0,,,False,False,False,201-400 nm,1980,Satellite (1966+),Unnamed #17 (1980),-0.17,Neutral
+AL021981,UNNAMED,1981,1981-04-20 18:00:00,4,193.3,14.5,-77.5,25.0,,,,0,S,192,309,5.6,5.0,False,False,25.0,,,False,False,False,101-200 nm,1980,Satellite (1966+),Unnamed #02 (1981),-0.08,Neutral
+AL031981,ARLENE,1981,1981-05-07 20:00:00,5,105.4,19.83,-79.37,42.0,1000.0,,,0,W,274,53,11.5,10.0,False,False,50.0,999.0,,False,False,False,101-200 nm,1980,Satellite (1966+),Arlene (1981),-0.08,Neutral
+AL071981,UNNAMED,1981,1981-07-02 06:00:00,7,334.8,24.0,-79.0,20.0,,,,0,N,345,318,13.5,0.0,False,False,30.0,,,False,False,False,201-400 nm,1980,Satellite (1966+),Unnamed #07 (1981),-0.08,Neutral
+AL101981,DENNIS,1981,1981-08-14 14:00:00,8,0.0,18.27,-78.27,15.0,1009.0,15.0,1008.0,27,SE,116,314,11.0,0.0,False,True,70.0,995.0,TD,False,False,False,Landfall,1980,Satellite (1966+),Dennis (1981),-0.08,Neutral
+AL141981,FLOYD,1981,1981-09-06 06:00:00,9,543.8,23.6,-68.6,85.0,991.0,,,0,E,78,326,11.5,35.0,True,False,100.0,975.0,,False,False,False,401-600 nm,1980,Satellite (1966+),Floyd (1981),-0.08,Neutral
+AL151981,GERT,1981,1981-09-10 03:00:00,9,308.9,22.4,-73.25,45.0,1009.0,,,0,E,81,306,10.3,20.0,False,False,90.0,988.0,,False,False,False,201-400 nm,1980,Satellite (1966+),Gert (1981),-0.08,Neutral
+AL171981,UNNAMED,1981,1981-09-12 21:00:00,9,328.6,12.25,-77.65,30.0,,,,0,SE,151,275,10.8,0.0,False,False,30.0,,,False,False,False,201-400 nm,1980,Satellite (1966+),Unnamed #17 (1981),-0.08,Neutral
+AL211981,KATRINA,1981,1981-11-05 14:00:00,11,156.7,20.13,-80.37,73.0,983.0,,,0,W,280,42,5.4,35.0,True,False,75.0,980.0,,False,False,False,101-200 nm,1980,Satellite (1966+),Katrina (1981),-0.08,Neutral
+AL011982,ALBERTO,1982,1982-06-03 12:00:00,6,438.8,23.2,-84.2,50.0,995.0,,,0,NW,293,47,8.8,30.0,True,False,75.0,985.0,,False,False,False,401-600 nm,1980,Satellite (1966+),Alberto (1982),1.45,El Nino
+AL061982,DEBBY,1982,1982-09-14 04:00:00,9,360.3,22.1,-71.53,30.0,1008.0,,,0,E,76,326,11.3,0.0,False,False,115.0,950.0,,False,False,False,201-400 nm,1980,Satellite (1966+),Debby (1982),1.45,El Nino
+AL071982,UNNAMED,1982,1982-09-24 00:00:00,9,507.0,25.3,-71.5,20.0,,,,0,NE,36,308,11.4,0.0,False,False,30.0,,,False,False,False,401-600 nm,1980,Satellite (1966+),Unnamed #07 (1982),1.45,El Nino
+AL011983,UNNAMED,1983,1983-07-28 18:00:00,7,529.9,15.0,-67.5,20.0,,,,0,E,104,286,15.0,0.0,False,False,30.0,,,False,False,False,401-600 nm,1980,Satellite (1966+),Unnamed #01 (1983),-0.43,Neutral
+AL041983,BARRY,1983,1983-08-23 18:00:00,8,458.2,26.0,-76.0,25.0,1012.0,,,0,N,8,347,8.2,0.0,False,False,70.0,986.0,,False,False,False,401-600 nm,1980,Satellite (1966+),Barry (1983),-0.43,Neutral
+AL011984,UNNAMED,1984,1984-06-11 12:00:00,6,580.9,28.0,-75.5,20.0,,,,0,N,9,307,3.3,0.0,False,False,30.0,,,False,False,False,401-600 nm,1980,Satellite (1966+),Unnamed #01 (1984),-0.32,Neutral
+AL031984,UNNAMED,1984,1984-07-26 18:00:00,7,381.2,15.2,-70.2,20.0,,,,0,E,102,276,21.3,5.0,False,False,30.0,,,False,False,False,201-400 nm,1980,Satellite (1966+),Unnamed #03 (1984),-0.32,Neutral
+AL061984,ARTHUR,1984,1984-09-05 12:00:00,9,589.0,24.0,-67.9,25.0,1014.0,,,0,E,71,323,12.0,5.0,False,False,45.0,1004.0,,False,False,False,401-600 nm,1980,Satellite (1966+),Arthur (1984),-0.32,Neutral
+AL101984,DIANA,1984,1984-09-08 12:00:00,9,599.4,28.5,-77.4,35.0,1008.0,,,0,N,360,277,8.0,0.0,False,False,115.0,949.0,,False,False,False,401-600 nm,1980,Satellite (1966+),Diana (1984),-0.32,Neutral
+AL151984,ISIDORE,1984,1984-09-25 12:00:00,9,366.7,23.4,-73.0,30.0,1003.0,,,0,NE,36,301,9.7,0.0,False,False,50.0,999.0,,False,False,False,201-400 nm,1980,Satellite (1966+),Isidore (1984),-0.32,Neutral
+AL161984,JOSEPHINE,1984,1984-10-08 18:00:00,10,445.0,24.3,-71.9,50.0,998.0,,,0,NE,49,305,4.4,25.0,False,False,90.0,965.0,,False,False,False,401-600 nm,1980,Satellite (1966+),Josephine (1984),-0.32,Neutral
+AL171984,UNNAMED,1984,1984-10-26 06:00:00,10,502.8,26.9,-77.9,30.0,,,,0,NE,33,272,13.4,10.0,False,False,30.0,,,False,False,False,401-600 nm,1980,Satellite (1966+),Unnamed #17 (1984),-0.32,Neutral
+AL181984,KLAUS,1984,1984-11-05 18:00:00,11,467.4,14.7,-68.8,15.0,1004.0,,,0,E,111,53,8.4,0.0,False,False,80.0,971.0,,False,False,False,401-600 nm,1980,Satellite (1966+),Klaus (1984),-0.32,Neutral
+AL191984,UNNAMED,1984,1984-11-24 12:00:00,11,459.8,26.0,-75.8,25.0,,,,0,N,347,104,12.5,5.0,False,False,30.0,,,False,False,False,401-600 nm,1980,Satellite (1966+),Unnamed #19 (1984),-0.32,Neutral
+AL201984,LILI,1984,1984-12-24 12:00:00,12,394.0,19.2,-69.4,25.0,1012.0,,,0,E,73,249,19.3,0.0,False,False,70.0,980.0,,False,False,False,201-400 nm,1980,Satellite (1966+),Lili (1984),-0.32,Neutral
+AL021985,BOB,1985,1985-07-23 18:00:00,7,503.4,26.4,-81.1,40.0,1006.0,,,0,NW,325,66,9.8,10.0,False,False,65.0,1002.0,,False,False,False,401-600 nm,1980,Satellite (1966+),Bob (1985),-0.31,Neutral
+AL041985,DANNY,1985,1985-08-12 00:00:00,8,133.2,18.5,-80.7,25.0,1010.0,,,0,W,277,317,9.6,0.0,False,False,80.0,987.0,,False,False,False,101-200 nm,1980,Satellite (1966+),Danny (1985),-0.31,Neutral
+AL051985,ELENA,1985,1985-08-28 03:00:00,8,149.8,20.3,-75.0,30.0,1011.0,,,0,NE,61,298,21.3,0.0,False,False,110.0,953.0,,False,False,False,101-200 nm,1980,Satellite (1966+),Elena (1985),-0.31,Neutral
+AL071985,UNNAMED,1985,1985-09-13 18:00:00,9,337.4,14.2,-71.8,20.0,,,,0,E,112,277,17.6,5.0,False,False,30.0,,,False,False,False,201-400 nm,1980,Satellite (1966+),Unnamed #07 (1985),-0.31,Neutral
+AL081985,FABIAN,1985,1985-09-15 18:00:00,9,451.3,23.6,-70.8,25.0,1008.0,,,0,NE,47,58,7.6,0.0,False,False,55.0,994.0,,False,False,False,401-600 nm,1980,Satellite (1966+),Fabian (1985),-0.31,Neutral
+AL091985,GLORIA,1985,1985-09-24 23:00:00,9,507.6,24.03,-69.83,118.0,922.0,,,0,E,72,318,13.1,35.0,True,False,125.0,920.0,,False,False,False,401-600 nm,1980,Satellite (1966+),Gloria (1985),-0.31,Neutral
+AL111985,ISABEL,1985,1985-10-07 12:00:00,10,305.1,19.8,-71.2,40.0,1006.0,,,0,E,91,340,13.8,0.0,False,False,60.0,997.0,,False,False,False,201-400 nm,1980,Satellite (1966+),Isabel (1985),-0.31,Neutral
+AL131985,KATE,1985,1985-11-19 04:00:00,11,214.6,22.1,-77.87,95.0,968.0,,,0,NE,58,274,15.2,25.0,False,False,105.0,954.0,,False,False,False,201-400 nm,1980,Satellite (1966+),Kate (1985),-0.31,Neutral
+AL141985,UNNAMED,1985,1985-12-07 12:00:00,12,390.6,11.2,-77.0,20.0,,,,0,S,178,259,5.0,0.0,False,False,30.0,,,False,False,False,201-400 nm,1980,Satellite (1966+),Unnamed #14 (1985),-0.31,Neutral
+AL011986,ANDREW,1986,1986-06-05 00:00:00,6,471.7,26.2,-75.8,30.0,1007.0,,,0,N,9,352,12.1,0.0,False,False,45.0,999.0,,False,False,False,401-600 nm,1980,Satellite (1966+),Andrew (1986),0.64,El Nino
+AL071986,UNNAMED,1986,1986-09-01 12:00:00,9,448.8,17.6,-86.2,20.0,,,,0,W,268,285,15.8,0.0,False,False,30.0,,,False,False,False,401-600 nm,1980,Satellite (1966+),Unnamed #07 (1986),0.64,El Nino
+AL081986,DANIELLE,1986,1986-09-10 09:00:00,9,171.5,14.85,-77.0,30.0,1012.0,,,0,SE,113,268,29.0,20.0,False,False,50.0,1000.0,,False,False,False,101-200 nm,1980,Satellite (1966+),Danielle (1986),0.64,El Nino
+AL011987,UNNAMED,1987,1987-05-31 06:00:00,5,391.3,24.7,-80.2,30.0,,,,0,N,5,237,6.5,0.0,False,False,30.0,,,False,False,False,201-400 nm,1980,Satellite (1966+),Unnamed #01 (1987),1.49,El Nino
+AL021987,ARLENE,1987,1987-08-10 18:00:00,8,388.8,25.0,-78.0,25.0,1009.0,,,0,N,10,301,6.8,10.0,False,False,65.0,987.0,,False,False,False,201-400 nm,1980,Satellite (1966+),Arlene (1987),1.49,El Nino
+AL081987,UNNAMED,1987,1987-09-07 22:00:00,9,239.5,13.73,-77.57,30.0,,,,0,SE,125,276,18.6,5.0,False,False,30.0,,,False,False,False,201-400 nm,1980,Satellite (1966+),Unnamed #08 (1987),1.49,El Nino
+AL121987,EMILY,1987,1987-09-23 12:00:00,9,253.8,20.0,-72.3,55.0,1004.0,,,0,E,102,327,11.3,60.0,True,False,110.0,958.0,,False,False,False,201-400 nm,1980,Satellite (1966+),Emily (1987),1.49,El Nino
+AL131987,FLOYD,1987,1987-10-10 12:00:00,10,257.9,16.0,-82.2,35.0,999.0,,,0,SW,235,320,9.8,10.0,False,False,65.0,993.0,,False,False,False,201-400 nm,1980,Satellite (1966+),Floyd (1987),1.49,El Nino
+AL141987,UNNAMED,1987,1987-11-01 02:00:00,11,34.9,17.8,-78.77,30.0,,30.0,,17,S,187,319,12.1,0.0,False,False,30.0,,TD,False,False,False,1-50 nm,1980,Satellite (1966+),Unnamed #14 (1987),1.49,El Nino
+AL131988,UNNAMED,1988,1988-06-01 15:00:00,6,339.5,22.0,-82.95,25.0,,,,0,W,292,40,13.0,0.0,False,False,25.0,,,False,False,False,201-400 nm,1980,Satellite (1966+),Unnamed #13 (1988),-1.27,La Nina
+AL141988,UNNAMED,1988,1988-08-13 03:00:00,8,416.8,25.1,-74.9,30.0,,,,0,N,20,286,7.5,0.0,False,False,30.0,,,False,False,False,401-600 nm,1980,Satellite (1966+),Unnamed #14 (1988),-1.27,La Nina
+AL161988,UNNAMED,1988,1988-08-23 00:00:00,8,151.5,15.5,-75.4,30.0,,,,0,E,112,270,12.1,5.0,False,False,30.0,,,False,False,False,101-200 nm,1980,Satellite (1966+),Unnamed #16 (1988),-1.27,La Nina
+AL031988,CHRIS,1988,1988-08-26 08:00:00,8,226.4,20.83,-73.53,30.0,1008.0,,,0,E,87,315,13.4,0.0,False,False,45.0,1005.0,,False,False,False,201-400 nm,1980,Satellite (1966+),Chris (1988),-1.27,La Nina
+AL081988,GILBERT,1988,1988-09-12 19:00:00,9,0.0,17.95,-77.17,110.0,960.0,117.0,949.0,22,E,106,284,14.4,45.0,True,True,160.0,888.0,Cat 4,True,True,True,Landfall,1980,Satellite (1966+),Gilbert (1988),-1.27,La Nina
+AL111988,JOAN,1988,1988-10-18 06:00:00,10,378.1,11.7,-75.0,70.0,987.0,,,0,SE,135,260,8.9,15.0,False,False,125.0,932.0,,False,False,False,201-400 nm,1980,Satellite (1966+),Joan (1988),-1.27,La Nina
+AL191988,UNNAMED,1988,1988-10-21 18:00:00,10,295.9,14.3,-72.7,25.0,,,,0,SE,123,262,6.9,5.0,False,False,30.0,,,False,False,False,201-400 nm,1980,Satellite (1966+),Unnamed #19 (1988),-1.27,La Nina
+AL121988,KEITH,1988,1988-11-18 09:00:00,11,162.3,15.0,-77.1,30.0,1008.0,,,0,SE,138,270,11.6,0.0,False,False,65.0,945.0,,False,False,False,101-200 nm,1980,Satellite (1966+),Keith (1988),-1.27,La Nina
+AL111989,HUGO,1989,1989-09-19 22:00:00,9,508.9,23.2,-69.07,90.0,960.0,,,0,E,80,324,11.2,10.0,False,False,140.0,918.0,,False,False,False,401-600 nm,1980,Satellite (1966+),Hugo (1989),-0.33,Neutral
+AL121989,IRIS,1989,1989-09-21 18:00:00,9,586.1,22.5,-67.0,25.0,1012.0,,,0,E,73,276,9.3,15.0,False,False,60.0,1001.0,,False,False,False,401-600 nm,1980,Satellite (1966+),Iris (1989),-0.33,Neutral
+AL151989,KAREN,1989,1989-12-01 06:00:00,12,281.2,19.3,-83.2,40.0,1002.0,,,0,NW,295,192,4.6,20.0,False,False,50.0,1000.0,,False,False,False,201-400 nm,1980,Satellite (1966+),Karen (1989),-0.33,Neutral
+AL011990,UNNAMED,1990,1990-05-24 18:00:00,5,321.8,18.8,-84.0,25.0,,,,0,W,277,0,9.0,0.0,False,False,25.0,,,False,False,False,201-400 nm,1990,Satellite (1966+),Unnamed #01 (1990),0.31,Neutral
+AL021990,ARTHUR,1990,1990-07-27 12:00:00,7,91.2,16.5,-75.6,30.0,1010.0,30.0,1010.0,2,E,109,267,17.3,25.0,False,False,60.0,995.0,TD,False,False,False,51-100 nm,1990,Satellite (1966+),Arthur (1990),0.31,Neutral
+AL051990,DIANA,1990,1990-08-04 15:00:00,8,284.4,15.25,-82.2,28.0,1006.0,,,0,SW,204,319,11.9,0.0,False,False,85.0,980.0,,False,False,False,201-400 nm,1990,Satellite (1966+),Diana (1990),0.31,Neutral
+AL131990,KLAUS,1990,1990-10-09 05:00:00,10,388.1,23.27,-72.12,45.0,1006.0,,,0,E,75,312,13.5,15.0,False,False,70.0,985.0,,False,False,False,201-400 nm,1990,Satellite (1966+),Klaus (1990),0.31,Neutral
+AL151990,MARCO,1990,1990-10-09 12:00:00,10,253.7,22.5,-79.5,25.0,1004.0,,,0,NW,335,280,11.3,0.0,False,False,55.0,989.0,,False,False,False,201-400 nm,1990,Satellite (1966+),Marco (1990),0.31,Neutral
+AL011991,ANA,1991,1991-06-29 12:00:00,6,442.9,25.9,-78.0,20.0,1012.0,,,0,N,355,270,9.0,0.0,False,False,45.0,1000.0,,False,False,False,401-600 nm,1990,Satellite (1966+),Ana (1991),0.72,El Nino
+AL031991,BOB,1991,1991-08-16 06:00:00,8,451.6,25.7,-74.9,25.0,1012.0,,,0,N,20,287,5.2,0.0,False,False,100.0,950.0,,False,False,False,401-600 nm,1990,Satellite (1966+),Bob (1991),0.72,El Nino
+AL091991,FABIAN,1991,1991-10-15 23:00:00,10,309.9,22.1,-82.13,40.0,1004.0,,,0,W,277,41,20.0,0.0,False,False,40.0,1002.0,,False,False,False,201-400 nm,1990,Satellite (1966+),Fabian (1991),0.72,El Nino
+AL021992,UNNAMED,1992,1992-06-25 12:00:00,6,543.9,24.5,-85.5,25.0,1009.0,,,0,NW,311,0,12.0,0.0,False,False,30.0,1007.0,,False,False,False,401-600 nm,1990,Satellite (1966+),Unnamed #02 (1992),-0.15,Neutral
+AL041992,ANDREW,1992,1992-08-24 01:00:00,8,412.8,25.4,-77.8,130.0,931.0,,,0,NE,35,270,16.3,65.0,True,False,150.0,922.0,,False,False,False,401-600 nm,1990,Satellite (1966+),Andrew (1992),-0.15,Neutral
+AL091992,EARL,1992,1992-09-27 08:00:00,9,537.2,26.53,-72.83,27.0,1007.0,,,0,NE,42,296,15.7,0.0,False,False,55.0,990.0,,False,False,False,401-600 nm,1990,Satellite (1966+),Earl (1992),-0.15,Neutral
+AL011993,UNNAMED,1993,1993-05-31 22:00:00,5,305.7,22.9,-80.87,25.0,1001.0,,,0,NW,299,57,17.9,0.0,False,False,35.0,999.0,,False,False,False,201-400 nm,1990,Satellite (1966+),Unnamed #01 (1993),0.2,Neutral
+AL031993,BRET,1993,1993-08-09 10:00:00,8,420.5,10.7,-77.13,32.0,1004.0,,,0,SE,130,270,18.7,0.0,False,False,50.0,1002.0,,False,False,False,401-600 nm,1990,Satellite (1966+),Bret (1993),0.2,Neutral
+AL041993,CINDY,1993,1993-08-17 00:00:00,8,283.5,18.8,-71.3,30.0,1010.0,,,0,E,98,330,11.5,5.0,False,False,40.0,1007.0,,False,False,False,201-400 nm,1990,Satellite (1966+),Cindy (1993),0.2,Neutral
+AL081993,GERT,1993,1993-09-14 18:00:00,9,468.6,10.6,-80.7,25.0,1008.0,,,0,SW,204,280,6.0,0.0,False,False,85.0,970.0,,False,False,False,401-600 nm,1990,Satellite (1966+),Gert (1993),0.2,Neutral
+AL011994,ALBERTO,1994,1994-06-30 06:00:00,6,358.2,21.7,-83.6,25.0,1011.0,,,0,NW,302,261,6.6,0.0,False,False,55.0,993.0,,False,False,False,201-400 nm,1990,Satellite (1966+),Alberto (1994),0.47,Neutral
+AL061994,DEBBY,1994,1994-09-11 00:00:00,9,564.5,15.5,-66.7,50.0,1008.0,,,0,E,103,283,17.8,30.0,True,False,60.0,1006.0,,False,False,False,401-600 nm,1990,Satellite (1966+),Debby (1994),0.47,Neutral
+AL081994,UNNAMED,1994,1994-09-24 12:00:00,9,376.7,16.0,-84.5,25.0,1008.0,,,0,W,254,298,6.5,0.0,False,False,30.0,1004.0,,False,False,False,201-400 nm,1990,Satellite (1966+),Unnamed #08 (1994),0.47,Neutral
+AL101994,UNNAMED,1994,1994-09-29 15:00:00,9,433.3,21.5,-85.25,28.0,1006.0,,,0,W,288,25,11.0,0.0,False,False,30.0,1004.0,,False,False,False,401-600 nm,1990,Satellite (1966+),Unnamed #10 (1994),0.47,Neutral
+AL121994,GORDON,1994,1994-11-13 04:00:00,11,0.0,18.03,-76.53,37.0,1000.0,40.0,999.0,24,W,256,62,18.3,5.0,False,True,75.0,980.0,TS,True,False,False,Landfall,1990,Satellite (1966+),Gordon (1994),0.47,Neutral
+AL011995,ALLISON,1995,1995-06-03 00:00:00,6,342.6,17.4,-84.3,30.0,1005.0,,,0,W,265,328,10.7,0.0,False,False,65.0,982.0,,False,False,False,201-400 nm,1990,Satellite (1966+),Allison (1995),-0.81,La Nina
+AL031995,CHANTAL,1995,1995-07-15 18:00:00,7,562.9,23.2,-67.9,45.0,1005.0,,,0,E,72,327,5.9,10.0,False,False,60.0,991.0,,False,False,False,401-600 nm,1990,Satellite (1966+),Chantal (1995),-0.81,La Nina
+AL051995,ERIN,1995,1995-07-31 00:00:00,7,305.6,22.3,-73.2,45.0,1004.0,,,0,NE,42,309,4.8,0.0,False,False,85.0,973.0,,False,False,False,201-400 nm,1990,Satellite (1966+),Erin (1995),-0.81,La Nina
+AL111995,JERRY,1995,1995-08-22 18:00:00,8,314.2,23.7,-78.7,20.0,1010.0,,,0,N,347,340,5.3,0.0,False,False,35.0,1002.0,,False,False,False,201-400 nm,1990,Satellite (1966+),Jerry (1995),-0.81,La Nina
+AL131995,LUIS,1995,1995-09-07 18:00:00,9,584.5,22.8,-67.2,115.0,938.0,,,0,E,78,331,13.2,10.0,False,False,130.0,935.0,,False,False,False,401-600 nm,1990,Satellite (1966+),Luis (1995),-0.81,La Nina
+AL151995,MARILYN,1995,1995-09-17 17:00:00,9,511.0,22.75,-68.7,80.0,968.0,,,0,E,80,335,10.7,15.0,False,False,100.0,949.0,,False,False,False,401-600 nm,1990,Satellite (1966+),Marilyn (1995),-0.81,La Nina
+AL171995,OPAL,1995,1995-09-27 18:00:00,9,510.1,19.1,-87.3,25.0,1004.0,,,0,W,278,328,3.5,0.0,False,False,130.0,916.0,,False,False,False,401-600 nm,1990,Satellite (1966+),Opal (1995),-0.81,La Nina
+AL191995,ROXANNE,1995,1995-10-09 17:00:00,10,258.0,18.32,-82.9,49.0,996.0,,,0,SW,247,333,5.6,20.0,False,False,100.0,956.0,,False,False,False,201-400 nm,1990,Satellite (1966+),Roxanne (1995),-0.81,La Nina
+AL011996,ARTHUR,1996,1996-06-17 18:00:00,6,496.8,26.8,-77.8,25.0,1010.0,,,0,N,357,334,10.0,0.0,False,False,45.0,992.0,,False,False,False,401-600 nm,1990,Satellite (1966+),Arthur (1996),-0.3,Neutral
+AL021996,BERTHA,1996,1996-07-09 22:00:00,7,387.2,23.23,-72.1,87.0,968.0,,,0,E,83,308,17.3,30.0,True,False,100.0,960.0,,False,False,False,201-400 nm,1990,Satellite (1966+),Bertha (1996),-0.3,Neutral
+AL031996,CESAR,1996,1996-07-26 13:00:00,7,350.0,12.23,-74.77,46.0,1002.0,,,0,SE,123,260,16.6,15.0,False,False,75.0,985.0,,False,False,False,201-400 nm,1990,Satellite (1966+),Cesar (1996),-0.3,Neutral
+AL041996,DOLLY,1996,1996-08-19 06:00:00,8,119.1,17.3,-80.2,25.0,1009.0,,,0,W,254,289,15.2,0.0,False,False,70.0,989.0,,False,False,False,101-200 nm,1990,Satellite (1966+),Dolly (1996),-0.3,Neutral
+AL051996,EDOUARD,1996,1996-08-29 18:00:00,8,568.2,24.7,-69.0,120.0,948.0,,,0,E,69,320,9.8,10.0,False,False,125.0,933.0,,False,False,False,401-600 nm,1990,Satellite (1966+),Edouard (1996),-0.3,Neutral
+AL061996,FRAN,1996,1996-09-03 18:00:00,9,482.1,25.2,-72.2,85.0,968.0,,,0,NE,55,300,10.0,10.0,False,False,105.0,946.0,,False,False,False,401-600 nm,1990,Satellite (1966+),Fran (1996),-0.3,Neutral
+AL081996,HORTENSE,1996,1996-09-11 20:00:00,9,384.7,21.83,-70.77,97.0,969.0,,,0,E,82,327,8.4,30.0,True,False,120.0,935.0,,False,False,False,201-400 nm,1990,Satellite (1966+),Hortense (1996),-0.3,Neutral
+AL111996,KYLE,1996,1996-10-11 12:00:00,10,468.1,17.3,-86.5,30.0,1006.0,,,0,W,266,235,7.0,0.0,False,False,45.0,1001.0,,False,False,False,401-600 nm,1990,Satellite (1966+),Kyle (1996),-0.3,Neutral
+AL121996,LILI,1996,1996-10-18 20:00:00,10,261.8,22.67,-79.4,82.0,975.0,,,0,NW,297,75,16.7,25.0,False,False,100.0,960.0,,False,False,False,201-400 nm,1990,Satellite (1966+),Lili (1996),-0.3,Neutral
+AL131996,MARCO,1996,1996-11-16 18:00:00,11,82.5,17.0,-79.0,30.0,1007.0,30.0,1007.0,7,SW,212,291,4.1,10.0,False,False,65.0,983.0,TD,False,False,False,51-100 nm,1990,Satellite (1966+),Marco (1996),-0.3,Neutral
+AL011997,UNNAMED,1997,1997-05-31 18:00:00,5,599.4,28.5,-77.4,25.0,1011.0,,,0,N,360,15,10.3,0.0,False,False,45.0,1003.0,,False,False,False,401-600 nm,1990,Satellite (1966+),Unnamed #01 (1997),2.04,El Nino
+AL091997,GRACE,1997,1997-10-14 18:00:00,10,389.6,20.3,-69.8,30.0,1001.0,,,0,E,76,290,4.5,0.0,False,False,40.0,999.0,,False,False,False,201-400 nm,1990,Satellite (1966+),Grace (1997),2.04,El Nino
+AL021998,BONNIE,1998,1998-08-23 00:00:00,8,435.0,23.4,-71.0,90.0,962.0,,,0,E,71,318,5.4,30.0,True,False,100.0,954.0,,False,False,False,401-600 nm,1990,Satellite (1966+),Bonnie (1998),-1.02,La Nina
+AL041998,DANIELLE,1998,1998-08-30 00:00:00,8,540.3,25.9,-71.4,65.0,987.0,,,0,NE,57,303,9.1,0.0,False,False,90.0,960.0,,False,False,False,401-600 nm,1990,Satellite (1966+),Danielle (1998),-1.02,La Nina
+AL071998,GEORGES,1998,1998-09-24 06:00:00,9,152.2,20.8,-76.0,65.0,991.0,,,0,E,79,291,11.5,10.0,False,False,135.0,937.0,,False,False,False,101-200 nm,1990,Satellite (1966+),Georges (1998),-1.02,La Nina
+AL131998,MITCH,1998,1998-10-25 06:00:00,10,130.0,16.0,-78.9,105.0,951.0,,,0,S,187,301,6.8,45.0,True,False,155.0,905.0,,False,False,False,101-200 nm,1990,Satellite (1966+),Mitch (1998),-1.02,La Nina
+AL051999,DENNIS,1999,1999-08-25 06:00:00,8,383.6,23.0,-71.9,40.0,1007.0,,,0,NE,62,306,3.4,10.0,False,False,90.0,962.0,,False,False,False,201-400 nm,1990,Satellite (1966+),Dennis (1999),-1.0,La Nina
+AL081999,FLOYD,1999,1999-09-14 03:00:00,9,397.9,24.7,-74.65,110.0,926.0,,,0,NE,53,289,12.5,40.0,True,False,135.0,921.0,,False,False,False,201-400 nm,1990,Satellite (1966+),Floyd (1999),-1.0,La Nina
+AL101999,HARVEY,1999,1999-09-21 19:00:00,9,483.1,26.07,-81.02,48.0,999.0,,,0,NW,322,72,22.1,20.0,False,False,50.0,994.0,,False,False,False,401-600 nm,1990,Satellite (1966+),Harvey (1999),-1.0,La Nina
+AL131999,IRENE,1999,1999-10-12 12:00:00,10,251.5,15.9,-82.0,20.0,1006.0,,,0,SW,245,298,10.8,0.0,False,False,95.0,958.0,,False,False,False,201-400 nm,1990,Satellite (1966+),Irene (1999),-1.0,La Nina
+AL141999,JOSE,1999,1999-10-22 06:00:00,10,585.1,19.9,-66.1,50.0,992.0,,,0,E,88,355,5.5,25.0,False,False,85.0,979.0,,False,False,False,401-600 nm,1990,Satellite (1966+),Jose (1999),-1.0,La Nina
+AL151999,KATRINA,1999,1999-10-30 00:00:00,10,394.3,13.8,-83.4,35.0,999.0,,,0,SW,213,310,7.0,5.0,False,False,35.0,999.0,,False,False,False,201-400 nm,1990,Satellite (1966+),Katrina (1999),-1.0,La Nina
+AL161999,LENNY,1999,1999-11-15 00:00:00,11,122.0,16.0,-78.6,70.0,988.0,,,0,SW,247,117,8.7,40.0,True,False,135.0,933.0,,False,False,False,101-200 nm,1990,Satellite (1966+),Lenny (1999),-1.0,La Nina
+AL042000,UNNAMED,2000,2000-08-09 18:00:00,8,562.9,27.9,-77.9,30.0,1010.0,,,0,N,11,276,5.3,0.0,False,False,30.0,1009.0,,False,False,False,401-600 nm,2000,Satellite (1966+),Unnamed #04 (2000),-0.42,Neutral
+AL072000,DEBBY,2000,2000-08-24 12:00:00,8,64.4,19.5,-77.0,30.0,1011.0,33.0,1011.0,5,E,76,267,17.9,0.0,False,False,75.0,991.0,TD,False,False,False,51-100 nm,2000,Satellite (1966+),Debby (2000),-0.42,Neutral
+AL112000,GORDON,2000,2000-09-14 12:00:00,9,514.8,19.8,-87.3,25.0,1008.0,,,0,W,282,351,6.1,0.0,False,False,70.0,981.0,,False,False,False,401-600 nm,2000,Satellite (1966+),Gordon (2000),-0.42,Neutral
+AL122000,HELENE,2000,2000-09-19 08:00:00,9,5.7,18.5,-76.97,30.0,1010.0,30.0,1010.0,18,E,96,288,19.8,0.0,False,False,60.0,986.0,TD,False,False,False,1-50 nm,2000,Satellite (1966+),Helene (2000),-0.42,Neutral
+AL152000,KEITH,2000,2000-09-28 18:00:00,9,290.1,16.1,-82.9,25.0,1005.0,,,0,W,250,285,4.0,0.0,False,False,120.0,939.0,,False,False,False,201-400 nm,2000,Satellite (1966+),Keith (2000),-0.42,Neutral
+AL192000,UNNAMED,2000,2000-10-25 00:00:00,10,434.9,21.5,-69.5,30.0,1009.0,,,0,NE,64,335,11.0,0.0,False,False,55.0,976.0,,False,False,False,401-600 nm,2000,Satellite (1966+),Unnamed #19 (2000),-0.42,Neutral
+AL032001,BARRY,2001,2001-08-02 12:00:00,8,568.4,25.7,-84.8,30.0,1011.0,,,0,NW,319,350,5.1,0.0,False,False,60.0,990.0,,False,False,False,401-600 nm,2000,Satellite (1966+),Barry (2001),-0.15,Neutral
+AL042001,CHANTAL,2001,2001-08-19 01:00:00,8,143.9,15.32,-77.4,56.0,1001.0,,,0,E,112,273,14.2,20.0,False,False,60.0,997.0,,False,False,False,101-200 nm,2000,Satellite (1966+),Chantal (2001),-0.15,Neutral
+AL052001,DEAN,2001,2001-08-23 12:00:00,8,423.3,21.6,-69.8,30.0,1012.0,,,0,E,89,332,13.0,0.0,False,False,60.0,994.0,,False,False,False,401-600 nm,2000,Satellite (1966+),Dean (2001),-0.15,Neutral
+AL082001,GABRIELLE,2001,2001-09-14 00:00:00,9,530.2,25.4,-84.1,45.0,997.0,,,0,NW,313,64,4.5,15.0,False,False,70.0,975.0,,False,False,False,401-600 nm,2000,Satellite (1966+),Gabrielle (2001),-0.15,Neutral
+AL092001,UNNAMED,2001,2001-09-19 18:00:00,9,355.0,13.4,-81.9,30.0,1008.0,,,0,SW,224,285,16.1,0.0,False,False,30.0,1005.0,,False,False,False,201-400 nm,2000,Satellite (1966+),Unnamed #09 (2001),-0.15,Neutral
+AL112001,IRIS,2001,2001-10-07 13:00:00,10,24.5,17.32,-77.32,75.0,989.0,78.0,989.0,18,E,103,277,17.6,25.0,False,False,125.0,948.0,Cat 1,True,True,False,1-50 nm,2000,Satellite (1966+),Iris (2001),-0.15,Neutral
+AL152001,MICHELLE,2001,2001-11-04 18:00:00,11,271.4,21.5,-81.8,120.0,949.0,,,0,W,282,43,9.7,45.0,True,False,120.0,933.0,,False,False,False,201-400 nm,2000,Satellite (1966+),Michelle (2001),-0.15,Neutral
+AL172001,OLGA,2001,2001-12-01 22:00:00,12,523.3,23.27,-68.8,33.0,1003.0,,,0,NE,58,335,5.4,0.0,False,False,80.0,973.0,,False,False,False,401-600 nm,2000,Satellite (1966+),Olga (2001),-0.15,Neutral
+AL102002,ISIDORE,2002,2002-09-18 15:00:00,9,10.6,18.2,-78.55,42.0,1002.0,50.0,995.0,36,S,175,355,10.1,10.0,False,False,110.0,934.0,TS,True,False,False,1-50 nm,2000,Satellite (1966+),Isidore (2002),0.78,El Nino
+AL132002,LILI,2002,2002-09-29 18:00:00,9,12.6,18.7,-77.6,50.0,994.0,64.0,987.0,66,E,75,289,4.5,15.0,False,False,125.0,938.0,Cat 1,True,True,False,1-50 nm,2000,Satellite (1966+),Lili (2002),0.78,El Nino
+AL122002,KYLE,2002,2002-10-10 06:00:00,10,588.7,28.3,-77.0,25.0,1010.0,,,0,N,18,270,10.1,0.0,False,False,75.0,980.0,,False,False,False,401-600 nm,2000,Satellite (1966+),Kyle (2002),0.78,El Nino
+AL142002,UNNAMED,2002,2002-10-16 06:00:00,10,225.0,20.5,-81.6,30.0,1003.0,,,0,W,264,32,10.6,0.0,False,False,30.0,1002.0,,False,False,False,201-400 nm,2000,Satellite (1966+),Unnamed #14 (2002),0.78,El Nino
+AL042003,CLAUDETTE,2003,2003-07-09 16:00:00,7,131.0,15.63,-77.9,55.0,1003.0,,,0,SE,113,284,20.1,20.0,False,False,80.0,979.0,,False,False,False,101-200 nm,2000,Satellite (1966+),Claudette (2003),0.23,Neutral
+AL082003,ERIKA,2003,2003-08-14 18:00:00,8,554.2,26.4,-83.3,35.0,1011.0,,,0,NW,327,276,21.6,0.0,False,False,65.0,986.0,,False,False,False,401-600 nm,2000,Satellite (1966+),Erika (2003),0.23,Neutral
+AL092003,UNNAMED,2003,2003-08-22 12:00:00,8,469.9,16.2,-68.2,30.0,1008.0,,,0,E,106,307,8.4,0.0,False,False,30.0,1007.0,,False,False,False,401-600 nm,2000,Satellite (1966+),Unnamed #09 (2003),0.23,Neutral
+AL132003,ISABEL,2003,2003-09-15 12:00:00,9,556.5,24.8,-69.4,120.0,946.0,,,0,NE,61,312,6.1,5.0,False,False,145.0,915.0,,False,False,False,401-600 nm,2000,Satellite (1966+),Isabel (2003),0.23,Neutral
+AL172003,LARRY,2003,2003-09-27 18:00:00,9,360.7,18.5,-84.7,15.0,1009.0,,,0,W,274,317,2.8,0.0,False,False,55.0,993.0,,False,False,False,201-400 nm,2000,Satellite (1966+),Larry (2003),0.23,Neutral
+AL182003,MINDY,2003,2003-10-11 12:00:00,10,359.3,21.8,-71.3,35.0,1007.0,,,0,E,82,331,10.4,0.0,False,False,40.0,1002.0,,False,False,False,201-400 nm,2000,Satellite (1966+),Mindy (2003),0.23,Neutral
+AL202003,ODETTE,2003,2003-12-06 10:00:00,12,241.7,16.37,-72.3,55.0,995.0,,,0,SE,147,22,7.4,20.0,False,False,55.0,993.0,,False,False,False,201-400 nm,2000,Satellite (1966+),Odette (2003),0.23,Neutral
+AL022004,BONNIE,2004,2004-08-06 12:00:00,8,40.7,17.2,-76.2,25.0,1011.0,25.0,1011.0,29,E,105,268,12.4,5.0,False,False,55.0,1001.0,TD,False,False,False,1-50 nm,2000,Satellite (1966+),Bonnie (2004),0.58,El Nino
+AL032004,CHARLEY,2004,2004-08-12 03:00:00,8,32.5,17.8,-78.7,70.0,990.0,78.0,986.0,21,SE,117,305,14.0,25.0,False,False,130.0,941.0,Cat 1,True,True,False,1-50 nm,2000,Satellite (1966+),Charley (2004),0.58,El Nino
+AL062004,FRANCES,2004,2004-09-02 10:00:00,9,341.9,23.02,-73.19,122.0,938.0,,,0,NE,67,302,10.1,20.0,False,False,125.0,935.0,,False,False,False,201-400 nm,2000,Satellite (1966+),Frances (2004),0.58,El Nino
+AL092004,IVAN,2004,2004-09-11 04:00:00,9,19.1,17.4,-77.28,130.0,924.0,145.0,910.0,36,SE,125,277,9.9,20.0,False,False,145.0,910.0,Cat 5,True,True,True,1-50 nm,2000,Satellite (1966+),Ivan (2004),0.58,El Nino
+AL112004,JEANNE,2004,2004-09-18 06:00:00,9,256.3,20.4,-72.5,45.0,1000.0,,,0,E,78,323,6.3,15.0,False,False,105.0,950.0,,False,False,False,201-400 nm,2000,Satellite (1966+),Jeanne (2004),0.58,El Nino
+AL012005,ARLENE,2005,2005-06-09 06:00:00,6,315.1,18.2,-83.9,35.0,1003.0,,,0,W,260,357,8.0,0.0,False,False,60.0,989.0,,False,False,False,201-400 nm,2000,Satellite (1966+),Arlene (2005),-0.11,Neutral
+AL032005,CINDY,2005,2005-07-03 18:00:00,7,474.6,18.3,-86.7,30.0,1009.0,,,0,W,273,302,5.6,0.0,False,False,65.0,991.0,,False,False,False,401-600 nm,2000,Satellite (1966+),Cindy (2005),-0.11,Neutral
+AL042005,DENNIS,2005,2005-07-07 18:00:00,7,25.1,18.5,-76.1,100.0,957.0,120.0,951.0,19,SE,115,311,13.8,40.0,True,False,130.0,930.0,Cat 4,True,True,True,1-50 nm,2000,Satellite (1966+),Dennis (2005),-0.11,Neutral
+AL052005,EMILY,2005,2005-07-16 20:00:00,7,85.6,16.63,-78.5,137.0,934.0,140.0,929.0,11,SE,125,295,15.9,40.0,True,False,140.0,929.0,Cat 5,True,True,True,51-100 nm,2000,Satellite (1966+),Emily (2005),-0.11,Neutral
+AL062005,FRANKLIN,2005,2005-07-21 18:00:00,7,409.6,25.0,-75.0,30.0,1010.0,,,0,N,17,311,10.7,0.0,False,False,60.0,997.0,,False,False,False,401-600 nm,2000,Satellite (1966+),Franklin (2005),-0.11,Neutral
+AL122005,KATRINA,2005,2005-08-23 18:00:00,8,299.1,23.1,-75.1,30.0,1008.0,,,0,N,22,299,6.3,0.0,False,False,150.0,902.0,,False,False,False,201-400 nm,2000,Satellite (1966+),Katrina (2005),-0.11,Neutral
+AL162005,OPHELIA,2005,2005-09-06 06:00:00,9,438.7,25.8,-78.6,25.0,1009.0,,,0,N,351,28,5.7,0.0,False,False,75.0,976.0,,False,False,False,401-600 nm,2000,Satellite (1966+),Ophelia (2005),-0.11,Neutral
+AL182005,RITA,2005,2005-09-19 16:00:00,9,286.5,23.0,-75.5,58.0,995.0,,,0,NE,50,284,11.6,25.0,False,False,155.0,895.0,,False,False,False,201-400 nm,2000,Satellite (1966+),Rita (2005),-0.11,Neutral
+AL202005,STAN,2005,2005-10-01 12:00:00,10,412.9,18.9,-85.6,25.0,1007.0,,,0,W,277,289,6.0,0.0,False,False,70.0,977.0,,False,False,False,401-600 nm,2000,Satellite (1966+),Stan (2005),-0.11,Neutral
+AL222005,TAMMY,2005,2005-10-05 06:00:00,10,536.5,27.3,-79.7,35.0,1006.0,,,0,N,347,336,10.9,0.0,False,False,45.0,1001.0,,False,False,False,401-600 nm,2000,Satellite (1966+),Tammy (2005),-0.11,Neutral
+AL252005,WILMA,2005,2005-10-15 18:00:00,10,38.4,17.6,-78.5,25.0,1004.0,33.0,1000.0,35,SW,246,270,2.9,0.0,False,False,160.0,882.0,TD,False,False,False,1-50 nm,2000,Satellite (1966+),Wilma (2005),-0.11,Neutral
+AL262005,ALPHA,2005,2005-10-23 16:00:00,10,226.2,19.4,-72.53,32.0,1003.0,,,0,E,101,342,13.7,5.0,False,False,45.0,998.0,,False,False,False,201-400 nm,2000,Satellite (1966+),Alpha (2005),-0.11,Neutral
+AL272005,BETA,2005,2005-10-29 06:00:00,10,328.9,13.6,-81.4,70.0,985.0,,,0,SW,213,308,2.5,20.0,False,False,100.0,962.0,,False,False,False,201-400 nm,2000,Satellite (1966+),Beta (2005),-0.11,Neutral
+AL282005,GAMMA,2005,2005-11-17 00:00:00,11,164.2,15.0,-77.6,25.0,1007.0,,,0,SE,114,277,20.9,5.0,False,False,45.0,1002.0,,False,False,False,101-200 nm,2000,Satellite (1966+),Gamma (2005),-0.11,Neutral
+AL012006,ALBERTO,2006,2006-06-10 06:00:00,6,389.9,20.0,-85.0,25.0,1004.0,,,0,W,286,344,10.4,0.0,False,False,60.0,969.0,,False,False,False,201-400 nm,2000,Satellite (1966+),Alberto (2006),0.54,El Nino
+AL042006,CHRIS,2006,2006-08-05 12:00:00,8,206.3,21.8,-76.3,20.0,1012.0,,,0,NE,61,282,12.3,0.0,False,False,55.0,1001.0,,False,False,False,201-400 nm,2000,Satellite (1966+),Chris (2006),0.54,El Nino
+AL062006,ERNESTO,2006,2006-08-28 05:00:00,8,86.3,18.97,-75.1,40.0,1004.0,41.0,1003.0,10,E,106,330,9.7,20.0,False,False,65.0,985.0,TS,True,False,False,51-100 nm,2000,Satellite (1966+),Ernesto (2006),0.54,El Nino
+AL022007,BARRY,2007,2007-06-01 00:00:00,6,446.2,20.1,-86.0,25.0,1005.0,,,0,W,271,25,8.8,0.0,False,False,50.0,990.0,,False,False,False,401-600 nm,2000,Satellite (1966+),Barry (2007),-1.05,La Nina
+AL042007,DEAN,2007,2007-08-19 22:00:00,8,20.3,17.37,-77.2,125.0,927.0,130.0,925.0,17,E,107,282,17.9,65.0,True,False,150.0,905.0,Cat 4,True,True,True,1-50 nm,2000,Satellite (1966+),Dean (2007),-1.05,La Nina
+AL062007,FELIX,2007,2007-09-03 14:00:00,9,209.2,14.23,-77.5,132.0,942.0,,,0,SE,124,274,17.7,85.0,True,False,150.0,929.0,,False,False,False,201-400 nm,2000,Satellite (1966+),Felix (2007),-1.05,La Nina
+AL162007,NOEL,2007,2007-10-30 18:00:00,10,138.7,20.8,-77.4,35.0,1000.0,,,0,NE,59,293,5.1,25.0,False,False,75.0,965.0,,False,False,False,101-200 nm,2000,Satellite (1966+),Noel (2007),-1.05,La Nina
+AL172007,OLGA,2007,2007-12-13 02:00:00,12,25.5,18.93,-77.7,30.0,1008.0,32.0,1007.0,19,E,81,273,14.2,15.0,False,False,50.0,1003.0,TD,False,False,False,1-50 nm,2000,Satellite (1966+),Olga (2007),-1.05,La Nina
+AL012008,ARTHUR,2008,2008-05-31 00:00:00,5,523.4,17.5,-87.5,35.0,1005.0,,,0,W,268,302,5.6,0.0,False,False,40.0,1004.0,,False,False,False,401-600 nm,2000,Satellite (1966+),Arthur (2008),-0.25,Neutral
+AL042008,DOLLY,2008,2008-07-20 12:00:00,7,299.6,17.8,-83.6,40.0,1008.0,,,0,W,268,310,12.4,0.0,False,False,85.0,963.0,,False,False,False,201-400 nm,2000,Satellite (1966+),Dolly (2008),-0.25,Neutral
+AL062008,FAY,2008,2008-08-17 04:00:00,8,69.2,19.5,-76.5,45.0,1004.0,45.0,1003.0,18,E,84,288,11.5,10.0,False,False,60.0,986.0,TS,True,False,False,51-100 nm,2000,Satellite (1966+),Fay (2008),-0.25,Neutral
+AL072008,GUSTAV,2008,2008-08-28 19:00:00,8,0.0,17.97,-76.33,60.0,984.0,73.0,976.0,50,E,75,262,6.7,15.0,False,True,135.0,941.0,Cat 1,True,True,False,Landfall,2000,Satellite (1966+),Gustav (2008),-0.25,Neutral
+AL082008,HANNA,2008,2008-09-02 18:00:00,9,244.4,20.6,-72.9,55.0,985.0,,,0,NE,47,148,3.5,30.0,True,False,75.0,977.0,,False,False,False,201-400 nm,2000,Satellite (1966+),Hanna (2008),-0.25,Neutral
+AL092008,IKE,2008,2008-09-08 12:00:00,9,154.6,21.1,-77.8,85.0,960.0,,,0,NE,55,273,12.1,15.0,False,False,125.0,935.0,,False,False,False,101-200 nm,2000,Satellite (1966+),Ike (2008),-0.25,Neutral
+AL112008,KYLE,2008,2008-09-25 00:00:00,9,410.6,21.5,-70.0,30.0,1005.0,,,0,NE,63,48,7.5,0.0,False,False,75.0,984.0,,False,False,False,401-600 nm,2000,Satellite (1966+),Kyle (2008),-0.25,Neutral
+AL152008,OMAR,2008,2008-10-13 15:00:00,10,412.5,15.0,-69.7,30.0,1004.0,,,0,E,108,206,4.4,0.0,False,False,115.0,958.0,,False,False,False,401-600 nm,2000,Satellite (1966+),Omar (2008),-0.25,Neutral
+AL162008,SIXTEEN,2008,2008-10-14 12:00:00,10,303.3,15.5,-82.8,25.0,1004.0,,,0,SW,244,316,5.6,0.0,False,False,25.0,1004.0,,False,False,False,201-400 nm,2000,Satellite (1966+),Sixteen (2008),-0.25,Neutral
+AL172008,PALOMA,2008,2008-11-08 16:00:00,11,108.3,20.07,-79.07,125.0,949.0,,,0,W,275,61,8.6,50.0,True,False,125.0,944.0,,False,False,False,101-200 nm,2000,Satellite (1966+),Paloma (2008),-0.25,Neutral
+AL042009,CLAUDETTE,2009,2009-08-16 06:00:00,8,587.9,27.0,-83.4,30.0,1011.0,,,0,NW,329,329,14.0,0.0,False,False,50.0,1005.0,,False,False,False,401-600 nm,2000,Satellite (1966+),Claudette (2009),0.66,El Nino
+AL052009,DANNY,2009,2009-08-26 13:00:00,8,521.1,24.68,-70.2,41.0,1009.0,,,0,NE,48,309,8.5,0.0,False,False,50.0,1006.0,,False,False,False,401-600 nm,2000,Satellite (1966+),Danny (2009),0.66,El Nino
+AL062009,ERIKA,2009,2009-09-04 06:00:00,9,557.5,17.0,-66.5,25.0,1010.0,,,0,E,95,282,9.8,5.0,False,False,45.0,1004.0,,False,False,False,401-600 nm,2000,Satellite (1966+),Erika (2009),0.66,El Nino
+AL102009,HENRI,2009,2009-10-11 12:00:00,10,289.3,20.2,-71.7,20.0,1013.0,,,0,E,73,275,11.3,0.0,False,False,45.0,1005.0,,False,False,False,201-400 nm,2000,Satellite (1966+),Henri (2009),0.66,El Nino
+AL112009,IDA,2009,2009-11-07 13:00:00,11,322.9,17.87,-84.02,56.0,996.0,,,0,SW,243,356,9.7,25.0,False,False,90.0,975.0,,False,False,False,201-400 nm,2000,Satellite (1966+),Ida (2009),0.66,El Nino
+AL012010,ALEX,2010,2010-06-24 18:00:00,6,251.5,15.9,-82.0,25.0,1007.0,,,0,SW,245,316,1.4,0.0,False,False,95.0,946.0,,False,False,False,201-400 nm,2010,Satellite (1966+),Alex (2010),-1.43,La Nina
+AL032010,BONNIE,2010,2010-07-22 12:00:00,7,239.6,21.7,-74.4,30.0,1008.0,,,0,NE,44,305,6.2,0.0,False,False,40.0,1005.0,,False,False,False,201-400 nm,2010,Satellite (1966+),Bonnie (2010),-1.43,La Nina
+AL052010,FIVE,2010,2010-08-10 06:00:00,8,510.0,25.7,-83.0,25.0,1008.0,,,0,NW,326,270,2.7,0.0,False,False,30.0,1007.0,,False,False,False,401-600 nm,2010,Satellite (1966+),Five (2010),-1.43,La Nina
+AL072010,EARL,2010,2010-09-01 05:00:00,9,463.0,23.42,-70.32,106.0,941.0,,,0,E,77,318,14.9,40.0,True,False,125.0,927.0,,False,False,False,401-600 nm,2010,Satellite (1966+),Earl (2010),-1.43,La Nina
+AL092010,GASTON,2010,2010-09-08 06:00:00,9,486.6,17.4,-67.7,25.0,1010.0,,,0,E,91,287,14.0,5.0,False,False,35.0,1005.0,,False,False,False,401-600 nm,2010,Satellite (1966+),Gaston (2010),-1.43,La Nina
+AL132010,KARL,2010,2010-09-13 18:00:00,9,103.3,16.3,-78.5,25.0,1005.0,,,0,SW,213,284,12.8,0.0,False,False,110.0,956.0,,False,False,False,101-200 nm,2010,Satellite (1966+),Karl (2010),-1.43,La Nina
+AL152010,MATTHEW,2010,2010-09-23 23:00:00,9,223.9,13.98,-77.45,39.0,1005.0,,,0,SE,151,273,14.9,0.0,False,False,50.0,998.0,,False,False,False,201-400 nm,2010,Satellite (1966+),Matthew (2010),-1.43,La Nina
+AL162010,NICOLE,2010,2010-09-29 14:00:00,9,258.8,22.1,-80.67,40.0,995.0,,,0,NW,296,37,13.3,10.0,False,False,40.0,994.0,,False,False,False,201-400 nm,2010,Satellite (1966+),Nicole (2010),-1.43,La Nina
+AL172010,OTTO,2010,2010-10-06 18:00:00,10,547.2,23.0,-68.1,50.0,991.0,,,0,NE,66,328,3.5,0.0,False,False,75.0,976.0,,False,False,False,401-600 nm,2010,Satellite (1966+),Otto (2010),-1.43,La Nina
+AL182010,PAULA,2010,2010-10-15 18:00:00,10,277.3,23.0,-79.1,20.0,1009.0,,,0,NW,310,82,7.4,0.0,False,False,90.0,981.0,,False,False,False,201-400 nm,2010,Satellite (1966+),Paula (2010),-1.43,La Nina
+AL192010,RICHARD,2010,2010-10-21 12:00:00,10,157.9,16.7,-80.6,35.0,1006.0,,,0,W,267,146,4.2,5.0,False,False,85.0,977.0,,False,False,False,101-200 nm,2010,Satellite (1966+),Richard (2010),-1.43,La Nina
+AL212010,TOMAS,2010,2010-11-05 04:00:00,11,54.2,17.47,-75.37,67.0,986.0,75.0,985.0,21,SE,152,32,8.9,20.0,False,False,85.0,982.0,Cat 1,True,True,False,51-100 nm,2010,Satellite (1966+),Tomas (2010),-1.43,La Nina
+AL022011,BRET,2011,2011-07-18 06:00:00,7,514.9,27.1,-78.0,40.0,1001.0,,,0,N,354,101,2.7,20.0,False,False,60.0,995.0,,False,False,False,401-600 nm,2010,Satellite (1966+),Bret (2011),-0.76,La Nina
+AL042011,DON,2011,2011-07-27 06:00:00,7,458.6,21.6,-85.7,30.0,1007.0,,,0,NW,295,293,5.1,0.0,False,False,45.0,997.0,,False,False,False,401-600 nm,2010,Satellite (1966+),Don (2011),-0.76,La Nina
+AL052011,EMILY,2011,2011-08-05 03:00:00,8,101.0,19.3,-75.05,25.0,1010.0,,,0,E,100,320,13.1,5.0,False,False,45.0,1003.0,,False,False,False,101-200 nm,2010,Satellite (1966+),Emily (2011),-0.76,La Nina
+AL082011,HARVEY,2011,2011-08-19 00:00:00,8,269.7,15.4,-82.0,30.0,1006.0,,,0,SW,240,294,7.4,0.0,False,False,55.0,994.0,,False,False,False,201-400 nm,2010,Satellite (1966+),Harvey (2011),-0.76,La Nina
+AL092011,IRENE,2011,2011-08-24 12:00:00,8,283.1,21.9,-73.3,105.0,957.0,,,0,E,69,308,10.9,25.0,False,False,105.0,942.0,,False,False,False,201-400 nm,2010,Satellite (1966+),Irene (2011),-0.76,La Nina
+AL142011,MARIA,2011,2011-09-13 13:00:00,9,530.4,21.8,-67.75,45.0,1006.0,,,0,E,74,335,5.9,5.0,False,False,70.0,983.0,,False,False,False,401-600 nm,2010,Satellite (1966+),Maria (2011),-0.76,La Nina
+AL182011,RINA,2011,2011-10-24 03:00:00,10,242.7,16.25,-82.05,38.0,1004.0,,,0,SW,224,330,5.8,10.0,False,False,100.0,966.0,,False,False,False,201-400 nm,2010,Satellite (1966+),Rina (2011),-0.76,La Nina
+AL052012,ERNESTO,2012,2012-08-05 16:00:00,8,158.4,15.07,-77.23,45.0,1005.0,,,0,SE,113,274,15.5,5.0,False,False,85.0,973.0,,False,False,False,101-200 nm,2010,Satellite (1966+),Ernesto (2012),0.37,Neutral
+AL072012,HELENE,2012,2012-08-13 20:00:00,8,216.4,14.1,-77.2,30.0,1008.0,,,0,SE,115,270,17.3,0.0,False,False,40.0,1004.0,,False,False,False,201-400 nm,2010,Satellite (1966+),Helene (2012),0.37,Neutral
+AL092012,ISAAC,2012,2012-08-25 15:00:00,8,157.0,20.1,-74.5,50.0,997.0,,,0,E,107,315,17.1,10.0,False,False,70.0,965.0,,False,False,False,101-200 nm,2010,Satellite (1966+),Isaac (2012),0.37,Neutral
+AL162012,PATTY,2012,2012-10-12 12:00:00,10,487.3,25.3,-72.2,40.0,1006.0,,,0,NE,32,90,0.9,10.0,False,False,40.0,1005.0,,False,False,False,401-600 nm,2010,Satellite (1966+),Patty (2012),0.37,Neutral
+AL182012,SANDY,2012,2012-10-24 19:00:00,10,0.0,17.9,-76.6,75.0,971.0,96.0,957.0,20,S,184,13,12.0,30.0,True,True,100.0,940.0,Cat 3,True,True,True,Landfall,2010,Satellite (1966+),Sandy (2012),0.37,Neutral
+AL022013,BARRY,2013,2013-06-16 12:00:00,6,352.4,14.2,-82.8,25.0,1008.0,,,0,SW,216,309,11.2,0.0,False,False,40.0,1003.0,,False,False,False,201-400 nm,2010,Satellite (1966+),Barry (2013),-0.32,Neutral
+AL032013,CHANTAL,2013,2013-07-10 12:00:00,7,295.1,16.7,-71.2,40.0,1011.0,,,0,E,102,281,27.3,15.0,False,False,55.0,1003.0,,False,False,False,201-400 nm,2010,Satellite (1966+),Chantal (2013),-0.32,Neutral
+AL042013,DORIAN,2013,2013-07-31 12:00:00,7,267.1,22.6,-75.3,25.0,1015.0,,,0,NE,58,286,7.2,0.0,False,False,50.0,1002.0,,False,False,False,201-400 nm,2010,Satellite (1966+),Dorian (2013),-0.32,Neutral
+AL072013,GABRIELLE,2013,2013-09-05 19:00:00,9,444.8,18.05,-68.4,25.0,1010.0,,,0,E,98,344,8.0,0.0,False,False,55.0,1003.0,,False,False,False,401-600 nm,2010,Satellite (1966+),Gabrielle (2013),-0.32,Neutral
+AL122013,KAREN,2013,2013-10-03 06:00:00,10,513.4,21.5,-86.8,45.0,1006.0,,,0,W,292,317,8.2,0.0,False,False,55.0,998.0,,False,False,False,401-600 nm,2010,Satellite (1966+),Karen (2013),-0.32,Neutral
+AL012014,ARTHUR,2014,2014-07-01 06:00:00,7,543.2,27.5,-79.1,30.0,1007.0,,,0,N,357,233,1.7,5.0,False,False,85.0,973.0,,False,False,False,401-600 nm,2010,Satellite (1966+),Arthur (2014),0.24,Neutral
+AL032014,BERTHA,2014,2014-08-03 12:00:00,8,331.6,21.4,-71.6,40.0,1013.0,,,0,E,96,320,15.3,5.0,False,False,70.0,996.0,,False,False,False,201-400 nm,2010,Satellite (1966+),Bertha (2014),0.24,Neutral
+AL042014,CRISTOBAL,2014,2014-08-23 18:00:00,8,308.6,21.5,-72.2,30.0,1005.0,,,0,NE,54,331,5.7,0.0,False,False,75.0,963.0,,False,False,False,201-400 nm,2010,Satellite (1966+),Cristobal (2014),0.24,Neutral
+AL082014,GONZALO,2014,2014-10-15 18:00:00,10,564.2,23.8,-68.3,110.0,953.0,,,0,E,74,328,7.7,35.0,True,False,125.0,940.0,,False,False,False,401-600 nm,2010,Satellite (1966+),Gonzalo (2014),0.24,Neutral
+AL092014,HANNA,2014,2014-10-26 12:00:00,10,238.6,16.0,-81.8,30.0,1006.0,,,0,W,273,159,5.4,5.0,False,False,35.0,1000.0,,False,False,False,201-400 nm,2010,Satellite (1966+),Hanna (2014),0.24,Neutral
+AL012015,ANA,2015,2015-05-06 06:00:00,5,502.3,26.8,-79.2,25.0,1016.0,,,0,N,349,24,15.3,0.0,False,False,50.0,998.0,,False,False,False,401-600 nm,2010,Satellite (1966+),Ana (2015),2.02,El Nino
+AL052015,ERIKA,2015,2015-08-28 12:00:00,8,434.3,17.6,-68.6,45.0,1008.0,,,0,E,94,273,17.2,10.0,False,False,45.0,1001.0,,False,False,False,401-600 nm,2010,Satellite (1966+),Erika (2015),2.02,El Nino
+AL112015,JOAQUIN,2015,2015-10-02 06:00:00,10,301.9,23.0,-74.7,120.0,935.0,,,0,NE,34,324,3.1,45.0,True,False,135.0,931.0,,False,False,False,201-400 nm,2010,Satellite (1966+),Joaquin (2015),2.02,El Nino
+AL122015,KATE,2015,2015-11-09 04:00:00,11,347.0,23.2,-73.33,33.0,1010.0,,,0,NE,52,302,11.9,0.0,False,False,75.0,980.0,,False,False,False,201-400 nm,2010,Satellite (1966+),Kate (2015),2.02,El Nino
+AL012016,ALEX,2016,2016-01-07 00:00:00,1,499.7,26.6,-75.3,40.0,1010.0,,,0,N,12,28,11.4,0.0,False,False,75.0,978.0,,False,False,False,401-600 nm,2010,Satellite (1966+),Alex (2016),-0.42,Neutral
+AL022016,BONNIE,2016,2016-05-27 06:00:00,5,590.6,27.2,-72.1,30.0,1010.0,,,0,NE,27,299,10.2,0.0,False,False,40.0,1006.0,,False,False,False,401-600 nm,2010,Satellite (1966+),Bonnie (2016),-0.42,Neutral
+AL032016,COLIN,2016,2016-06-05 12:00:00,6,578.7,21.6,-88.0,30.0,1005.0,,,0,W,291,7,8.1,0.0,False,False,50.0,987.0,,False,False,False,401-600 nm,2010,Satellite (1966+),Colin (2016),-0.42,Neutral
+AL052016,EARL,2016,2016-08-02 06:00:00,8,86.3,16.3,-77.5,40.0,1004.0,40.0,1004.0,4,S,186,270,16.3,0.0,False,False,75.0,979.0,TS,True,False,False,51-100 nm,2010,Satellite (1966+),Earl (2016),-0.42,Neutral
+AL092016,HERMINE,2016,2016-08-28 18:00:00,8,367.3,23.8,-81.4,30.0,1009.0,,,0,NW,327,247,10.0,0.0,False,False,70.0,981.0,,False,False,False,201-400 nm,2010,Satellite (1966+),Hermine (2016),-0.42,Neutral
+AL112016,JULIA,2016,2016-09-13 06:00:00,9,542.3,27.3,-80.2,30.0,1010.0,,,0,N,344,328,8.3,0.0,False,False,45.0,1007.0,,False,False,False,401-600 nm,2010,Satellite (1966+),Julia (2016),-0.42,Neutral
+AL142016,MATTHEW,2016,2016-10-04 07:00:00,10,104.5,17.66,-74.38,130.0,934.0,,,0,SE,145,8,9.5,5.0,False,False,145.0,934.0,,False,False,False,101-200 nm,2010,Satellite (1966+),Matthew (2016),-0.42,Neutral
+AL162016,OTTO,2016,2016-11-17 18:00:00,11,364.6,12.5,-80.7,20.0,1006.0,,,0,SW,211,251,6.2,0.0,False,False,100.0,975.0,,False,False,False,201-400 nm,2010,Satellite (1966+),Otto (2016),-0.42,Neutral
+AL062017,EMILY,2017,2017-08-01 00:00:00,8,569.4,27.5,-81.3,30.0,1006.0,,,0,NW,327,79,8.1,5.0,False,False,50.0,1001.0,,False,False,False,401-600 nm,2010,Satellite (1966+),Emily (2017),-0.23,Neutral
+AL072017,FRANKLIN,2017,2017-08-06 18:00:00,8,243.9,15.5,-81.5,30.0,1008.0,,,0,SW,238,298,13.0,0.0,False,False,75.0,981.0,,False,False,False,201-400 nm,2010,Satellite (1966+),Franklin (2017),-0.23,Neutral
+AL082017,GERT,2017,2017-08-12 16:00:00,8,523.7,23.73,-69.17,28.0,1013.0,,,0,NE,65,323,10.3,0.0,False,False,95.0,962.0,,False,False,False,401-600 nm,2010,Satellite (1966+),Gert (2017),-0.23,Neutral
+AL092017,HARVEY,2017,2017-08-20 22:00:00,8,171.0,14.97,-78.0,27.0,1007.0,,,0,SE,121,284,18.1,0.0,False,False,115.0,937.0,,False,False,False,101-200 nm,2010,Satellite (1966+),Harvey (2017),-0.23,Neutral
+AL112017,IRMA,2017,2017-09-09 00:00:00,9,217.5,22.1,-77.2,145.0,924.0,,,0,NE,59,282,12.3,5.0,False,False,155.0,914.0,,False,False,False,201-400 nm,2010,Satellite (1966+),Irma (2017),-0.23,Neutral
+AL122017,JOSE,2017,2017-09-11 06:00:00,9,569.2,24.3,-68.6,90.0,968.0,,,0,E,78,322,13.3,15.0,False,False,135.0,938.0,,False,False,False,401-600 nm,2010,Satellite (1966+),Jose (2017),-0.23,Neutral
+AL152017,MARIA,2017,2017-09-22 06:00:00,9,377.4,21.2,-70.5,110.0,959.0,,,0,E,80,323,6.9,15.0,False,False,150.0,908.0,,False,False,False,201-400 nm,2010,Satellite (1966+),Maria (2017),-0.23,Neutral
+AL162017,NATE,2017,2017-10-06 12:00:00,10,361.7,17.9,-84.7,40.0,996.0,,,0,SW,236,352,16.2,10.0,False,False,80.0,981.0,,False,False,False,201-400 nm,2010,Satellite (1966+),Nate (2017),-0.23,Neutral
+AL182017,PHILIPPE,2017,2017-10-28 19:00:00,10,289.1,21.52,-82.2,35.0,1000.0,,,0,W,267,40,16.9,5.0,False,False,35.0,1000.0,,False,False,False,201-400 nm,2010,Satellite (1966+),Philippe (2017),-0.23,Neutral
+AL012018,ALBERTO,2018,2018-05-26 06:00:00,5,423.6,19.6,-85.7,30.0,1005.0,,,0,W,276,7,12.1,0.0,False,False,55.0,990.0,,False,False,False,401-600 nm,2010,Satellite (1966+),Alberto (2018),0.52,El Nino
+AL022018,BERYL,2018,2018-07-10 18:00:00,7,255.0,20.2,-72.4,30.0,1013.0,,,0,E,94,327,12.0,0.0,False,False,70.0,991.0,,False,False,False,201-400 nm,2010,Satellite (1966+),Beryl (2018),0.52,El Nino
+AL072018,GORDON,2018,2018-09-02 18:00:00,9,236.9,22.4,-77.0,25.0,1012.0,,,0,N,4,309,14.3,0.0,False,False,60.0,996.0,,False,False,False,201-400 nm,2010,Satellite (1966+),Gordon (2018),0.52,El Nino
+AL092018,ISAAC,2018,2018-09-15 00:00:00,9,440.1,15.4,-69.0,30.0,1006.0,,,0,E,102,274,13.5,0.0,False,False,65.0,995.0,,False,False,False,401-600 nm,2010,Satellite (1966+),Isaac (2018),0.52,El Nino
+AL142018,MICHAEL,2018,2018-10-08 12:00:00,10,411.7,20.9,-85.1,65.0,982.0,,,0,W,276,11,7.6,30.0,True,False,140.0,919.0,,False,False,False,401-600 nm,2010,Satellite (1966+),Michael (2018),0.52,El Nino
+AL032019,THREE,2019,2019-07-22 12:00:00,7,365.6,24.6,-77.4,25.0,1013.0,,,0,N,359,294,9.9,0.0,False,False,30.0,1013.0,,False,False,False,201-400 nm,2010,Satellite (1966+),Three (2019),0.31,Neutral
+AL052019,DORIAN,2019,2019-09-01 18:00:00,9,480.6,26.5,-77.1,160.0,910.0,,,0,N,20,276,5.2,35.0,True,False,160.0,910.0,,False,False,False,401-600 nm,2010,Satellite (1966+),Dorian (2019),0.31,Neutral
+AL092019,HUMBERTO,2019,2019-09-12 12:00:00,9,314.4,23.0,-74.2,25.0,1010.0,,,0,NE,30,347,4.1,0.0,False,False,110.0,950.0,,False,False,False,201-400 nm,2010,Satellite (1966+),Humberto (2019),0.31,Neutral
+AL122019,KAREN,2019,2019-09-24 12:00:00,9,597.4,17.0,-65.8,35.0,1006.0,,,0,E,105,8,6.6,5.0,False,False,40.0,1003.0,,False,False,False,401-600 nm,2010,Satellite (1966+),Karen (2019),0.31,Neutral
+AL012020,ARTHUR,2020,2020-05-16 18:00:00,5,570.7,28.0,-78.7,30.0,1008.0,,,0,N,353,34,10.9,0.0,False,False,55.0,989.0,,False,False,False,401-600 nm,2020,Satellite (1966+),Arthur (2020),-0.77,La Nina
+AL092020,ISAIAS,2020,2020-07-31 12:00:00,7,230.8,21.3,-74.0,65.0,992.0,,,0,E,91,307,13.4,20.0,False,False,80.0,986.0,,False,False,False,201-400 nm,2020,Satellite (1966+),Isaias (2020),-0.77,La Nina
+AL142020,MARCO,2020,2020-08-20 18:00:00,8,276.0,14.1,-80.5,30.0,1009.0,,,0,SW,218,292,13.6,0.0,False,False,65.0,991.0,,False,False,False,201-400 nm,2020,Satellite (1966+),Marco (2020),-0.77,La Nina
+AL132020,LAURA,2020,2020-08-24 01:00:00,8,95.7,19.9,-76.3,55.0,1000.0,55.0,1000.0,6,E,88,285,17.2,10.0,False,False,130.0,937.0,TS,True,False,False,51-100 nm,2020,Satellite (1966+),Laura (2020),-0.77,La Nina
+AL162020,NANA,2020,2020-09-01 15:00:00,9,76.1,16.5,-77.6,45.0,1003.0,50.0,1001.0,11,SE,137,285,15.9,0.0,False,False,65.0,994.0,TS,True,False,False,51-100 nm,2020,Satellite (1966+),Nana (2020),-0.77,La Nina
+AL192020,SALLY,2020,2020-09-11 18:00:00,9,414.8,25.4,-78.6,30.0,1007.0,,,0,N,351,286,7.5,0.0,False,False,95.0,965.0,,False,False,False,401-600 nm,2020,Satellite (1966+),Sally (2020),-0.77,La Nina
+AL252020,GAMMA,2020,2020-10-02 00:00:00,10,299.2,16.6,-83.3,30.0,1006.0,,,0,W,256,316,8.3,0.0,False,False,65.0,978.0,,False,False,False,201-400 nm,2020,Satellite (1966+),Gamma (2020),-0.77,La Nina
+AL262020,DELTA,2020,2020-10-05 01:00:00,10,78.3,16.4,-77.12,30.0,1006.0,42.0,1001.0,20,SE,148,270,7.0,0.0,False,False,120.0,953.0,TS,True,False,False,51-100 nm,2020,Satellite (1966+),Delta (2020),-0.77,La Nina
+AL282020,ZETA,2020,2020-10-24 12:00:00,10,240.9,18.4,-82.6,25.0,1007.0,,,0,W,274,242,4.3,0.0,False,False,100.0,970.0,,False,False,False,201-400 nm,2020,Satellite (1966+),Zeta (2020),-0.77,La Nina
+AL292020,ETA,2020,2020-11-08 00:00:00,11,161.5,20.4,-80.2,55.0,991.0,,,0,W,267,55,11.4,25.0,False,False,130.0,922.0,,False,False,False,101-200 nm,2020,Satellite (1966+),Eta (2020),-0.77,La Nina
+AL312020,IOTA,2020,2020-11-13 09:00:00,11,254.6,14.55,-73.5,28.0,1006.0,,,0,E,112,232,4.9,0.0,False,False,135.0,917.0,,False,False,False,201-400 nm,2020,Satellite (1966+),Iota (2020),-0.77,La Nina
+AL052021,ELSA,2021,2021-07-04 10:00:00,7,15.0,18.33,-76.17,52.0,1007.0,55.0,1004.0,23,E,102,300,11.1,30.0,True,False,75.0,991.0,TS,True,False,False,1-50 nm,2020,Satellite (1966+),Elsa (2021),-0.64,La Nina
+AL062021,FRED,2021,2021-08-13 01:00:00,8,184.7,21.27,-75.68,35.0,1010.0,,,0,E,76,292,10.0,10.0,False,False,55.0,991.0,,False,False,False,101-200 nm,2020,Satellite (1966+),Fred (2021),-0.64,La Nina
+AL072021,GRACE,2021,2021-08-17 14:00:00,8,0.0,18.2,-76.6,50.0,1004.0,54.0,998.0,25,E,94,275,12.6,15.0,False,True,105.0,967.0,TS,True,False,False,Landfall,2020,Satellite (1966+),Grace (2021),-0.64,La Nina
+AL092021,IDA,2021,2021-08-26 18:00:00,8,82.2,17.4,-79.5,35.0,1006.0,39.0,1004.0,10,SW,224,326,10.9,0.0,False,False,130.0,929.0,TS,True,False,False,51-100 nm,2020,Satellite (1966+),Ida (2021),-0.64,La Nina
+AL162021,PETER,2021,2021-09-22 18:00:00,9,571.6,21.7,-66.9,30.0,1008.0,,,0,E,78,303,5.5,0.0,False,False,45.0,1005.0,,False,False,False,401-600 nm,2020,Satellite (1966+),Peter (2021),-0.64,La Nina
+AL012022,ALEX,2022,2022-06-04 05:00:00,6,497.5,24.82,-83.93,35.0,1003.0,,,0,NW,294,50,17.7,5.0,False,False,60.0,984.0,,False,False,False,401-600 nm,2020,Satellite (1966+),Alex (2022),-0.87,La Nina
+AL022022,BONNIE,2022,2022-07-01 00:00:00,7,349.4,11.9,-76.7,35.0,1005.0,,,0,SE,129,264,17.7,0.0,False,False,100.0,964.0,,False,False,False,201-400 nm,2020,Satellite (1966+),Bonnie (2022),-0.87,La Nina
+AL072022,FIONA,2022,2022-09-20 12:00:00,9,353.4,21.5,-71.2,100.0,961.0,,,0,E,84,327,8.8,25.0,False,False,120.0,931.0,,False,False,False,201-400 nm,2020,Satellite (1966+),Fiona (2022),-0.87,La Nina
+AL092022,IAN,2022,2022-09-25 23:00:00,9,168.0,16.63,-80.77,48.0,993.0,,,0,S,175,322,12.3,10.0,False,False,140.0,937.0,,False,False,False,101-200 nm,2020,Satellite (1966+),Ian (2022),-0.87,La Nina
+AL132022,JULIA,2022,2022-10-08 05:00:00,10,299.7,12.72,-76.92,49.0,999.0,,,0,SE,131,268,16.6,15.0,False,False,75.0,982.0,,False,False,False,201-400 nm,2020,Satellite (1966+),Julia (2022),-0.87,La Nina
+AL152022,LISA,2022,2022-10-31 14:00:00,10,132.4,15.5,-77.07,37.0,1003.0,,,0,SE,122,269,10.8,0.0,False,False,80.0,985.0,,False,False,False,101-200 nm,2020,Satellite (1966+),Lisa (2022),-0.87,La Nina
+AL172022,NICOLE,2022,2022-11-09 18:00:00,11,479.8,26.5,-77.3,60.0,985.0,,,0,N,20,274,9.9,20.0,False,False,65.0,980.0,,False,False,False,401-600 nm,2020,Satellite (1966+),Nicole (2022),-0.87,La Nina
+AL022023,ARLENE,2023,2023-06-04 06:00:00,6,395.3,23.3,-83.0,25.0,1002.0,,,0,NW,313,101,10.3,10.0,False,False,35.0,998.0,,False,False,False,201-400 nm,2020,Satellite (1966+),Arlene (2023),1.5,El Nino
+AL032023,BRET,2023,2023-06-24 12:00:00,6,425.0,13.0,-70.9,40.0,1007.0,,,0,E,109,270,16.6,10.0,False,False,60.0,996.0,,False,False,False,401-600 nm,2020,Satellite (1966+),Bret (2023),1.5,El Nino
+AL082023,FRANKLIN,2023,2023-08-23 06:00:00,8,276.5,17.3,-71.4,40.0,1003.0,,,0,SE,122,10,8.6,15.0,False,False,130.0,926.0,,False,False,False,201-400 nm,2020,Satellite (1966+),Franklin (2023),1.5,El Nino
+AL102023,IDALIA,2023,2023-08-28 06:00:00,8,399.5,19.9,-85.2,55.0,989.0,,,0,W,286,13,4.1,25.0,False,False,115.0,942.0,,False,False,False,201-400 nm,2020,Satellite (1966+),Idalia (2023),1.5,El Nino
+AL212023,TWENTY-ONE,2023,2023-10-24 06:00:00,10,444.6,13.0,-83.8,25.0,1007.0,,,0,SW,218,323,8.1,0.0,False,False,25.0,1007.0,,False,False,False,401-600 nm,2020,Satellite (1966+),Twenty-One (2023),1.5,El Nino
+AL022024,BERYL,2024,2024-07-03 22:00:00,7,13.9,17.63,-77.8,117.0,960.0,125.0,951.0,20,E,110,289,15.5,45.0,True,False,145.0,932.0,Cat 4,True,True,True,1-50 nm,2020,Satellite (1966+),Beryl (2024),-0.12,Neutral
+AL042024,DEBBY,2024,2024-08-02 18:00:00,8,126.0,20.6,-77.5,25.0,1011.0,,,0,NE,31,280,14.7,0.0,False,False,70.0,979.0,,False,False,False,101-200 nm,2020,Satellite (1966+),Debby (2024),-0.12,Neutral
+AL052024,ERNESTO,2024,2024-08-14 23:00:00,8,497.0,22.1,-68.58,69.0,982.0,,,0,E,87,333,13.1,25.0,False,False,85.0,967.0,,False,False,False,401-600 nm,2020,Satellite (1966+),Ernesto (2024),-0.12,Neutral
+AL092024,HELENE,2024,2024-09-23 13:00:00,9,200.5,17.3,-81.73,31.0,1004.0,,,0,W,258,342,6.3,0.0,False,False,120.0,939.0,,False,False,False,201-400 nm,2020,Satellite (1966+),Helene (2024),-0.12,Neutral
+AL142024,MILTON,2024,2024-10-09 08:00:00,10,532.1,24.21,-85.49,140.0,907.0,,,0,W,292,42,15.2,85.0,True,False,155.0,895.0,,False,False,False,401-600 nm,2020,Satellite (1966+),Milton (2024),-0.12,Neutral
+AL152024,NADINE,2024,2024-10-18 18:00:00,10,373.0,17.2,-84.8,30.0,1005.0,,,0,W,264,279,6.8,0.0,False,False,50.0,1002.0,,False,False,False,201-400 nm,2020,Satellite (1966+),Nadine (2024),-0.12,Neutral
+AL162024,OSCAR,2024,2024-10-21 09:00:00,10,139.0,20.2,-75.2,45.0,998.0,,,0,NE,53,298,4.3,40.0,True,False,75.0,984.0,,False,False,False,101-200 nm,2020,Satellite (1966+),Oscar (2024),-0.12,Neutral
+AL182024,RAFAEL,2024,2024-11-05 15:00:00,11,24.0,18.0,-78.7,55.0,992.0,67.0,987.0,21,S,166,323,12.6,20.0,False,False,105.0,954.0,Cat 1,True,True,False,1-50 nm,2020,Satellite (1966+),Rafael (2024),-0.12,Neutral
+AL192024,SARA,2024,2024-11-13 18:00:00,11,112.1,16.1,-78.4,25.0,1007.0,,,0,SW,208,266,12.5,0.0,False,False,45.0,997.0,,False,False,False,101-200 nm,2020,Satellite (1966+),Sara (2024),-0.12,Neutral
+AL052025,ERIN,2025,2025-08-18 12:00:00,8,435.1,22.9,-70.5,120.0,935.0,,,0,E,73,310,7.8,75.0,True,False,140.0,913.0,,False,False,False,401-600 nm,2020,Satellite (1966+),Erin (2025),-0.43,Neutral
+AL092025,IMELDA,2025,2025-09-26 18:00:00,9,184.1,20.9,-74.9,30.0,1008.0,,,0,NE,39,306,6.9,0.0,False,False,80.0,966.0,,False,False,False,101-200 nm,2020,Satellite (1966+),Imelda (2025),-0.43,Neutral
+AL132025,MELISSA,2025,2025-10-28 18:00:00,10,0.0,18.2,-78.0,145.0,910.0,165.0,892.0,83,SW,209,35,8.2,45.0,True,True,165.0,892.0,Cat 5,True,True,True,Landfall,2020,Satellite (1966+),Melissa (2025),-0.43,Neutral
