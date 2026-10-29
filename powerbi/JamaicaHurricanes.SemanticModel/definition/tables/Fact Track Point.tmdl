@@ -13,8 +13,8 @@ table 'Fact Track Point'
 
 	column point_seq
 		dataType: int64
-		formatString: 0
 		isHidden
+		formatString: 0
 		lineageTag: 49985639-656d-5b62-a20d-a54d5dedeb6d
 		summarizeBy: none
 		sourceColumn: point_seq
@@ -32,13 +32,15 @@ table 'Fact Track Point'
 
 	column date
 		dataType: dateTime
-		formatString: dd mmm yyyy
 		isHidden
+		formatString: dd mmm yyyy
 		lineageTag: c24c27a6-00bd-58b6-8b83-13abef071cf4
 		summarizeBy: none
 		sourceColumn: date
 
 		annotation SummarizationSetBy = User
+
+		annotation UnderlyingDateTimeDataType = Date
 
 	/// HURDAT2 status: TD, TS, HU, EX, SD, SS, LO, WV, DB
 	column status
@@ -61,8 +63,8 @@ table 'Fact Track Point'
 	column lat
 		dataType: double
 		formatString: 0.00
-		dataCategory: Latitude
 		lineageTag: 5bac17af-8aaa-54f2-b8a8-5e3cf3c86ada
+		dataCategory: Latitude
 		summarizeBy: average
 		sourceColumn: lat
 
@@ -71,8 +73,8 @@ table 'Fact Track Point'
 	column lon
 		dataType: double
 		formatString: 0.00
-		dataCategory: Longitude
 		lineageTag: d4e851f7-1d85-517a-8ea2-ffeca8fdad40
+		dataCategory: Longitude
 		summarizeBy: average
 		sourceColumn: lon
 
@@ -114,11 +116,11 @@ table 'Fact Track Point'
 
 		annotation SummarizationSetBy = User
 
-	column within_100nm
+	column within_near_radius
 		dataType: boolean
 		lineageTag: 1af41b47-b85b-5537-8228-111ef9236db0
 		summarizeBy: none
-		sourceColumn: within_100nm
+		sourceColumn: within_near_radius
 
 		annotation SummarizationSetBy = User
 
@@ -136,12 +138,13 @@ table 'Fact Track Point'
 		source =
 				let
 				    Source = fnGetCsv("track_points.csv"),
-				    Selected = Table.SelectColumns(Source, {"storm_id", "point_seq", "datetime", "status", "record_id", "lat", "lon", "wind_kt", "pressure_mb", "category", "dist_nm", "within_100nm"}),
+				    Selected = Table.SelectColumns(Source, {"storm_id", "point_seq", "datetime", "status", "record_id", "lat", "lon", "wind_kt", "pressure_mb", "category", "dist_nm", "within_near_radius"}),
 				    Blanks = Table.ReplaceValue(Selected, "", null, Replacer.ReplaceValue, Table.ColumnNames(Selected)),
-				    Typed = Table.TransformColumnTypes(Blanks, {{"storm_id", type text}, {"point_seq", Int64.Type}, {"datetime", type datetime}, {"status", type text}, {"record_id", type text}, {"lat", type number}, {"lon", type number}, {"wind_kt", type number}, {"pressure_mb", type number}, {"category", type text}, {"dist_nm", type number}, {"within_100nm", type logical}}, "en-US"),
+				    Typed = Table.TransformColumnTypes(Blanks, {{"storm_id", type text}, {"point_seq", Int64.Type}, {"datetime", type datetime}, {"status", type text}, {"record_id", type text}, {"lat", type number}, {"lon", type number}, {"wind_kt", type number}, {"pressure_mb", type number}, {"category", type text}, {"dist_nm", type number}, {"within_near_radius", type logical}}, "en-US"),
 				    Step0 = Table.AddColumn(Typed, "date", each Date.From([datetime]), type date),
 				    Step1 = Table.AddColumn(Step0, "point_key", each [storm_id] & "-" & Text.From([point_seq]), type text)
 				in
 				    Step1
 
 	annotation PBI_ResultType = Table
+

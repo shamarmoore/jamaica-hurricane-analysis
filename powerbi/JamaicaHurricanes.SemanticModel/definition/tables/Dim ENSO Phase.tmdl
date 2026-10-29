@@ -13,8 +13,8 @@ table 'Dim ENSO Phase'
 
 	column sort_order
 		dataType: int64
-		formatString: 0
 		isHidden
+		formatString: 0
 		lineageTag: d0f65de3-e3c2-58af-bfdc-4f21c7faf753
 		summarizeBy: none
 		sourceColumn: sort_order
@@ -38,3 +38,4 @@ table 'Dim ENSO Phase'
 				    Source
 
 	annotation PBI_ResultType = Table
+

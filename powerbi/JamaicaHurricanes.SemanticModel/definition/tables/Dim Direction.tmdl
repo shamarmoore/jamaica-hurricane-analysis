@@ -13,8 +13,8 @@ table 'Dim Direction'
 
 	column sort_order
 		dataType: int64
-		formatString: 0
 		isHidden
+		formatString: 0
 		lineageTag: 5b2f81b3-366b-599c-aa11-0adfc3372092
 		summarizeBy: none
 		sourceColumn: sort_order
@@ -47,3 +47,4 @@ table 'Dim Direction'
 				    Source
 
 	annotation PBI_ResultType = Table
+

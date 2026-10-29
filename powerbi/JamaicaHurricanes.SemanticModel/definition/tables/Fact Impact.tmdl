@@ -68,3 +68,4 @@ table 'Fact Impact'
 				    Typed
 
 	annotation PBI_ResultType = Table
+

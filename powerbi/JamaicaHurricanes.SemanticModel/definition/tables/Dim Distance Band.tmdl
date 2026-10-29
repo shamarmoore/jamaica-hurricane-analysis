@@ -13,8 +13,8 @@ table 'Dim Distance Band'
 
 	column sort_order
 		dataType: int64
-		formatString: 0
 		isHidden
+		formatString: 0
 		lineageTag: d8386f5c-58d8-5bf6-bcbc-0ab61a6a9678
 		summarizeBy: none
 		sourceColumn: sort_order
@@ -30,3 +30,4 @@ table 'Dim Distance Band'
 				    Source
 
 	annotation PBI_ResultType = Table
+

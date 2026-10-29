@@ -83,3 +83,4 @@ table 'Dim Season'
 				    Step0
 
 	annotation PBI_ResultType = Table
+

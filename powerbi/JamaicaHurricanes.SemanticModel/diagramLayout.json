@@ -1,0 +1,178 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 1573.4882179405158,
+            "y": 402.74553976756874
+          },
+          "nodeIndex": "_Measures",
+          "nodeLineageTag": "cb283f77-6675-55d5-9f2c-736067a72b5e",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 50,
+            "y": 250.86518653931125
+          },
+          "nodeIndex": "Dim Category",
+          "nodeLineageTag": "51f90610-aa6c-5d8f-b1e0-efdd40598e00",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 165.27069373911792,
+            "y": -50
+          },
+          "nodeIndex": "Dim Date",
+          "nodeLineageTag": "cd89a848-ce95-5e42-aa79-e005fb8d435c",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 233.79606858917094,
+            "y": 743.56138727651773
+          },
+          "nodeIndex": "Dim Direction",
+          "nodeLineageTag": "28741a0a-9423-5744-8ced-8e51c96ce3a4",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 520.85696923191438,
+            "y": 927.49107953513749
+          },
+          "nodeIndex": "Dim Distance Band",
+          "nodeLineageTag": "86f55565-64d1-5be4-8c93-1ddb55fd72fa",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 335.001065544703,
+            "y": 315.51044143582067
+          },
+          "nodeIndex": "Dim ENSO Phase",
+          "nodeLineageTag": "0154751c-a8a0-5b89-847a-521834e6225e",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1339.4882179405158,
+            "y": 340.89032516903694
+          },
+          "nodeIndex": "Dim Season",
+          "nodeLineageTag": "1e80f2b7-7e3a-5131-9a95-1322e31e7df4",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 941.37969697811513,
+            "y": 340.82421612473718
+          },
+          "nodeIndex": "Dim Storm",
+          "nodeLineageTag": "d0e41732-1581-5d53-9252-b98190df22b3",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1180.2330323543304,
+            "y": 63.762367526290745
+          },
+          "nodeIndex": "Fact Impact",
+          "nodeLineageTag": "bb0186ff-e7f6-542b-9c00-fc5b0c091699",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 520.87067302151172,
+            "y": 521.95641141855185
+          },
+          "nodeIndex": "Fact Storm Approach",
+          "nodeLineageTag": "25ee08ae-71a1-567d-8a8b-163eeeac330f",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 654.3226660614,
+            "y": 168.21995379266309
+          },
+          "nodeIndex": "Fact Track Point",
+          "nodeLineageTag": "98bdd18f-bb60-5adb-bca5-e92d9ba62364",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1857.4882179405158,
+            "y": 500.74553976756874
+          },
+          "nodeIndex": "Refresh Info",
+          "nodeLineageTag": "f01e04c4-d2fe-514f-a664-6a1aa2bbfc7f",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

@@ -22,13 +22,15 @@ table 'Fact Storm Approach'
 
 	column closest_date
 		dataType: dateTime
-		formatString: dd mmm yyyy
 		isHidden
+		formatString: dd mmm yyyy
 		lineageTag: 89c05d22-c919-56c1-9f54-934441324475
 		summarizeBy: none
 		sourceColumn: closest_date
 
 		annotation SummarizationSetBy = User
+
+		annotation UnderlyingDateTimeDataType = Date
 
 	/// Closest approach to the coastline, nautical miles (0 = landfall)
 	column closest_distance_nm
@@ -43,8 +45,8 @@ table 'Fact Storm Approach'
 	column closest_lat
 		dataType: double
 		formatString: 0.00
-		dataCategory: Latitude
 		lineageTag: 66581d3c-d9b9-5349-a4f3-b5a34319e2fc
+		dataCategory: Latitude
 		summarizeBy: none
 		sourceColumn: closest_lat
 
@@ -53,8 +55,8 @@ table 'Fact Storm Approach'
 	column closest_lon
 		dataType: double
 		formatString: 0.00
-		dataCategory: Longitude
 		lineageTag: ddd0a0e5-d81b-5e5f-9ffa-83f5c9dfbc62
+		dataCategory: Longitude
 		summarizeBy: none
 		sourceColumn: closest_lon
 
@@ -78,30 +80,30 @@ table 'Fact Storm Approach'
 
 		annotation SummarizationSetBy = User
 
-	column max_wind_within_100nm_kt
+	column max_wind_near_kt
 		dataType: double
 		formatString: 0
 		lineageTag: 3da3d7cb-3719-506e-9f7c-db020c17daec
 		summarizeBy: max
-		sourceColumn: max_wind_within_100nm_kt
+		sourceColumn: max_wind_near_kt
 
 		annotation SummarizationSetBy = User
 
-	column min_pressure_within_100nm_mb
+	column min_pressure_near_mb
 		dataType: double
 		formatString: 0
 		lineageTag: 5aab0121-a9cb-5ae4-8b85-2d5975f2d63e
 		summarizeBy: min
-		sourceColumn: min_pressure_within_100nm_mb
+		sourceColumn: min_pressure_near_mb
 
 		annotation SummarizationSetBy = User
 
-	column hours_within_100nm
+	column hours_near
 		dataType: int64
 		formatString: 0
 		lineageTag: c33f42f6-f6b2-5535-9443-0e1be6b95091
 		summarizeBy: sum
-		sourceColumn: hours_within_100nm
+		sourceColumn: hours_near
 
 		annotation SummarizationSetBy = User
 
@@ -208,11 +210,12 @@ table 'Fact Storm Approach'
 		source =
 				let
 				    Source = fnGetCsv("storms.csv"),
-				    Selected = Table.SelectColumns(Source, {"storm_id", "closest_datetime", "closest_distance_nm", "closest_lat", "closest_lon", "wind_at_closest_kt", "pressure_at_closest_mb", "max_wind_within_100nm_kt", "min_pressure_within_100nm_mb", "hours_within_100nm", "approach_from", "heading_deg", "forward_speed_kt", "max_24h_intensification_kt", "rapid_intensification", "jamaica_landfall", "category_near_jamaica", "is_near", "is_hurricane_near", "is_major_near", "distance_band"}),
+				    Selected = Table.SelectColumns(Source, {"storm_id", "closest_datetime", "closest_distance_nm", "closest_lat", "closest_lon", "wind_at_closest_kt", "pressure_at_closest_mb", "max_wind_near_kt", "min_pressure_near_mb", "hours_near", "approach_from", "heading_deg", "forward_speed_kt", "max_24h_intensification_kt", "rapid_intensification", "jamaica_landfall", "category_near_jamaica", "is_near", "is_hurricane_near", "is_major_near", "distance_band"}),
 				    Blanks = Table.ReplaceValue(Selected, "", null, Replacer.ReplaceValue, Table.ColumnNames(Selected)),
-				    Typed = Table.TransformColumnTypes(Blanks, {{"storm_id", type text}, {"closest_datetime", type datetime}, {"closest_distance_nm", type number}, {"closest_lat", type number}, {"closest_lon", type number}, {"wind_at_closest_kt", type number}, {"pressure_at_closest_mb", type number}, {"max_wind_within_100nm_kt", type number}, {"min_pressure_within_100nm_mb", type number}, {"hours_within_100nm", Int64.Type}, {"approach_from", type text}, {"heading_deg", Int64.Type}, {"forward_speed_kt", type number}, {"max_24h_intensification_kt", type number}, {"rapid_intensification", type logical}, {"jamaica_landfall", type logical}, {"category_near_jamaica", type text}, {"is_near", type logical}, {"is_hurricane_near", type logical}, {"is_major_near", type logical}, {"distance_band", type text}}, "en-US"),
+				    Typed = Table.TransformColumnTypes(Blanks, {{"storm_id", type text}, {"closest_datetime", type datetime}, {"closest_distance_nm", type number}, {"closest_lat", type number}, {"closest_lon", type number}, {"wind_at_closest_kt", type number}, {"pressure_at_closest_mb", type number}, {"max_wind_near_kt", type number}, {"min_pressure_near_mb", type number}, {"hours_near", Int64.Type}, {"approach_from", type text}, {"heading_deg", Int64.Type}, {"forward_speed_kt", type number}, {"max_24h_intensification_kt", type number}, {"rapid_intensification", type logical}, {"jamaica_landfall", type logical}, {"category_near_jamaica", type text}, {"is_near", type logical}, {"is_hurricane_near", type logical}, {"is_major_near", type logical}, {"distance_band", type text}}, "en-US"),
 				    Step0 = Table.AddColumn(Typed, "closest_date", each Date.From([closest_datetime]), type date)
 				in
 				    Step0
 
 	annotation PBI_ResultType = Table
+

@@ -31,15 +31,15 @@ table 'Dim Storm'
 
 	column year
 		dataType: int64
-		formatString: 0
 		isHidden
+		formatString: 0
 		lineageTag: f0ad615f-57c1-5edd-b72c-46833c51b746
 		summarizeBy: none
 		sourceColumn: year
 
 		annotation SummarizationSetBy = User
 
-	/// Passed within 100 nm of the coast at tropical-storm strength or above
+	/// Passed within 50 nm of the coast at tropical-storm strength or above
 	column is_near
 		dataType: boolean
 		lineageTag: 8d19157c-5273-5997-a483-95be13d983d7
@@ -78,3 +78,4 @@ table 'Dim Storm'
 				    Typed
 
 	annotation PBI_ResultType = Table
+

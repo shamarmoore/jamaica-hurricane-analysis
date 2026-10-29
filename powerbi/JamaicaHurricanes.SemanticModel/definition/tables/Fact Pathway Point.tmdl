@@ -1,0 +1,120 @@
+/// Typical route into Jamaica for each approach direction: storm positions averaged hour by hour,
+/// aligned on closest approach. One row per point along a route.
+table 'Fact Pathway Point'
+	lineageTag: af74a036-9d39-46ca-9c50-edec8ea2039c
+
+	column pathway
+		dataType: string
+		isHidden
+		lineageTag: c718e53c-fbdd-4bad-b14e-ae687df2ba09
+		summarizeBy: none
+		sourceColumn: pathway
+
+		annotation SummarizationSetBy = User
+
+	column pathway_label
+		dataType: string
+		lineageTag: a6bdfa7b-4ed0-4251-ba51-9517a9698f2b
+		summarizeBy: none
+		sourceColumn: pathway_label
+
+		annotation SummarizationSetBy = User
+
+	column sort_order
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: f4787839-fad5-4b88-ad7d-e91541a2bbf4
+		summarizeBy: none
+		sourceColumn: sort_order
+
+		annotation SummarizationSetBy = User
+
+	column storms
+		dataType: int64
+		formatString: 0
+		lineageTag: f8930379-b658-4f38-b609-d6d5356fcff0
+		summarizeBy: none
+		sourceColumn: storms
+
+		annotation SummarizationSetBy = User
+
+	column share
+		dataType: double
+		formatString: 0%
+		lineageTag: 149276cb-2799-42b3-91e8-394ca1492991
+		summarizeBy: none
+		sourceColumn: share
+
+		annotation SummarizationSetBy = User
+
+	column point_seq
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 68eb51f9-cd44-451b-8e6e-4e69a9b97211
+		summarizeBy: none
+		sourceColumn: point_seq
+
+		annotation SummarizationSetBy = User
+
+	column offset_h
+		dataType: int64
+		formatString: 0
+		lineageTag: c7b81e7e-e12b-42fc-8fbe-0f97fb2ff38f
+		summarizeBy: none
+		sourceColumn: offset_h
+
+		annotation SummarizationSetBy = User
+
+	column lat
+		dataType: double
+		formatString: 0.00
+		dataCategory: Latitude
+		lineageTag: 31f2ee71-71e6-4544-8066-cc271a80b71a
+		summarizeBy: none
+		sourceColumn: lat
+
+		annotation SummarizationSetBy = User
+
+	column lon
+		dataType: double
+		formatString: 0.00
+		dataCategory: Longitude
+		lineageTag: a8689970-c049-462f-a032-52cd4c7b1b8d
+		summarizeBy: none
+		sourceColumn: lon
+
+		annotation SummarizationSetBy = User
+
+	column point_key
+		dataType: string
+		isHidden
+		lineageTag: d3d978a7-95d8-429d-9348-1abbbb62534e
+		summarizeBy: none
+		sourceColumn: point_key
+
+		annotation SummarizationSetBy = User
+
+	column pathway_legend
+		dataType: string
+		lineageTag: 7ddade53-2b76-402d-8d69-68774bb4f0c8
+		summarizeBy: none
+		sourceColumn: pathway_legend
+		sortByColumn: sort_order
+
+		annotation SummarizationSetBy = User
+
+	partition 'Fact Pathway Point' = m
+		mode: import
+		source =
+				let
+				    Source = fnGetCsv("pathways.csv"),
+				    Selected = Table.SelectColumns(Source, {"pathway", "pathway_label", "sort_order", "storms", "share", "point_seq", "offset_h", "lat", "lon"}),
+				    Typed = Table.TransformColumnTypes(Selected, {{"pathway", type text}, {"pathway_label", type text}, {"sort_order", Int64.Type}, {"storms", Int64.Type}, {"share", type number}, {"point_seq", Int64.Type}, {"offset_h", Int64.Type}, {"lat", type number}, {"lon", type number}}, "en-US"),
+				    Key = Table.AddColumn(Typed, "point_key", each [pathway] & "-" & Text.From([point_seq]), type text),
+				    Legend = Table.AddColumn(Key, "pathway_legend", each Record.Field([E = "East", SE = "South-east", S = "South", W = "SW and W", N = "North"], [pathway]) & " " & Number.ToText([share], "0%", "en-US"), type text)
+				in
+				    Legend
+
+	annotation PBI_ResultType = Table

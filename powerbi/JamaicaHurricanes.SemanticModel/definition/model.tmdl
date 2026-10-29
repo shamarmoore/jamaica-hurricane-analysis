@@ -7,7 +7,7 @@ model Model
 		legacyRedirects
 		returnErrorValuesAsNull
 
-annotation PBI_QueryOrder = ["DataSource", "fnGetCsv", "Dim Date", "Dim Season", "Dim Storm", "Dim Category", "Dim Direction", "Dim Distance Band", "Dim ENSO Phase", "Fact Storm Approach", "Fact Track Point", "Fact Impact", "Refresh Info", "_Measures"]
+annotation PBI_QueryOrder = ["DataSource", "fnGetCsv", "Dim Date", "Dim Season", "Dim Storm", "Dim Category", "Dim Direction", "Dim Distance Band", "Dim ENSO Phase", "Fact Storm Approach", "Fact Track Point", "Fact Impact", "Fact Pathway Point", "Refresh Info", "_Measures"]
 
 annotation __PBI_TimeIntelligenceEnabled = 0
 
@@ -21,5 +21,9 @@ ref table 'Dim ENSO Phase'
 ref table 'Fact Storm Approach'
 ref table 'Fact Track Point'
 ref table 'Fact Impact'
+ref table 'Fact Pathway Point'
 ref table 'Refresh Info'
 ref table _Measures
+
+ref cultureInfo en-US
+

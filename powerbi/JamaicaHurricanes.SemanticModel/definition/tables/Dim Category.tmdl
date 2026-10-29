@@ -13,8 +13,8 @@ table 'Dim Category'
 
 	column sort_order
 		dataType: int64
-		formatString: 0
 		isHidden
+		formatString: 0
 		lineageTag: ad166473-e452-50ad-afc7-354ced759af5
 		summarizeBy: none
 		sourceColumn: sort_order
@@ -56,3 +56,4 @@ table 'Dim Category'
 				    Source
 
 	annotation PBI_ResultType = Table
+

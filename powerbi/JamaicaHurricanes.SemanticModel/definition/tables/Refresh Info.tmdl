@@ -21,3 +21,4 @@ table 'Refresh Info'
 				    Source
 
 	annotation PBI_ResultType = Table
+

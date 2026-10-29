@@ -2,27 +2,31 @@
 table _Measures
 	lineageTag: cb283f77-6675-55d5-9f2c-736067a72b5e
 
-	/// Storms at tropical-storm strength or above within 100 nm of the coast
+	/// Storms at tropical-storm strength or above within 50 nm of the coast
 	measure 'Storms Near Jamaica' = CALCULATE(COUNTROWS('Fact Storm Approach'), 'Fact Storm Approach'[is_near] = TRUE())
 		formatString: #,0
 		displayFolder: Counts
 		lineageTag: 38b61be5-cf3c-57ec-bc1b-cad9bb6347ec
 
+	/// Storms that were at hurricane strength (64 kt+) while within 50 nm of the coast.
 	measure 'Hurricanes Near Jamaica' = CALCULATE(COUNTROWS('Fact Storm Approach'), 'Fact Storm Approach'[is_hurricane_near] = TRUE())
 		formatString: #,0
 		displayFolder: Counts
 		lineageTag: f59ba103-e12b-507a-9232-428de33d53e6
 
+	/// Storms that were Category 3 or stronger (96 kt+) while within 50 nm of the coast.
 	measure 'Major Hurricanes Near Jamaica' = CALCULATE(COUNTROWS('Fact Storm Approach'), 'Fact Storm Approach'[is_major_near] = TRUE())
 		formatString: #,0
 		displayFolder: Counts
 		lineageTag: 4c990793-b789-5474-80df-d364007f592e
 
+	/// Near-Jamaica storms whose track crossed the coastline (HURDAT2 landfall flag or a track segment over land).
 	measure Landfalls = CALCULATE(COUNTROWS('Fact Storm Approach'), 'Fact Storm Approach'[jamaica_landfall] = TRUE(), 'Fact Storm Approach'[is_near] = TRUE())
 		formatString: #,0
 		displayFolder: Counts
 		lineageTag: 11ca2a79-1753-515f-97f2-d7d54297f40b
 
+	/// Near-Jamaica storms that gained 30 kt or more in 24 h during the 72 h before closest approach.
 	measure 'Rapid Intensifiers Near' = CALCULATE(COUNTROWS('Fact Storm Approach'), 'Fact Storm Approach'[is_near] = TRUE(), 'Fact Storm Approach'[rapid_intensification] = TRUE())
 		formatString: #,0
 		displayFolder: Counts
@@ -34,26 +38,31 @@ table _Measures
 		displayFolder: Counts
 		lineageTag: 4a39bf5e-fbed-58a6-98a9-944ea75edc1a
 
-	measure 'Peak Wind Near (kt)' = CALCULATE(MAX('Fact Storm Approach'[max_wind_within_100nm_kt]), 'Fact Storm Approach'[is_near] = TRUE())
+	/// Highest 1-minute sustained wind (knots) recorded while the storm was within 50 nm of the coast.
+	measure 'Peak Wind Near (kt)' = CALCULATE(MAX('Fact Storm Approach'[max_wind_near_kt]), 'Fact Storm Approach'[is_near] = TRUE())
 		formatString: 0
 		displayFolder: Intensity
 		lineageTag: 11a08bdc-2b4a-5388-87b7-e648db31ba8a
 
-	measure 'Lowest Pressure Near (mb)' = CALCULATE(MIN('Fact Storm Approach'[min_pressure_within_100nm_mb]), 'Fact Storm Approach'[is_near] = TRUE())
+	/// Lowest central pressure (millibars) recorded within 50 nm of the coast; lower means stronger.
+	measure 'Lowest Pressure Near (mb)' = CALCULATE(MIN('Fact Storm Approach'[min_pressure_near_mb]), 'Fact Storm Approach'[is_near] = TRUE())
 		formatString: 0
 		displayFolder: Intensity
 		lineageTag: cd064553-56bd-599c-b9c9-056a7b6a8041
 
+	/// Closest distance from the storm centre to Jamaica's coastline, nautical miles. 0 means landfall.
 	measure 'Closest Approach (nm)' = MIN('Fact Storm Approach'[closest_distance_nm])
 		formatString: #,0.0
 		displayFolder: Intensity
 		lineageTag: acde8ee6-ebb5-529c-8c01-9b6b1161f54d
 
-	measure 'Hours Within 100 nm' = SUM('Fact Storm Approach'[hours_within_100nm])
+	/// Hours the storm centre spent within 50 nm of the coast, from hourly-interpolated tracks.
+	measure 'Hours Within 50 nm' = SUM('Fact Storm Approach'[hours_near])
 		formatString: #,0
 		displayFolder: Intensity
 		lineageTag: c87cff11-4b19-58ea-b9a2-3cd13f245d66
 
+	/// Share of near-Jamaica hurricanes that rapidly intensified (30+ kt in 24 h) on approach.
 	measure '% Hurricanes Rapidly Intensifying' = DIVIDE(CALCULATE(COUNTROWS('Fact Storm Approach'), 'Fact Storm Approach'[is_hurricane_near] = TRUE(), 'Fact Storm Approach'[rapid_intensification] = TRUE()), [Hurricanes Near Jamaica])
 		formatString: 0%
 		displayFolder: Intensity
@@ -65,40 +74,44 @@ table _Measures
 		displayFolder: Rates
 		lineageTag: 8686a805-367a-50a1-bba8-4747337e668a
 
+	/// Storms near Jamaica divided by the number of seasons in the current filter context.
 	measure 'Storms per Season' = DIVIDE([Storms Near Jamaica], [Seasons])
 		formatString: 0.00
 		displayFolder: Rates
 		lineageTag: 5784955c-02a7-5373-acf6-6975a06bc261
 
+	/// Hurricanes near Jamaica divided by the number of seasons in the current filter context.
 	measure 'Hurricanes per Season' = DIVIDE([Hurricanes Near Jamaica], [Seasons])
 		formatString: 0.00
 		displayFolder: Rates
 		lineageTag: 141086ff-869b-5d62-95e5-87a607e7dd3d
 
-	/// Average years between hurricanes within 100 nm (1 / annual Poisson rate)
+	/// Average years between hurricanes within 50 nm (1 / annual Poisson rate)
 	measure 'Hurricane Return Period (yrs)' = DIVIDE([Seasons], [Hurricanes Near Jamaica])
 		formatString: 0.0
 		displayFolder: Rates
 		lineageTag: 9f2d57be-af3a-5e7b-8b32-023594c42068
 
+	/// Average years between major (Cat 3+) hurricanes within 50 nm: seasons divided by events.
 	measure 'Major Hurricane Return Period (yrs)' = DIVIDE([Seasons], [Major Hurricanes Near Jamaica])
 		formatString: 0.0
 		displayFolder: Rates
 		lineageTag: bd833439-0943-5eff-86cf-4b4872d783f5
 
-	/// Chance of at least one hurricane within 100 nm in a season, assuming Poisson arrivals
+	/// Chance of at least one hurricane within 50 nm in a season, assuming Poisson arrivals
 	measure 'P(Hurricane in a Season)' = 1 - EXP(-DIVIDE([Hurricanes Near Jamaica], [Seasons]))
 		formatString: 0%
 		displayFolder: Rates
 		lineageTag: d4882232-41bd-5da9-bc11-ca2f6bdb988b
 
+	/// Chance of at least one major hurricane within 50 nm in 10 years: 1 - exp(-10 x annual rate), assuming Poisson arrivals.
 	measure 'P(Major Hurricane in a Decade)' = 1 - EXP(-10 * DIVIDE([Major Hurricanes Near Jamaica], [Seasons]))
 		formatString: 0%
 		displayFolder: Rates
 		lineageTag: 92a7ced6-e850-5ab3-92c6-db5a0fe16bcb
 
 	/// Trailing 10-season average of storms near Jamaica
-	measure 'Storms Near (10-yr avg)' = 
+	measure 'Storms Near (10-yr avg)' =
 			VAR _year = MAX('Dim Season'[year])
 			RETURN
 				CALCULATE(
@@ -111,59 +124,294 @@ table _Measures
 		displayFolder: Rates
 		lineageTag: 56231ec5-cf07-54d8-a586-6dda175f1a58
 
+	/// Officially assessed damage and loss in US$ millions (nominal), from PIOJ, ECLAC, World Bank or CDKN.
 	measure 'Damage & Loss (US$ m)' = SUM('Fact Impact'[damage_loss_usd_m])
 		formatString: #,0
 		displayFolder: Impact
 		lineageTag: eb7e2116-11a2-542c-ab89-b0bfd2aa4f0f
 
+	/// Assessed damage and loss as a share of Jamaica's GDP in the event year.
 	measure 'Damage & Loss (% GDP)' = MAX('Fact Impact'[damage_loss_pct_gdp]) / 100
 		formatString: 0.0%
 		displayFolder: Impact
 		lineageTag: b27c0f21-3353-5103-98aa-f68854d5af5e
 
+	/// Deaths in Jamaica attributed to the storm, per the source in Fact Impact.
 	measure Deaths = SUM('Fact Impact'[deaths_jamaica])
 		formatString: #,0
 		displayFolder: Impact
 		lineageTag: 7a2d801e-462b-54e6-9725-336e9f6c2e6f
 
+	/// Latitude of a track fix (average, used when one fix is in context).
 	measure 'Track Latitude' = AVERAGE('Fact Track Point'[lat])
 		formatString: 0.00
 		displayFolder: Track
 		lineageTag: 4fb5bd67-c8e8-5bd5-af04-c7ce505ff377
 
+	/// Latitude of a point on a typical route.
+	measure 'Pathway Latitude' = AVERAGE('Fact Pathway Point'[lat])
+		formatString: 0.00
+		displayFolder: Pathways
+		lineageTag: 197565ae-65cd-43b1-9057-71217d135106
+
+	/// Longitude of a point on a typical route.
+	measure 'Pathway Longitude' = AVERAGE('Fact Pathway Point'[lon])
+		formatString: 0.00
+		displayFolder: Pathways
+		lineageTag: 80b3860e-5fbc-4a53-bd65-3d3cf8073d9c
+
+	/// Share of storms within 50 nm that approached along this route.
+	measure 'Pathway Share' = MAX('Fact Pathway Point'[share])
+		formatString: 0%
+		displayFolder: Pathways
+		lineageTag: ea99b617-c4d1-405f-a3cb-523eb77af690
+
+	/// Number of storms that approached along this route.
+	measure 'Pathway Storms' = MAX('Fact Pathway Point'[storms])
+		formatString: 0
+		displayFolder: Pathways
+		lineageTag: 0c5d9dae-9226-4099-9abf-68a12174fb4b
+
+	/// Hours before (negative) or after closest approach for a point on a route.
+	measure 'Pathway Hours From Closest' = MAX('Fact Pathway Point'[offset_h])
+		formatString: +0;-0;0
+		displayFolder: Pathways
+		lineageTag: 9543d5f5-b692-4b9f-9791-a889eb920c7d
+
+	/// Longitude of a track fix (average, used when one fix is in context).
 	measure 'Track Longitude' = AVERAGE('Fact Track Point'[lon])
 		formatString: 0.00
 		displayFolder: Track
 		lineageTag: 078c7a61-aa73-5d6b-b87e-ef93606c5cef
 
+	/// Maximum sustained wind at a track fix, knots.
 	measure 'Track Wind (kt)' = MAX('Fact Track Point'[wind_kt])
 		formatString: 0
 		displayFolder: Track
 		lineageTag: deb1f59d-8354-587a-9834-4afcfb87efb9
 
+	/// Label of the single storm in context, or 'All storms'.
 	measure 'Selected Storm' = SELECTEDVALUE('Dim Storm'[storm_label], "All storms")
 		displayFolder: Labels
 		lineageTag: c31198f0-0fa7-5c65-a7aa-23e859aedb2f
 
+	/// Saffir-Simpson category at the storm's peak while within 50 nm.
 	measure 'Category Near' = SELECTEDVALUE('Fact Storm Approach'[category_near_jamaica])
 		displayFolder: Labels
 		lineageTag: 14b10533-bbe7-5c4e-9a41-23f7d2528fab
 
+	/// Compass sector the storm approached from, 24 h before closest approach.
 	measure 'Approach From' = SELECTEDVALUE('Fact Storm Approach'[approach_from])
 		displayFolder: Labels
 		lineageTag: ee110d50-7da7-540b-86b4-284661e8f08d
 
+	/// Yes or No: did the storm make landfall on Jamaica.
 	measure 'Landfall Flag' = IF(ISEMPTY('Fact Storm Approach'), BLANK(), IF(CALCULATE(COUNTROWS('Fact Storm Approach'), 'Fact Storm Approach'[jamaica_landfall] = TRUE()) > 0, "Yes", "No"))
 		displayFolder: Labels
 		lineageTag: 133529f7-a4d5-5c2c-a4c7-e91899c60b2e
 
+	/// Yes or No: did the storm gain 30+ kt in 24 h before closest approach.
 	measure 'Rapid Intensification Flag' = IF(ISEMPTY('Fact Storm Approach'), BLANK(), IF(CALCULATE(COUNTROWS('Fact Storm Approach'), 'Fact Storm Approach'[rapid_intensification] = TRUE()) > 0, "Yes", "No"))
 		displayFolder: Labels
 		lineageTag: e8b1dfc7-3fa7-5821-9400-502b169a1c68
 
+	/// When the processed CSVs were last rebuilt by the Python pipeline.
 	measure 'Last Refreshed' = "Data refreshed " & FORMAT(MAX('Refresh Info'[refreshed_at]), "dd mmm yyyy hh:nn")
 		displayFolder: Labels
 		lineageTag: d08f7653-dbd9-5dab-b289-89b610889f9a
+
+	/// Share of all near-Jamaica storms in the current filter selection that fall in the hovered group (bar, month, category...).
+	measure 'Share of Storms Near' = DIVIDE([Storms Near Jamaica], CALCULATE([Storms Near Jamaica], ALLSELECTED()))
+		formatString: 0%
+		displayFolder: Tooltips
+		lineageTag: 9b6a0191-c4d3-47c0-825c-082598d49286
+
+	/// The three strongest storms (peak wind within 50 nm) in the current context, e.g. for a decade or month bar.
+	measure 'Notable Storms' =
+			VAR _t =
+			    TOPN(
+			        3,
+			        FILTER(
+			            ADDCOLUMNS(VALUES('Dim Storm'[storm_label]), "@wind", [Peak Wind Near (kt)]),
+			            NOT ISBLANK([@wind])
+			        ),
+			        [@wind], DESC,
+			        'Dim Storm'[storm_label], ASC
+			    )
+			RETURN
+			    CONCATENATEX(_t, 'Dim Storm'[storm_label] & " " & FORMAT([@wind], "0") & " kt", ", ", [@wind], DESC)
+		displayFolder: Tooltips
+		lineageTag: 5933a784-65be-4275-abe1-8364ee4e9906
+
+	/// Plain-English tooltip sentence: count and share of storms in the hovered group, with hurricanes, majors and landfalls.
+	measure 'Breakdown Insight' =
+			VAR _n = [Storms Near Jamaica]
+			VAR _total = CALCULATE([Storms Near Jamaica], ALLSELECTED())
+			VAR _h = COALESCE([Hurricanes Near Jamaica], 0)
+			VAR _m = COALESCE([Major Hurricanes Near Jamaica], 0)
+			VAR _lf = COALESCE([Landfalls], 0)
+			RETURN
+			    IF(
+			        _n > 0,
+			        FORMAT(_n, "0") & " of " & FORMAT(_total, "0") & " storms near Jamaica (" & FORMAT(DIVIDE(_n, _total), "0%") & "). "
+			            & FORMAT(_h, "0") & IF(_h = 1, " was a hurricane", " were hurricanes") & " within 50 nm, "
+			            & FORMAT(_m, "0") & IF(_m = 1, " was", " were") & " major (Cat 3+) and "
+			            & FORMAT(_lf, "0") & " made landfall."
+			    )
+		displayFolder: Tooltips
+		lineageTag: a893d85b-7443-4ac4-884b-01a6e168fbb4
+
+	/// Explains the hovered Saffir-Simpson category and how storms are assigned to it.
+	measure 'Category Definition' =
+			VAR _c = SELECTEDVALUE('Dim Category'[category])
+			RETURN
+			    IF(
+			        NOT ISBLANK(_c),
+			        _c & " means sustained winds of " & SELECTEDVALUE('Dim Category'[wind_range])
+			            & " on the Saffir-Simpson scale. Each storm is counted once, at its peak while within 50 nm of the coast."
+			    )
+		displayFolder: Tooltips
+		lineageTag: 5de020ce-5e36-4d62-96e3-001c44ef3d5c
+
+	/// Explains the hovered approach direction and how it is measured.
+	measure 'Direction Definition' =
+			VAR _d = SELECTEDVALUE('Dim Direction'[description])
+			RETURN
+			    IF(NOT ISBLANK(_d), _d & ": the compass sector the storm was in 24 h before its closest point to Jamaica. Most storms ride the trade winds in from the east.")
+		displayFolder: Tooltips
+		lineageTag: 79eb5df3-eeca-449a-b819-3befda5221aa
+
+	/// Tooltip sentence for one season: storms near Jamaica that year by name, the trailing 10-season average and the long-run rate.
+	measure 'Season Insight' =
+			VAR _yr = SELECTEDVALUE('Dim Season'[year])
+			VAR _n = COALESCE([Storms Near Jamaica], 0)
+			VAR _names =
+			    CONCATENATEX(
+			        CALCULATETABLE(VALUES('Dim Storm'[storm_label]), 'Dim Storm'[is_near] = TRUE()),
+			        SUBSTITUTE('Dim Storm'[storm_label], " (" & _yr & ")", ""), ", "
+			    )
+			VAR _avg = [Storms Near (10-yr avg)]
+			VAR _longrun = CALCULATE([Storms per Season], ALLSELECTED('Dim Season'))
+			RETURN
+			    IF(
+			        NOT ISBLANK(_yr),
+			        FORMAT(_yr, "0") & ": " & FORMAT(_n, "0") & IF(_n = 1, " storm", " storms") & " near Jamaica"
+			            & IF(_n > 0, " (" & _names & ")", "") & ". 10-season average " & FORMAT(_avg, "0.00")
+			            & " vs " & FORMAT(_longrun, "0.00") & " per season across the selected years."
+			    )
+		displayFolder: Tooltips
+		lineageTag: 2fd25ff0-0a2d-4f51-b9f0-e2821d388a5c
+
+	/// Tooltip sentence comparing the hovered ENSO phase's storm rate with neutral seasons. La Nina weakens Caribbean wind shear, El Nino strengthens it.
+	measure 'ENSO Insight' =
+			VAR _p = SELECTEDVALUE('Dim ENSO Phase'[enso_phase])
+			VAR _rate = [Storms per Season]
+			VAR _neutral = CALCULATE([Storms per Season], 'Dim ENSO Phase'[enso_phase] = "Neutral")
+			RETURN
+			    IF(
+			        NOT ISBLANK(_p),
+			        _p & " seasons [" & SELECTEDVALUE('Dim ENSO Phase'[definition]) & "]: " & FORMAT([Storms Near Jamaica], "0")
+			            & " storms in " & FORMAT([Seasons], "0") & " seasons = " & FORMAT(_rate, "0.00") & " per season"
+			            & IF(_p = "Neutral", ", the baseline.", ", " & FORMAT(DIVIDE(_rate, _neutral), "0.0") & "x the neutral-season rate.")
+			    )
+		displayFolder: Tooltips
+		lineageTag: c82e8061-84db-449a-8d28-f216db0c5c9b
+
+	/// Damage, share of GDP and deaths for a storm with an official assessment (PIOJ / ECLAC / World Bank). Blank otherwise.
+	measure 'Impact Insight' =
+			VAR _usd = [Damage & Loss (US$ m)]
+			VAR _d = [Deaths]
+			RETURN
+			    IF(
+			        NOT ISBLANK(_usd),
+			        "Assessed damage and loss: US$" & FORMAT(_usd, "#,0") & "m, " & FORMAT([Damage & Loss (% GDP)], "0.0%")
+			            & " of Jamaica's GDP that year" & IF(NOT ISBLANK(_d), "; " & FORMAT(_d, "0") & " deaths", "") & "."
+			    )
+		displayFolder: Tooltips
+		lineageTag: ae6feaf5-c06a-4ad0-9e32-7d497fe54c16
+
+	/// One-paragraph story of a single storm's pass: direction, closest approach or landfall, category, peak wind, hours near Jamaica, rapid intensification and assessed impact.
+	measure 'Storm Narrative' =
+			VAR _storm = SELECTEDVALUE('Dim Storm'[storm_label])
+			VAR _wind = [Peak Wind Near (kt)]
+			VAR _cat = [Category Near]
+			VAR _catText = IF(_cat = "TS", "tropical storm", _cat)
+			VAR _from = LOOKUPVALUE('Dim Direction'[description], 'Dim Direction'[direction], [Approach From])
+			VAR _landfall = [Landfall Flag] = "Yes"
+			VAR _impact = [Impact Insight]
+			RETURN
+			    IF(
+			        NOT ISBLANK(_storm) && NOT ISBLANK(_wind),
+			        _storm & " came in " & LOWER(_from) & " and "
+			            & IF(_landfall, "made landfall on Jamaica", "passed " & FORMAT([Closest Approach (nm)], "0") & " nm from the coast")
+			            & " as a " & _catText & ", peaking at " & FORMAT(_wind, "0") & " kt and spending "
+			            & FORMAT([Hours Within 50 nm], "0") & " h within 50 nm."
+			            & IF([Rapid Intensification Flag] = "Yes", " It rapidly intensified (30+ kt in 24 h) on the way in.", "")
+			            & IF(NOT ISBLANK(_impact), " " & _impact, "")
+			    )
+		displayFolder: Tooltips
+		lineageTag: 3e30a6ec-83e6-4967-9e66-12c203ba2d25
+
+	/// Dynamic title for the track map: the selected storm, or how many storms are shown.
+	measure 'Map Title' =
+			IF(
+			    HASONEVALUE('Dim Storm'[storm_label]),
+			    VALUES('Dim Storm'[storm_label]) & " - best track",
+			    "Best tracks of " & FORMAT(DISTINCTCOUNT('Fact Track Point'[storm_id]), "0") & " storms near Jamaica"
+			)
+		displayFolder: Tooltips
+		lineageTag: badef441-453b-4288-a44b-7a3d658471e4
+
+	/// Storm that the hovered track fix belongs to.
+	measure 'Track Fix Storm' = MAXX('Fact Track Point', RELATED('Dim Storm'[storm_label]))
+		displayFolder: Tooltips
+		lineageTag: 669dfb12-e4d4-467d-beab-e10a93b68b93
+
+	/// Timestamp of the hovered track fix (UTC).
+	measure 'Track Fix Time' =
+			VAR _t = MIN('Fact Track Point'[datetime])
+			RETURN IF(NOT ISBLANK(_t), FORMAT(_t, "ddd dd mmm yyyy, hh:nn") & " UTC")
+		displayFolder: Tooltips
+		lineageTag: 1946b53f-e37d-4871-8859-392d69e0776c
+
+	/// Saffir-Simpson category at the hovered track fix, spelled out.
+	measure 'Track Category' =
+			VAR _c = MAX('Fact Track Point'[category])
+			RETURN IF(ISEMPTY('Fact Track Point'), BLANK(), SWITCH(_c, "TD", "Depression", "TS", "Trop. storm", BLANK(), "Depression", _c))
+		displayFolder: Tooltips
+		lineageTag: 18cf3e48-5d14-46e7-b3af-4a182dae9a08
+
+	/// Central pressure at the track fix in millibars; lower means a stronger storm.
+	measure 'Track Pressure (mb)' = MIN('Fact Track Point'[pressure_mb])
+		formatString: 0
+		displayFolder: Tooltips
+		lineageTag: a40f9506-e608-49a6-b808-b2b5cfb2ef19
+
+	/// Distance from the track fix to Jamaica's coastline, nautical miles (0 = over land).
+	measure 'Track Distance to Coast (nm)' = MIN('Fact Track Point'[dist_nm])
+		formatString: #,0
+		displayFolder: Tooltips
+		lineageTag: b873f79e-9dbf-43b0-9922-b88880023198
+
+	/// Explains what the hovered track fix means: inside or outside the 50 nm zone, plus central pressure.
+	measure 'Track Fix Explanation' =
+			VAR _d = [Track Distance to Coast (nm)]
+			VAR _p = [Track Pressure (mb)]
+			VAR _zone =
+			    SWITCH(
+			        TRUE(),
+			        ISBLANK(_d), BLANK(),
+			        _d = 0, "Over Jamaica. This fix is a landfall-period position.",
+			        _d <= 50, "Inside the 50 nm zone, so this fix counts toward the storm's hours near Jamaica.",
+			        "Outside the 50 nm zone. Shown for context only."
+			    )
+			RETURN
+			    IF(
+			        HASONEVALUE('Fact Track Point'[point_key]),
+			        _zone & IF(NOT ISBLANK(_p), " Central pressure " & FORMAT(_p, "0") & " mb (lower = stronger).", "")
+			    )
+		displayFolder: Tooltips
+		lineageTag: 60ee42fa-fc02-46d4-95de-7202d409619e
 
 	column Placeholder
 		dataType: string
@@ -183,3 +431,4 @@ table _Measures
 				    Source
 
 	annotation PBI_ResultType = Table
+

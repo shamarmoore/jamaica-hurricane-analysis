@@ -17,3 +17,4 @@ expression fnGetCsv =
 	lineageTag: 67d8f8ac-be54-523f-be57-18b786b7fbd4
 
 	annotation PBI_ResultType = Function
+

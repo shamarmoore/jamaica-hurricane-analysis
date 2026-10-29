@@ -1,7 +1,7 @@
 /// Calendar 1851 to the end of the current year. Marked as the model's date table.
 table 'Dim Date'
-	dataCategory: Time
 	lineageTag: cd89a848-ce95-5e42-aa79-e005fb8d435c
+	dataCategory: Time
 
 	column Date
 		dataType: dateTime
@@ -12,6 +12,8 @@ table 'Dim Date'
 		sourceColumn: Date
 
 		annotation SummarizationSetBy = User
+
+		annotation UnderlyingDateTimeDataType = Date
 
 	column Year
 		dataType: int64
@@ -33,8 +35,8 @@ table 'Dim Date'
 
 	column 'Month Number'
 		dataType: int64
-		formatString: 0
 		isHidden
+		formatString: 0
 		lineageTag: 838f084f-a54f-51bb-b766-1bacf76ba81f
 		summarizeBy: none
 		sourceColumn: Month Number
@@ -86,3 +88,4 @@ table 'Dim Date'
 				    AddPhase
 
 	annotation PBI_ResultType = Table
+

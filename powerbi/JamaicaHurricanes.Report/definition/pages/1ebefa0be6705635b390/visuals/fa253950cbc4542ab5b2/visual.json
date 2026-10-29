@@ -1,0 +1,234 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "fa253950cbc4542ab5b2",
+  "position": {
+    "x": 648,
+    "y": 188,
+    "z": 9000,
+    "height": 520,
+    "width": 616
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Dim Storm"
+                    }
+                  },
+                  "Property": "storm_label"
+                }
+              },
+              "queryRef": "Dim Storm.storm_label",
+              "nativeQueryRef": "Storm",
+              "displayName": "Storm"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Category Near"
+                }
+              },
+              "queryRef": "_Measures.Category Near",
+              "nativeQueryRef": "Category near",
+              "displayName": "Category near"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Peak Wind Near (kt)"
+                }
+              },
+              "queryRef": "_Measures.Peak Wind Near (kt)",
+              "nativeQueryRef": "Peak wind (kt)",
+              "displayName": "Peak wind (kt)"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Closest Approach (nm)"
+                }
+              },
+              "queryRef": "_Measures.Closest Approach (nm)",
+              "nativeQueryRef": "Closest (nm)",
+              "displayName": "Closest (nm)"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Approach From"
+                }
+              },
+              "queryRef": "_Measures.Approach From",
+              "nativeQueryRef": "From",
+              "displayName": "From"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Landfall Flag"
+                }
+              },
+              "queryRef": "_Measures.Landfall Flag",
+              "nativeQueryRef": "Landfall",
+              "displayName": "Landfall"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Rapid Intensification Flag"
+                }
+              },
+              "queryRef": "_Measures.Rapid Intensification Flag",
+              "nativeQueryRef": "Rapid intensification",
+              "displayName": "Rapid intensification"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "_Measures"
+                  }
+                },
+                "Property": "Peak Wind Near (kt)"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Every storm near Jamaica (hover a row for its summary)'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "visualTooltip": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "type": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Canvas'"
+                }
+              }
+            },
+            "section": {
+              "expr": {
+                "Literal": {
+                  "Value": "'bb0fb683c5e8f3070e9f'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "visualHeader": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "showTooltipButton": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "visualHeaderTooltip": [
+        {
+          "properties": {
+            "type": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Default'"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Every storm that came within 50 nm. Click a row to draw its track on the map; hover a row for a summary of the pass.'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
