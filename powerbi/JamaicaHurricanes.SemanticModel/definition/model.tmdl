@@ -11,6 +11,8 @@ annotation PBI_QueryOrder = ["DataSource", "fnGetCsv", "Dim Date", "Dim Season",
 
 annotation __PBI_TimeIntelligenceEnabled = 0
 
+annotation PBI_ProTooling = ["DevMode"]
+
 ref table 'Dim Date'
 ref table 'Dim Season'
 ref table 'Dim Storm'
@@ -21,9 +23,9 @@ ref table 'Dim ENSO Phase'
 ref table 'Fact Storm Approach'
 ref table 'Fact Track Point'
 ref table 'Fact Impact'
-ref table 'Fact Pathway Point'
 ref table 'Refresh Info'
 ref table _Measures
+ref table 'Fact Pathway Point'
 
 ref cultureInfo en-US
 

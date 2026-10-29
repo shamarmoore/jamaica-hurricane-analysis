@@ -148,36 +148,6 @@ table _Measures
 		displayFolder: Track
 		lineageTag: 4fb5bd67-c8e8-5bd5-af04-c7ce505ff377
 
-	/// Latitude of a point on a typical route.
-	measure 'Pathway Latitude' = AVERAGE('Fact Pathway Point'[lat])
-		formatString: 0.00
-		displayFolder: Pathways
-		lineageTag: 197565ae-65cd-43b1-9057-71217d135106
-
-	/// Longitude of a point on a typical route.
-	measure 'Pathway Longitude' = AVERAGE('Fact Pathway Point'[lon])
-		formatString: 0.00
-		displayFolder: Pathways
-		lineageTag: 80b3860e-5fbc-4a53-bd65-3d3cf8073d9c
-
-	/// Share of storms within 50 nm that approached along this route.
-	measure 'Pathway Share' = MAX('Fact Pathway Point'[share])
-		formatString: 0%
-		displayFolder: Pathways
-		lineageTag: ea99b617-c4d1-405f-a3cb-523eb77af690
-
-	/// Number of storms that approached along this route.
-	measure 'Pathway Storms' = MAX('Fact Pathway Point'[storms])
-		formatString: 0
-		displayFolder: Pathways
-		lineageTag: 0c5d9dae-9226-4099-9abf-68a12174fb4b
-
-	/// Hours before (negative) or after closest approach for a point on a route.
-	measure 'Pathway Hours From Closest' = MAX('Fact Pathway Point'[offset_h])
-		formatString: +0;-0;0
-		displayFolder: Pathways
-		lineageTag: 9543d5f5-b692-4b9f-9791-a889eb920c7d
-
 	/// Longitude of a track fix (average, used when one fix is in context).
 	measure 'Track Longitude' = AVERAGE('Fact Track Point'[lon])
 		formatString: 0.00
@@ -412,6 +382,36 @@ table _Measures
 			    )
 		displayFolder: Tooltips
 		lineageTag: 60ee42fa-fc02-46d4-95de-7202d409619e
+
+	/// Latitude of a point on a typical route.
+	measure 'Pathway Latitude' = AVERAGE('Fact Pathway Point'[lat])
+		formatString: 0.00
+		displayFolder: Pathways
+		lineageTag: 197565ae-65cd-43b1-9057-71217d135106
+
+	/// Longitude of a point on a typical route.
+	measure 'Pathway Longitude' = AVERAGE('Fact Pathway Point'[lon])
+		formatString: 0.00
+		displayFolder: Pathways
+		lineageTag: 80b3860e-5fbc-4a53-bd65-3d3cf8073d9c
+
+	/// Share of storms within 50 nm that approached along this route.
+	measure 'Pathway Share' = MAX('Fact Pathway Point'[share])
+		formatString: 0%
+		displayFolder: Pathways
+		lineageTag: ea99b617-c4d1-405f-a3cb-523eb77af690
+
+	/// Number of storms that approached along this route.
+	measure 'Pathway Storms' = MAX('Fact Pathway Point'[storms])
+		formatString: 0
+		displayFolder: Pathways
+		lineageTag: 0c5d9dae-9226-4099-9abf-68a12174fb4b
+
+	/// Hours before (negative) or after closest approach for a point on a route.
+	measure 'Pathway Hours From Closest' = MAX('Fact Pathway Point'[offset_h])
+		formatString: +0;-0;0
+		displayFolder: Pathways
+		lineageTag: 9543d5f5-b692-4b9f-9791-a889eb920c7d
 
 	column Placeholder
 		dataType: string

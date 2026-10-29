@@ -230,19 +230,7 @@ cultureInfo en-US
 			          "ConceptualProperty": "Track Wind (kt)"
 			        }
 			      },
-			      "State": "Generated",
-			      "Terms": [
-			        {
-			          "Wind (kt)": {
-			            "State": "Suggested",
-			            "Source": {
-			              "Type": "External",
-			              "Agent": "PowerBI.VisualColumnRename"
-			            },
-			            "Weight": 0.9
-			          }
-			        }
-			      ]
+			      "State": "Generated"
 			    },
 			    "table_measures.track_longitude": {
 			      "Definition": {
@@ -251,19 +239,7 @@ cultureInfo en-US
 			          "ConceptualProperty": "Track Longitude"
 			        }
 			      },
-			      "State": "Generated",
-			      "Terms": [
-			        {
-			          "Longitude": {
-			            "State": "Suggested",
-			            "Source": {
-			              "Type": "External",
-			              "Agent": "PowerBI.VisualColumnRename"
-			            },
-			            "Weight": 0.9
-			          }
-			        }
-			      ]
+			      "State": "Generated"
 			    },
 			    "table_measures.track_latitude": {
 			      "Definition": {
@@ -272,19 +248,7 @@ cultureInfo en-US
 			          "ConceptualProperty": "Track Latitude"
 			        }
 			      },
-			      "State": "Generated",
-			      "Terms": [
-			        {
-			          "Latitude": {
-			            "State": "Suggested",
-			            "Source": {
-			              "Type": "External",
-			              "Agent": "PowerBI.VisualColumnRename"
-			            },
-			            "Weight": 0.9
-			          }
-			        }
-			      ]
+			      "State": "Generated"
 			    },
 			    "table_measures.selected_storm": {
 			      "Definition": {
@@ -776,19 +740,7 @@ cultureInfo en-US
 			          "ConceptualProperty": "point_key"
 			        }
 			      },
-			      "State": "Generated",
-			      "Terms": [
-			        {
-			          "Fix": {
-			            "State": "Suggested",
-			            "Source": {
-			              "Type": "External",
-			              "Agent": "PowerBI.VisualColumnRename"
-			            },
-			            "Weight": 0.9
-			          }
-			        }
-			      ]
+			      "State": "Generated"
 			    },
 			    "fact_track_point.within_near_radius": {
 			      "Definition": {
@@ -962,19 +914,7 @@ cultureInfo en-US
 			          "ConceptualProperty": "Track Fix Storm"
 			        }
 			      },
-			      "State": "Generated",
-			      "Terms": [
-			        {
-			          "Storm": {
-			            "State": "Suggested",
-			            "Source": {
-			              "Type": "External",
-			              "Agent": "PowerBI.VisualColumnRename"
-			            },
-			            "Weight": 0.9
-			          }
-			        }
-			      ]
+			      "State": "Generated"
 			    },
 			    "table_measures.track_fix_time": {
 			      "Definition": {
@@ -983,19 +923,7 @@ cultureInfo en-US
 			          "ConceptualProperty": "Track Fix Time"
 			        }
 			      },
-			      "State": "Generated",
-			      "Terms": [
-			        {
-			          "Time": {
-			            "State": "Suggested",
-			            "Source": {
-			              "Type": "External",
-			              "Agent": "PowerBI.VisualColumnRename"
-			            },
-			            "Weight": 0.9
-			          }
-			        }
-			      ]
+			      "State": "Generated"
 			    },
 			    "table_measures.track_distance_to_coast_nm": {
 			      "Definition": {
@@ -1004,29 +932,7 @@ cultureInfo en-US
 			          "ConceptualProperty": "Track Distance to Coast (nm)"
 			        }
 			      },
-			      "State": "Generated",
-			      "Terms": [
-			        {
-			          "Distance to coast (nm)": {
-			            "State": "Suggested",
-			            "Source": {
-			              "Type": "External",
-			              "Agent": "PowerBI.VisualColumnRename"
-			            },
-			            "Weight": 0.9
-			          }
-			        },
-			        {
-			          "To coast (nm)": {
-			            "State": "Suggested",
-			            "Source": {
-			              "Type": "External",
-			              "Agent": "PowerBI.VisualColumnRename"
-			            },
-			            "Weight": 0.9
-			          }
-			        }
-			      ]
+			      "State": "Generated"
 			    },
 			    "table_measures.track_fix_explanation": {
 			      "Definition": {
@@ -1035,19 +941,7 @@ cultureInfo en-US
 			          "ConceptualProperty": "Track Fix Explanation"
 			        }
 			      },
-			      "State": "Generated",
-			      "Terms": [
-			        {
-			          "What this means": {
-			            "State": "Suggested",
-			            "Source": {
-			              "Type": "External",
-			              "Agent": "PowerBI.VisualColumnRename"
-			            },
-			            "Weight": 0.9
-			          }
-			        }
-			      ]
+			      "State": "Generated"
 			    },
 			    "table_measures.enso_insight": {
 			      "Definition": {
@@ -1077,19 +971,7 @@ cultureInfo en-US
 			          "ConceptualProperty": "Track Category"
 			        }
 			      },
-			      "State": "Generated",
-			      "Terms": [
-			        {
-			          "Category": {
-			            "State": "Suggested",
-			            "Source": {
-			              "Type": "External",
-			              "Agent": "PowerBI.VisualColumnRename"
-			            },
-			            "Weight": 0.9
-			          }
-			        }
-			      ]
+			      "State": "Generated"
 			    },
 			    "table_measures.storm_narrative": {
 			      "Definition": {
@@ -1119,10 +1001,28 @@ cultureInfo en-US
 			          "ConceptualProperty": "storm_id"
 			        }
 			      },
+			      "State": "Generated"
+			    },
+			    "fact_track_point.point_seq": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fact Track Point",
+			          "ConceptualProperty": "point_seq"
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "table_measures.pathway_longitude": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "Pathway Longitude"
+			        }
+			      },
 			      "State": "Generated",
 			      "Terms": [
 			        {
-			          "Storm": {
+			          "Longitude": {
 			            "State": "Suggested",
 			            "Source": {
 			              "Type": "External",
@@ -1133,17 +1033,164 @@ cultureInfo en-US
 			        }
 			      ]
 			    },
-			    "fact_track_point.point_seq": {
+			    "table_measures.pathway_latitude": {
 			      "Definition": {
 			        "Binding": {
-			          "ConceptualEntity": "Fact Track Point",
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "Pathway Latitude"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Latitude": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "table_measures.pathway_share": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "Pathway Share"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Share of storms": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "table_measures.pathway_storms": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "Pathway Storms"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Storms": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "table_measures.pathway_hours_from_closest": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "Pathway Hours From Closest"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Hours from closest approach": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "fact_pathway_point.point_key": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fact Pathway Point",
+			          "ConceptualProperty": "point_key"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Route point": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "fact_pathway_point.pathway_legend": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fact Pathway Point",
+			          "ConceptualProperty": "pathway_legend"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Route": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "fact_pathway_point.pathway": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fact Pathway Point",
+			          "ConceptualProperty": "pathway"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Route ID": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "fact_pathway_point.point_seq": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fact Pathway Point",
 			          "ConceptualProperty": "point_seq"
 			        }
 			      },
 			      "State": "Generated",
 			      "Terms": [
 			        {
-			          "Fix order": {
+			          "Point order": {
 			            "State": "Suggested",
 			            "Source": {
 			              "Type": "External",

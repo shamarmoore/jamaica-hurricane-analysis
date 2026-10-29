@@ -74,12 +74,12 @@ Fact Pathway Point (standalone: the averaged routes for the map)
 
 Every relationship is one-to-many and filters in one direction, and `Dim Date` is marked as the date table. The 52 DAX measures live in a `_Measures` table, grouped into display folders. Implicit measures are turned off, so every number on a page comes from a named measure.
 
-One parameter, `DataSource`, feeds every query through a shared `fnGetCsv` function. It accepts a local folder or this repository's raw GitHub address (`https://raw.githubusercontent.com/shamarmoore/jamaica-hurricane-analysis/main/data/processed/`). Pointing it at GitHub lets the Power BI Service refresh the data without a gateway.
+One parameter, `DataSource`, feeds every query through a shared `fnGetCsv` function. By default it points at this repository's raw GitHub address (`https://raw.githubusercontent.com/shamarmoore/jamaica-hurricane-analysis/main/data/processed/`), so the report refreshes anywhere, including the Power BI Service, without a gateway. To work from a local copy, set it to a folder path ending in a backslash.
 
 To open the report:
 
 1. Install Power BI Desktop and open `powerbi/JamaicaHurricanes.pbip`.
-2. If your copy of the data is somewhere else, go to **Transform data** > **Edit parameters** and change `DataSource`.
+2. To use a local copy of the data, go to **Transform data** > **Edit parameters** and change `DataSource`.
 3. Click **Refresh**.
 
 ## Run the analysis yourself

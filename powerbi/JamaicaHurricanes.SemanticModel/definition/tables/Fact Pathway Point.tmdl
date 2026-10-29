@@ -70,8 +70,8 @@ table 'Fact Pathway Point'
 	column lat
 		dataType: double
 		formatString: 0.00
-		dataCategory: Latitude
 		lineageTag: 31f2ee71-71e6-4544-8066-cc271a80b71a
+		dataCategory: Latitude
 		summarizeBy: none
 		sourceColumn: lat
 
@@ -80,8 +80,8 @@ table 'Fact Pathway Point'
 	column lon
 		dataType: double
 		formatString: 0.00
-		dataCategory: Longitude
 		lineageTag: a8689970-c049-462f-a032-52cd4c7b1b8d
+		dataCategory: Longitude
 		summarizeBy: none
 		sourceColumn: lon
 
@@ -118,3 +118,4 @@ table 'Fact Pathway Point'
 				    Legend
 
 	annotation PBI_ResultType = Table
+

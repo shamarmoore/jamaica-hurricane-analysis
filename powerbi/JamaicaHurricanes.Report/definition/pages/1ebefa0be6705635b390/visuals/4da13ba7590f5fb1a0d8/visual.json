@@ -31,26 +31,6 @@
             }
           ]
         },
-        "Series": {
-          "projections": [
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Fact Pathway Point"
-                    }
-                  },
-                  "Property": "pathway_legend"
-                }
-              },
-              "queryRef": "Fact Pathway Point.pathway_legend",
-              "nativeQueryRef": "Route",
-              "displayName": "Route",
-              "active": true
-            }
-          ]
-        },
         "PathID": {
           "projections": [
             {
@@ -66,8 +46,8 @@
               },
               "queryRef": "Fact Pathway Point.pathway",
               "nativeQueryRef": "Route ID",
-              "displayName": "Route ID",
-              "active": true
+              "active": true,
+              "displayName": "Route ID"
             }
           ]
         },
@@ -86,46 +66,28 @@
               },
               "queryRef": "Fact Pathway Point.point_seq",
               "nativeQueryRef": "Point order",
-              "displayName": "Point order",
-              "active": true
+              "active": true,
+              "displayName": "Point order"
             }
           ]
         },
-        "X": {
+        "Series": {
           "projections": [
             {
               "field": {
-                "Measure": {
+                "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "_Measures"
+                      "Entity": "Fact Pathway Point"
                     }
                   },
-                  "Property": "Pathway Longitude"
+                  "Property": "pathway_legend"
                 }
               },
-              "queryRef": "_Measures.Pathway Longitude",
-              "nativeQueryRef": "Longitude",
-              "displayName": "Longitude"
-            }
-          ]
-        },
-        "Y": {
-          "projections": [
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "_Measures"
-                    }
-                  },
-                  "Property": "Pathway Latitude"
-                }
-              },
-              "queryRef": "_Measures.Pathway Latitude",
-              "nativeQueryRef": "Latitude",
-              "displayName": "Latitude"
+              "queryRef": "Fact Pathway Point.pathway_legend",
+              "nativeQueryRef": "Route",
+              "active": true,
+              "displayName": "Route"
             }
           ]
         },
@@ -175,6 +137,44 @@
               "queryRef": "_Measures.Pathway Hours From Closest",
               "nativeQueryRef": "Hours from closest approach",
               "displayName": "Hours from closest approach"
+            }
+          ]
+        },
+        "X": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Pathway Longitude"
+                }
+              },
+              "queryRef": "_Measures.Pathway Longitude",
+              "nativeQueryRef": "Longitude",
+              "displayName": "Longitude"
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Pathway Latitude"
+                }
+              },
+              "queryRef": "_Measures.Pathway Latitude",
+              "nativeQueryRef": "Latitude",
+              "displayName": "Latitude"
             }
           ]
         }
@@ -252,6 +252,27 @@
               "expr": {
                 "Literal": {
                   "Value": "false"
+                }
+              }
+            },
+            "zoom": {
+              "expr": {
+                "Literal": {
+                  "Value": "4.74D"
+                }
+              }
+            },
+            "centerLatitude": {
+              "expr": {
+                "Literal": {
+                  "Value": "17.215662073542987D"
+                }
+              }
+            },
+            "centerLongitude": {
+              "expr": {
+                "Literal": {
+                  "Value": "-73.8585D"
                 }
               }
             }
