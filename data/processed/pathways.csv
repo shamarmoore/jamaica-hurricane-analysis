@@ -1,0 +1,126 @@
+pathway,pathway_label,sort_order,storms,share,point_seq,offset_h,lat,lon
+E,From the east,1,36,0.5625,0,-48,15.99,-66.058
+E,From the east,1,36,0.5625,1,-45,16.038,-66.403
+E,From the east,1,36,0.5625,2,-42,16.083,-66.768
+E,From the east,1,36,0.5625,3,-39,16.174,-67.452
+E,From the east,1,36,0.5625,4,-36,16.297,-68.193
+E,From the east,1,36,0.5625,5,-33,16.423,-68.939
+E,From the east,1,36,0.5625,6,-30,16.56,-69.687
+E,From the east,1,36,0.5625,7,-27,16.712,-70.434
+E,From the east,1,36,0.5625,8,-24,16.861,-71.187
+E,From the east,1,36,0.5625,9,-21,17.01,-71.944
+E,From the east,1,36,0.5625,10,-18,17.16,-72.694
+E,From the east,1,36,0.5625,11,-15,17.305,-73.435
+E,From the east,1,36,0.5625,12,-12,17.449,-74.16
+E,From the east,1,36,0.5625,13,-9,17.593,-74.884
+E,From the east,1,36,0.5625,14,-6,17.739,-75.595
+E,From the east,1,36,0.5625,15,-3,17.883,-76.306
+E,From the east,1,36,0.5625,16,0,18.024,-77.014
+E,From the east,1,36,0.5625,17,3,18.163,-77.715
+E,From the east,1,36,0.5625,18,6,18.299,-78.406
+E,From the east,1,36,0.5625,19,9,18.438,-79.086
+E,From the east,1,36,0.5625,20,12,18.579,-79.749
+E,From the east,1,36,0.5625,21,15,18.726,-80.398
+E,From the east,1,36,0.5625,22,18,18.879,-81.032
+E,From the east,1,36,0.5625,23,21,18.956,-81.348
+E,From the east,1,36,0.5625,24,24,19.035,-81.659
+SE,From the south-east,2,7,0.1094,0,-48,13.804,-68.133
+SE,From the south-east,2,7,0.1094,1,-45,13.899,-68.483
+SE,From the south-east,2,7,0.1094,2,-42,13.997,-68.827
+SE,From the south-east,2,7,0.1094,3,-39,14.198,-69.513
+SE,From the south-east,2,7,0.1094,4,-36,14.403,-70.18
+SE,From the south-east,2,7,0.1094,5,-33,14.612,-70.822
+SE,From the south-east,2,7,0.1094,6,-30,14.822,-71.44
+SE,From the south-east,2,7,0.1094,7,-27,15.035,-72.041
+SE,From the south-east,2,7,0.1094,8,-24,15.249,-72.622
+SE,From the south-east,2,7,0.1094,9,-21,15.479,-73.194
+SE,From the south-east,2,7,0.1094,10,-18,15.728,-73.767
+SE,From the south-east,2,7,0.1094,11,-15,16.01,-74.343
+SE,From the south-east,2,7,0.1094,12,-12,16.325,-74.915
+SE,From the south-east,2,7,0.1094,13,-9,16.668,-75.493
+SE,From the south-east,2,7,0.1094,14,-6,17.029,-76.07
+SE,From the south-east,2,7,0.1094,15,-3,17.402,-76.631
+SE,From the south-east,2,7,0.1094,16,0,17.782,-77.172
+SE,From the south-east,2,7,0.1094,17,3,18.165,-77.699
+SE,From the south-east,2,7,0.1094,18,6,18.555,-78.204
+SE,From the south-east,2,7,0.1094,19,9,18.956,-78.682
+SE,From the south-east,2,7,0.1094,20,12,19.364,-79.137
+SE,From the south-east,2,7,0.1094,21,15,19.781,-79.571
+SE,From the south-east,2,7,0.1094,22,18,20.208,-79.985
+SE,From the south-east,2,7,0.1094,23,21,20.42,-80.189
+SE,From the south-east,2,7,0.1094,24,24,20.633,-80.384
+S,From the south,3,11,0.1719,0,-48,13.734,-77.674
+S,From the south,3,11,0.1719,1,-45,13.782,-77.672
+S,From the south,3,11,0.1719,2,-42,13.856,-77.665
+S,From the south,3,11,0.1719,3,-39,13.979,-77.652
+S,From the south,3,11,0.1719,4,-36,14.149,-77.647
+S,From the south,3,11,0.1719,5,-33,14.405,-77.608
+S,From the south,3,11,0.1719,6,-30,14.667,-77.57
+S,From the south,3,11,0.1719,7,-27,14.947,-77.505
+S,From the south,3,11,0.1719,8,-24,15.24,-77.433
+S,From the south,3,11,0.1719,9,-21,15.55,-77.356
+S,From the south,3,11,0.1719,10,-18,15.858,-77.291
+S,From the south,3,11,0.1719,11,-15,16.185,-77.225
+S,From the south,3,11,0.1719,12,-12,16.523,-77.192
+S,From the south,3,11,0.1719,13,-9,16.875,-77.168
+S,From the south,3,11,0.1719,14,-6,17.239,-77.157
+S,From the south,3,11,0.1719,15,-3,17.611,-77.157
+S,From the south,3,11,0.1719,16,0,17.979,-77.167
+S,From the south,3,11,0.1719,17,3,18.344,-77.181
+S,From the south,3,11,0.1719,18,6,18.704,-77.199
+S,From the south,3,11,0.1719,19,9,19.058,-77.215
+S,From the south,3,11,0.1719,20,12,19.406,-77.218
+S,From the south,3,11,0.1719,21,15,19.761,-77.199
+S,From the south,3,11,0.1719,22,18,20.127,-77.157
+S,From the south,3,11,0.1719,23,21,20.309,-77.136
+S,From the south,3,11,0.1719,24,24,20.494,-77.101
+W,From the south-west and west,4,7,0.1094,0,-48,15.562,-80.397
+W,From the south-west and west,4,7,0.1094,1,-45,15.644,-80.383
+W,From the south-west and west,4,7,0.1094,2,-42,15.726,-80.36
+W,From the south-west and west,4,7,0.1094,3,-39,15.891,-80.314
+W,From the south-west and west,4,7,0.1094,4,-36,16.057,-80.247
+W,From the south-west and west,4,7,0.1094,5,-33,16.222,-80.161
+W,From the south-west and west,4,7,0.1094,6,-30,16.387,-80.056
+W,From the south-west and west,4,7,0.1094,7,-27,16.549,-79.937
+W,From the south-west and west,4,7,0.1094,8,-24,16.706,-79.804
+W,From the south-west and west,4,7,0.1094,9,-21,16.863,-79.651
+W,From the south-west and west,4,7,0.1094,10,-18,17.022,-79.473
+W,From the south-west and west,4,7,0.1094,11,-15,17.19,-79.268
+W,From the south-west and west,4,7,0.1094,12,-12,17.377,-79.033
+W,From the south-west and west,4,7,0.1094,13,-9,17.586,-78.771
+W,From the south-west and west,4,7,0.1094,14,-6,17.81,-78.53
+W,From the south-west and west,4,7,0.1094,15,-3,18.051,-78.289
+W,From the south-west and west,4,7,0.1094,16,0,18.308,-78.055
+W,From the south-west and west,4,7,0.1094,17,3,18.581,-77.837
+W,From the south-west and west,4,7,0.1094,18,6,18.878,-77.65
+W,From the south-west and west,4,7,0.1094,19,9,19.204,-77.46
+W,From the south-west and west,4,7,0.1094,20,12,19.549,-77.304
+W,From the south-west and west,4,7,0.1094,21,15,19.902,-77.18
+W,From the south-west and west,4,7,0.1094,22,18,20.256,-77.105
+W,From the south-west and west,4,7,0.1094,23,21,20.436,-77.063
+W,From the south-west and west,4,7,0.1094,24,24,20.606,-77.037
+N,From the north,5,3,0.0469,0,-48,19.2,-79.5
+N,From the north,5,3,0.0469,1,-45,19.2,-79.312
+N,From the north,5,3,0.0469,2,-42,19.2,-79.15
+N,From the north,5,3,0.0469,3,-39,19.21,-78.82
+N,From the north,5,3,0.0469,4,-36,19.23,-78.56
+N,From the north,5,3,0.0469,5,-33,19.26,-78.38
+N,From the north,5,3,0.0469,6,-30,19.3,-78.23
+N,From the north,5,3,0.0469,7,-27,19.34,-78.11
+N,From the north,5,3,0.0469,8,-24,19.37,-78.0
+N,From the north,5,3,0.0469,9,-21,19.37,-77.89
+N,From the north,5,3,0.0469,10,-18,19.34,-77.77
+N,From the north,5,3,0.0469,11,-15,19.28,-77.64
+N,From the north,5,3,0.0469,12,-12,19.2,-77.527
+N,From the north,5,3,0.0469,13,-9,19.11,-77.433
+N,From the north,5,3,0.0469,14,-6,19.05,-77.396
+N,From the north,5,3,0.0469,15,-3,19.023,-77.428
+N,From the north,5,3,0.0469,16,0,19.03,-77.531
+N,From the north,5,3,0.0469,17,3,19.073,-77.671
+N,From the north,5,3,0.0469,18,6,19.144,-77.843
+N,From the north,5,3,0.0469,19,9,19.232,-78.017
+N,From the north,5,3,0.0469,20,12,19.333,-78.179
+N,From the north,5,3,0.0469,21,15,19.451,-78.337
+N,From the north,5,3,0.0469,22,18,19.582,-78.497
+N,From the north,5,3,0.0469,23,21,19.651,-78.572
+N,From the north,5,3,0.0469,24,24,19.722,-78.654

@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 from matplotlib.patches import Polygon as MplPolygon
 from shapely.geometry import shape
 
-from . import config
+from . import config, geo
 
 SURFACE = "#fcfcfb"
 INK = "#0b0b0b"
@@ -88,6 +88,30 @@ def _add_geom(ax, geom, **kw):
     for p in polys:
         if p.geom_type == "Polygon":
             ax.add_patch(MplPolygon(list(p.exterior.coords), closed=True, **kw))
+
+
+def draw_pathways(ax, pathways, label_at, min_storms: int = 5) -> None:
+    """One arrow per pathway, width proportional to its share of storms, labelled at `label_at[pathway]`.
+
+    Pathways with fewer than `min_storms` storms have no stable average route, so they are left
+    for the caller to mention in words.
+    """
+    for _, path in pathways.groupby("sort_order"):
+        if path["storms"].iat[0] < min_storms:
+            continue
+        share = path["share"].iat[0]
+        width = 3 + 24 * share
+        lon, lat = path["lon"].to_numpy(), path["lat"].to_numpy()
+        tip = (lon[-1] + 0.5 * (lon[-1] - lon[-2]), lat[-1] + 0.5 * (lat[-1] - lat[-2]))
+        ax.plot(lon, lat, color=BLUE, lw=width, alpha=0.85, solid_capstyle="butt", zorder=3)
+        ax.annotate("", xy=tip, xytext=(lon[-1], lat[-1]), zorder=3,
+                    arrowprops=dict(arrowstyle="-|>", color=BLUE, alpha=0.85, lw=0,
+                                    mutation_scale=20 + 3.5 * width, shrinkA=0, shrinkB=0))
+        x, y = label_at[path["pathway"].iat[0]]
+        ax.text(x, y, f"{share:.0%}", fontsize=18, weight="bold", color=INK, ha="center", va="bottom", zorder=5)
+        ax.text(x, y - 0.12, f"{path['pathway_label'].iat[0].lower()}\n{path['storms'].iat[0]} storms",
+                fontsize=9.5, color=INK_2, ha="center", va="top", zorder=5)
+    _add_geom(ax, geo.jamaica_polygon(), facecolor="#d9d8d1", edgecolor=INK_2, linewidth=0.8, zorder=4)
 
 
 def draw_basemap(ax, extent=(-86, -66, 12, 24), highlight_jamaica=True) -> None:

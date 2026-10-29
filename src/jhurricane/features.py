@@ -86,9 +86,9 @@ def _storm_summary(storm_id: str, fixes: pd.DataFrame) -> dict | None:
         "closest_lon": round(float(closest["lon"]), 2),
         "wind_at_closest_kt": closest["wind_kt"],
         "pressure_at_closest_mb": closest["pressure_mb"],
-        "max_wind_within_100nm_kt": near["wind_kt"].max() if len(near) else np.nan,
-        "min_pressure_within_100nm_mb": near["pressure_mb"].min() if len(near) else np.nan,
-        "hours_within_100nm": int(len(near)),
+        "max_wind_near_kt": near["wind_kt"].max() if len(near) else np.nan,
+        "min_pressure_near_mb": near["pressure_mb"].min() if len(near) else np.nan,
+        "hours_near": int(len(near)),
         "approach_from": str(geo.compass(approach_bearing)),
         "approach_bearing_deg": round(float(approach_bearing)),
         "heading_deg": round(float(heading)),
@@ -109,14 +109,14 @@ def build_storm_table(fixes: pd.DataFrame) -> pd.DataFrame:
     rows = [_storm_summary(sid, g) for sid, g in fixes[fixes["storm_id"].isin(candidates)].groupby("storm_id")]
     storms = pd.DataFrame([r for r in rows if r])
     storms = storms[storms["closest_distance_nm"] <= config.SEARCH_RADIUS_NM].copy()
-    interp_cols = ["wind_at_closest_kt", "pressure_at_closest_mb", "max_wind_within_100nm_kt",
-                   "min_pressure_within_100nm_mb", "max_24h_intensification_kt"]
+    interp_cols = ["wind_at_closest_kt", "pressure_at_closest_mb", "max_wind_near_kt",
+                   "min_pressure_near_mb", "max_24h_intensification_kt"]
     storms[interp_cols] = storms[interp_cols].round()
 
-    storms["category_near_jamaica"] = hurdat.saffir_simpson(storms["max_wind_within_100nm_kt"]).values
-    storms["is_near"] = storms["max_wind_within_100nm_kt"].ge(34)  # at least TS strength within 100 nm
-    storms["is_hurricane_near"] = storms["max_wind_within_100nm_kt"].ge(64)
-    storms["is_major_near"] = storms["max_wind_within_100nm_kt"].ge(96)
+    storms["category_near_jamaica"] = hurdat.saffir_simpson(storms["max_wind_near_kt"]).values
+    storms["is_near"] = storms["max_wind_near_kt"].ge(34)  # at least TS strength within 50 nm
+    storms["is_hurricane_near"] = storms["max_wind_near_kt"].ge(64)
+    storms["is_major_near"] = storms["max_wind_near_kt"].ge(96)
     storms["distance_band"] = pd.cut(
         storms["closest_distance_nm"], [-1, 0, 50, 100, 200, 400, 600],
         labels=["Landfall", "1-50 nm", "51-100 nm", "101-200 nm", "201-400 nm", "401-600 nm"],
@@ -142,7 +142,7 @@ def build_season_table(storms: pd.DataFrame, fixes: pd.DataFrame, oni: pd.DataFr
         hurricanes_near=("is_hurricane_near", "sum"),
         majors_near=("is_major_near", "sum"),
         landfalls=("jamaica_landfall", "sum"),
-        max_wind_near_kt=("max_wind_within_100nm_kt", "max"),
+        max_wind_near_kt=("max_wind_near_kt", "max"),
     )
     season = years.merge(counts, on="year", how="left").merge(basin_season_stats(fixes), on="year", how="left")
     counts_cols = ["storms_near", "hurricanes_near", "majors_near", "landfalls", "basin_named_storms"]
@@ -154,13 +154,55 @@ def build_season_table(storms: pd.DataFrame, fixes: pd.DataFrame, oni: pd.DataFr
     return season
 
 
+PATHWAYS = {
+    # pathway: (label, approach sectors it covers, sort order)
+    "E": ("From the east", {"E"}, 1),
+    "SE": ("From the south-east", {"SE"}, 2),
+    "S": ("From the south", {"S"}, 3),
+    "W": ("From the south-west and west", {"SW", "W"}, 4),
+    "N": ("From the north", {"N", "NE", "NW"}, 5),
+}
+
+
+def build_pathways(fixes: pd.DataFrame, storms: pd.DataFrame, before_h: int = 48, after_h: int = 24) -> pd.DataFrame:
+    """The typical route into Jamaica for each approach direction, with each route's share of storms.
+
+    Every near storm's hourly track is aligned on its closest approach, then positions are
+    averaged across the storms in a pathway at each 3-hour offset. Thin sectors are merged so
+    every line stands for several storms rather than one storm's quirks.
+    """
+    near = storms[storms["is_near"]]
+    sector_to_pathway = {s: p for p, (_, sectors, _) in PATHWAYS.items() for s in sectors}
+    offsets = np.arange(-before_h, after_h + 1, 3)
+    rows = []
+    for _, storm in near.iterrows():
+        hourly = hurdat.interpolate_hourly(fixes[fixes["storm_id"] == storm["storm_id"]])
+        hours = (hourly["datetime"] - pd.Timestamp(storm["closest_datetime"])).dt.total_seconds() / 3600
+        aligned = hourly.assign(offset_h=hours.round().astype(int))
+        aligned = aligned[aligned["offset_h"].isin(offsets)]
+        rows.append(aligned.assign(pathway=sector_to_pathway[storm["approach_from"]], storm_id=storm["storm_id"]))
+    tracks = pd.concat(rows)
+
+    paths = tracks.groupby(["pathway", "offset_h"], as_index=False)[["lat", "lon"]].mean()
+    paths[["lat", "lon"]] = (paths.groupby("pathway")[["lat", "lon"]]
+                             .transform(lambda s: s.rolling(5, center=True, min_periods=1).mean()).round(3))
+    counts = tracks.groupby("pathway")["storm_id"].nunique()
+    paths["storms"] = paths["pathway"].map(counts)
+    paths["share"] = (paths["storms"] / len(near)).round(4)
+    paths["pathway_label"] = paths["pathway"].map(lambda p: PATHWAYS[p][0])
+    paths["sort_order"] = paths["pathway"].map(lambda p: PATHWAYS[p][2])
+    paths["point_seq"] = paths.groupby("pathway").cumcount()
+    cols = ["pathway", "pathway_label", "sort_order", "storms", "share", "point_seq", "offset_h", "lat", "lon"]
+    return paths[cols].sort_values(["sort_order", "point_seq"]).reset_index(drop=True)
+
+
 def build_track_points(fixes: pd.DataFrame, storms: pd.DataFrame) -> pd.DataFrame:
     """Best-track fixes for the retained storms, for mapping (incl. Power BI)."""
     pts = fixes[fixes["storm_id"].isin(storms["storm_id"])].copy()
     pts["dist_nm"] = geo.distance_to_coast_nm(pts["lat"], pts["lon"]).round(1)
     pts = pts[pts["lon"].between(-100, -50) & pts["lat"].between(5, 40)]
-    pts["within_100nm"] = pts["dist_nm"] <= config.NEAR_RADIUS_NM
+    pts["within_near_radius"] = pts["dist_nm"] <= config.NEAR_RADIUS_NM
     pts["point_seq"] = pts.groupby("storm_id").cumcount()
     cols = ["storm_id", "point_seq", "datetime", "status", "record_id", "lat", "lon",
-            "wind_kt", "pressure_mb", "category", "dist_nm", "within_100nm"]
+            "wind_kt", "pressure_mb", "category", "dist_nm", "within_near_radius"]
     return pts[cols].reset_index(drop=True)

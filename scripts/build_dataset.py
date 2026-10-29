@@ -32,6 +32,7 @@ def main(refresh: bool) -> None:
     storms = features.build_storm_table(fixes)
     season = features.build_season_table(storms, fixes, oni)
     points = features.build_track_points(fixes, storms)
+    pathways = features.build_pathways(fixes, storms)
 
     impacts = pd.read_csv(config.IMPACTS_FILE)
     ids = storms[["storm_id", "storm_name", "year"]]
@@ -47,6 +48,7 @@ def main(refresh: bool) -> None:
     storms.to_csv(config.DATA_PROCESSED / "storms.csv", index=False)
     season.to_csv(config.DATA_PROCESSED / "seasons.csv", index=False)
     points.to_csv(config.DATA_PROCESSED / "track_points.csv", index=False)
+    pathways.to_csv(config.DATA_PROCESSED / "pathways.csv", index=False)
     impacts.to_csv(config.DATA_PROCESSED / "impacts.csv", index=False)
     oni.to_csv(config.DATA_PROCESSED / "oni_monthly.csv", index=False)
 

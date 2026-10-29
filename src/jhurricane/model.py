@@ -1,4 +1,4 @@
-"""Approach-risk model: will a storm currently 150-600 nm away pass within 100 nm of Jamaica?
+"""Approach-risk model: will a storm currently 150-600 nm away pass within 50 nm of Jamaica?
 
 Each training row is one 6-hourly best-track fix. Features describe the storm *at that
 moment* (position relative to Jamaica, motion, intensity, season, ENSO), and the label

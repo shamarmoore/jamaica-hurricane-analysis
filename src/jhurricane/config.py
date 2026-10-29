@@ -20,7 +20,7 @@ IMPACTS_FILE = DATA_RAW / "jamaica_storm_impacts.csv"
 JAMAICA_CENTER = (18.1096, -77.2975)
 
 # "Near Jamaica" means the track passed within this distance of the coastline.
-NEAR_RADIUS_NM = 100
+NEAR_RADIUS_NM = 50
 # Wider search window used when deciding which storms to keep at all.
 SEARCH_RADIUS_NM = 600
 
